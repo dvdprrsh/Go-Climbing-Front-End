@@ -4,12 +4,12 @@ import Header from "./Header.js";
 import history from "../history";
 
 const App = () => {
-	return (
-		<div className="ui container">
-			<Router history={history}>
-				<div>
-					<Header />
-					{/* <Switch>
+  return (
+    <div className="ui container">
+      <Router history={history}>
+        <div>
+          <Header />
+          {/* <Switch>
 						<Route path="/" exact component={StreamList} />
 						<Route path="/streams/new" component={StreamCreate} />
 						<Route
@@ -22,10 +22,10 @@ const App = () => {
 						/>
 						<Route path="/streams/:id" component={StreamShow} />
 					</Switch> */}
-				</div>
-			</Router>
-		</div>
-	);
+        </div>
+      </Router>
+    </div>
+  );
 };
 
 export default App;
