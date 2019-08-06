@@ -3,29 +3,23 @@ import { Router, Route, Switch } from "react-router-dom";
 import Header from "./Header.js";
 import history from "../history";
 
+import FindGym from "./screens/FindGym";
+
 const App = () => {
-  return (
-    <div className="ui container">
-      <Router history={history}>
-        <div>
-          <Header />
-          {/* <Switch>
-						<Route path="/" exact component={StreamList} />
-						<Route path="/streams/new" component={StreamCreate} />
-						<Route
-							path="/streams/delete/:id"
-							component={StreamDelete}
-						/>
-						<Route
-							path="/streams/edit/:id"
-							component={StreamEdit}
-						/>
-						<Route path="/streams/:id" component={StreamShow} />
-					</Switch> */}
-        </div>
-      </Router>
-    </div>
-  );
+	return (
+		<div className="ui container">
+			<Router history={history}>
+				<div>
+					<Header />
+					{
+						<Switch>
+							<Route path="/find/gym" component={FindGym} />
+						</Switch>
+					}
+				</div>
+			</Router>
+		</div>
+	);
 };
 
 export default App;
