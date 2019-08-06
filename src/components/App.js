@@ -2,6 +2,7 @@ import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import Header from "./Header.js";
 import history from "../history";
+import PostList from "./PostList";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Router history={history}>
         <div>
           <Header />
+          <PostList />
           {/* <Switch>
 						<Route path="/" exact component={StreamList} />
 						<Route path="/streams/new" component={StreamCreate} />
