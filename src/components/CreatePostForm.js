@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import forumJsonAPI from "../apis/forumJsonAPI";
+import "./styles/CreatePostForm.css";
 
 class CreatePostForm extends Component {
   constructor() {
@@ -20,7 +21,6 @@ class CreatePostForm extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    // get our form data out of state
     const { userId } = this.state.userId;
     const { postId } = this.state.postId;
     const { title } = this.state.title;
@@ -30,10 +30,7 @@ class CreatePostForm extends Component {
 
     axios
       .post(
-        "http://51.255.163.79:8080/https://empiredigital.eu/phptest/?uid=" +
-          this.state.userId +
-          "&postid=" +
-          this.state.postId +
+        "http://51.255.163.79:8080/https://empiredigital.eu/phptest/create.php?postid=" +
           "&posttitle=" +
           this.state.title +
           "&postbody=" +
@@ -42,46 +39,48 @@ class CreatePostForm extends Component {
           this.state.username
       )
       .then(result => {
-        window.location.reload();
+        console.log("posted, refreshng");
+        window.location.reload(true);
       });
   };
 
   render() {
     const { userId, postId, title, body, username } = this.state;
     return (
-      <form onSubmit={this.onSubmit}>
-        userid
-        <input
-          type="text"
-          name="userId"
-          value={userId}
-          onChange={this.onChange}
-        />
-        postid
-        <input
-          type="text"
-          name="postId"
-          value={postId}
-          onChange={this.onChange}
-        />
-        title
-        <input
-          type="text"
-          name="title"
-          value={title}
-          onChange={this.onChange}
-        />
-        body
-        <input type="text" name="body" value={body} onChange={this.onChange} />
-        username
-        <input
-          type="text"
-          name="username"
-          value={username}
-          onChange={this.onChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <div id="testing" className="ui form">
+        <form onSubmit={this.onSubmit}>
+          <div id="inputs" className="ui input">
+            <input
+              type="text"
+              name="title"
+              placeholder="Post Title"
+              value={title}
+              onChange={this.onChange}
+            />
+          </div>
+          <div id="inputs" className="ui input">
+            <input
+              type="text"
+              name="body"
+              placeholder="Body Text"
+              value={body}
+              onChange={this.onChange}
+            />
+          </div>
+          <div id="inputs" className="ui input">
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              value={username}
+              onChange={this.onChange}
+            />
+          </div>
+          <button id="submitbtn" className="fluid ui button" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
     );
   }
 }

@@ -4,6 +4,7 @@ import { fetchPosts } from "../actions/forum";
 import UserHeader from "./UserHeader";
 import faker from "faker";
 import CreatePostForm from "./CreatePostForm";
+import "./styles/PostList.css";
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -27,6 +28,9 @@ class PostList extends React.Component {
               </div>
               <div className="description">{post.body}</div>
               <div className="extra">
+                <button id="deletebutton" className="circular ui icon button">
+                  <i className="trash alternate outline icon"></i>
+                </button>
                 <img
                   src={faker.image.avatar()}
                   className="ui circular avatar image"
