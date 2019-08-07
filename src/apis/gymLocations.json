@@ -1,0 +1,1717 @@
+{"locations":[
+	[
+		"<b>Petite Ile</b><br>Rue de la Petite-Ile 1A; 1070 Anderlecht, Brussels, Belgium<br>+32 491 95 12 48<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.petite-ile.be/'>Petite Ile</a>",
+		50.8316094,
+		4.3219071
+	],
+	[
+		"<b>Sportcentrum Tragel</b><br>Tragel 6A, Aalst, 9300 Belgium<br>053/78.82.71<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.tragelsport.be/'>Sportcentrum Tragel</a>",
+		50.9473212,
+		4.0365609
+	],
+	[
+		"<b>Oasis Sportcenter</b><br>Leon Bekaertlaan 26, Aalter, 9880 Belgium<br>09-374 07 38<br>",
+		51.1019995,
+		3.4515586
+	],
+	[
+		"<b>Klim Indoor</b><br>Gijzelaarstraat 21-23, Antwerp, Antwerpen-Zuid 2000 Belgium<br>03-2483377<br>",
+		51.2072262,
+		4.3888016
+	],
+	[
+		"<b>Escale</b><br>Av de Mersch - 20, Arlon, 6700 Belgium<br>063/57 27 57<br><a target='_blank' rel='noopener noreferrer'href = 'http://users.compaqnet.be/cn082372/index.html'>Escale</a>",
+		49.6857813,
+		5.8260188
+	],
+	[
+		"<b>Klimax</b><br>C. Verhaevestraat 15 2870 Puurs, Breendocnk, Belgium<br>03-8665392<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bvkb.be/'>Klimax</a>",
+		51.0430900,
+		4.3220400
+	],
+	[
+		"<b>Belgica Squash Center</b><br>120 Avenue Jean Dubrucq, Brussels, 1210 Belgium<br>02-4253042<br>",
+		50.8676129,
+		4.3371908
+	],
+	[
+		"<b>Stone Age</b><br>Avenue Emmanuel Mounier - 87, Brussels, 1200 Belgium<br>02/777 69 30<br><a target='_blank' rel='noopener noreferrer'href = 'http://stone-age.be/'>Stone Age</a>",
+		50.8505903,
+		4.4583107
+	],
+	[
+		"<b>Terres Neuves</b><br>28 rue Terre Neuve, Brussels, 1000 Belgium<br>02-5121815<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.terresneuves.be/'>Terres Neuves</a>",
+		50.8425491,
+		4.3475808
+	],
+	[
+		"<b>Top Rock </b><br>Sippelberglaan 1, Brussels, 1080 Belgium<br>(02) 4144345<br>",
+		50.8597571,
+		4.3244613
+	],
+	[
+		"<b>Top Winners Sportcentrum</b><br>13 rue Bonneelsstraat, Brussels, 1040 Belgium<br>02-2800270<br>",
+		50.8493466,
+		4.3779825
+	],
+	[
+		"<b>New Rock</b><br>Chausse de Watermael 136, Bruxelles, 1160 Auderghem<br>(0032 )2.675.17.60<br><a target='_blank' rel='noopener noreferrer'href = 'http://newrockescalade.be/'>New Rock</a>",
+		50.8142616,
+		4.4172078
+	],
+	[
+		"<b>Altitude Sport</b><br>Rue de l'Emprunt, Doische, B-5680 Belgium<br>082-678558<br>",
+		50.1452680,
+		4.7540331
+	],
+	[
+		"<b>Altitude, Centre Sportif du College Cardinal Mercier</b><br>Chaussee de Mont Staint Jean 83, Eigenbrakel, 1420 Belgium<br>02-3861528<br>",
+		50.6866162,
+		4.3891373
+	],
+	[
+		"<b>Bleau</b><br>Rooigemlaan 180b, Gent, 9000 Belgium<br>(09) 237 09 59<br>",
+		51.0582423,
+		3.6932086
+	],
+	[
+		"<b>Coupure Klim</b><br>Coupure Links 625, Gent, 9000 Belgium<br>091-335739<br>",
+		51.0517444,
+		3.7096421
+	],
+	[
+		"<b>Sportcentrum Olympia</b><br>Kuringersteenweg 242, Hasselt, 3500 Belgium<br>011-256330<br><a target='_blank' rel='noopener noreferrer'href = 'http://klimmuurolympia.be/info'>Sportcentrum Olympia</a>",
+		50.9370451,
+		5.3129446
+	],
+	[
+		"<b>Crux Bouldergym</b><br>Ursulinenstraat 1; 3540, Herk-de-Stad, Belgium<br>+32 13 67 71 66<br><a target='_blank' rel='noopener noreferrer'href = 'https://cruxbouldergym.be/'>Crux Bouldergym</a>",
+		50.9434110,
+		5.1614819
+	],
+	[
+		"<b>Roc Evasion</b><br>Rue d'Enhaive 142, Jambes, 5100 Belgium<br>(081) 31 15 35<br>",
+		50.4595448,
+		4.8772166
+	],
+	[
+		"<b>Blueberry Hill</b><br>Oudenaardsesteenweg 343, Kortrijk, 8500 Belgium<br>056-229669 / 056 228079<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blueberry-hill.be/'>Blueberry Hill</a>",
+		50.8201929,
+		3.2930163
+	],
+	[
+		"<b>Klimzaal Balance</b><br>Louis Van Houttestraat 109 9050, Ledeberg, (Gent) Belgium<br>0493 56 24 04<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.klimzaalbalance.be/'>Klimzaal Balance</a>",
+		51.0411497,
+		3.7443131
+	],
+	[
+		"<b>Hungaria Klim Zaal</b><br>Vaart 25, Leuven, 3000 Belgium<br>016-292413<br>",
+		50.8816914,
+		4.7013606
+	],
+	[
+		"<b>Health Center NRG</b><br>Aarschotsesteenweg 6, Lier, 2500 Belgium<br>03-488 47 47<br>",
+		51.1240252,
+		4.5759561
+	],
+	[
+		"<b>Entre Ciel et Terre</b><br>Place des Sports 1, Louvain-la-Neuve, 1348 Belgium<br>010 /48.38.48<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.entrecieletterre.be/'>Entre Ciel et Terre</a>",
+		50.6704386,
+		4.6017831
+	],
+	[
+		"<b>Terre d'Escalade</b><br>Place des Sports 1, Louvain-la-Neuve, 1348 Belgium<br>010-450435 / 010-45 64 76<br>",
+		50.6704386,
+		4.6017831
+	],
+	[
+		"<b>Halle du Bois du Fadji</b><br>Route de la Navinne, Malonne, 5020 Belgium<br>(81) 44 16 29<br>",
+		50.4378403,
+		4.8126740
+	],
+	[
+		"<b>Le Mousqueton, Institut St-Remacle</b><br>rue St-Roch, Marche-en-Famenne, Marche-en-Famenne Belgium<br>084-311648<br>",
+		50.2290529,
+		5.3476282
+	],
+	[
+		"<b>Wolvertem World Climbing</b><br>Stationsstraat 14a, Meise-Wolvertem, Meise-Wolvertem Belgium<br>02-2690304<br>",
+		50.9492538,
+		4.3125091
+	],
+	[
+		"<b>Face Nord</b><br>Chemin Chne aux Haies 2, Mons, 7000 Belgium<br>(065) 84 44 30<br>",
+		50.4584835,
+		3.9756314
+	],
+	[
+		"<b>Espace Grimpe</b><br>26 Chausse de Charleroi, Montignies-sur-Sambre, 6061 Belgium<br>26 /071-33 16 95<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.espace-grimpe.be/'>Espace Grimpe</a>",
+		50.4012971,
+		4.4777515
+	],
+	[
+		"<b>De Kartuizer</b><br>Liersesteenweg 15, Mortsel, 2640 Belgium<br>03-448 27 36<br>",
+		51.1710318,
+		4.4605907
+	],
+	[
+		"<b>BoulderCity</b><br>Les Plnesses 69/B 4890, Thimister-Clermont, Belgium<br>+32 (0)87 66 00 95<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bouldercity.be/'>BoulderCity</a>",
+		50.6333210,
+		5.8713017
+	],
+	[
+		"<b>Sporthal Houtemveld</b><br>Houtemstraat, Tienen, Belgium<br>016-821460<br>",
+		50.8247025,
+		4.9521367
+	],
+	[
+		"<b>Klimzaal Blok New Climbing Dimention</b><br>Industriepark Terbekehof, Wilrijk, Moerelei 153 2610 Belgium<br>03-825 55 33<br><a target='_blank' rel='noopener noreferrer'href = 'http://klimzaalblok.be/'>Klimzaal Blok New Climbing Dimention</a>",
+		51.1558462,
+		4.3735577
+	],
+	[
+		"<b>Fun Rock</b><br>Stationstraat 14, Wolvertem, 1861 Belgium<br>(02) 2701301<br>",
+		50.9501530,
+		4.3100199
+	],
+	[
+		"<b>Future Sport</b><br>Vijverstraat 1, Zottegem, Belgium<br>09-360 81 68<br>",
+		50.8723356,
+		3.8220344
+	],
+	[
+		"<b>Bourne End Climbing Gym</b><br>New Road; Bourne End; Bucks, England SL8 5BW United Kingdom<br>01628528110<br><a target='_blank' rel='noopener noreferrer'href = 'https://bejsc.co.uk/theclimbingwall.html'>Bourne End Climbing Gym</a>",
+		51.5824959,
+		-0.7044709
+	],
+	[
+		"<b>The Reach Climbing Gym</b><br>Unit 6 Mellish Estate; Harrington Way; Woolwich; London, England SE18 5NR United Kingdom<br>020 8855 9598<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.thereach.org.uk/'>The Reach Climbing Gym</a>",
+		51.4944703,
+		0.0423256
+	],
+	[
+		"<b>River Dart Country Park</b><br>River Dart Country Park, Ashburton, TQ13 7NP, United Kingdom<br>01364 652511<br><a target='_blank' rel='noopener noreferrer'href = 'http://riverdart.co.uk/'>River Dart Country Park</a>",
+		50.51339,
+		-3.776037
+	],
+	[
+		"<b>Awesome Walls Climbing Centre</b><br>Saint Albans Church; Athol Street, Liverpool, England L5 9XT United Kingdom<br>0044 (0)151 298 2422<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.awesomewalls.co.uk/'>Awesome Walls Climbing Centre</a>",
+		53.4241000,
+		-2.9960967
+	],
+	[
+		"<b>Aylesford School Sports College</b><br>Teapot Lane; Maidstone; Kent, Aylesford, England ME20 7JU United Kingdom<br>01622 717341<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aylesford.kent.sch.uk/'>Aylesford School Sports College</a>",
+		51.2981956,
+		0.4659717
+	],
+	[
+		"<b>Writhlington Sports Centre</b><br>Knobsbury Lane, Bath, England BA3 3NQ United Kingdom<br>01761 438559<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.writhlingtonleisure.co.uk/activities/climbing-wall/'>Writhlington Sports Centre</a>",
+		51.2861503,
+		-2.4312298
+	],
+	[
+		"<b>Manchester Climbing Centre</b><br>St. Benedicts Church, Bennett St, Manchester M12 5ND, United Kingdom<br>0161 2307006<br><a target='_blank' rel='noopener noreferrer'href = 'https://manchesterclimbingcentre.com/'>Manchester Climbing Centre</a>",
+		53.4694604,
+		-2.2049963
+	],
+	[
+		"<b>Creation climbing gym, The Epic Centre</b><br>582 Moseley Road, Birmingham, England B12 9AA United Kingdom<br>(0121) 4498000<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.creationwall.co.uk/'>Creation climbing gym, The Epic Centre</a>",
+		52.4541648,
+		-1.8863551
+	],
+	[
+		"<b>Redpoint Climbing Centre</b><br>77 Cecil Street, Birmingham, England B19 3SU United Kingdom<br>01213591777<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.redpointbirmingham.co.uk/'>Redpoint Climbing Centre</a>",
+		52.4893736,
+		-1.8959082
+	],
+	[
+		"<b>YMCA Climbing Gym</b><br>5 Wellington St; St. Johns, Blackburn, England BB1 8AF United Kingdom<br>01254 51009<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.ymca.org.uk/'>YMCA Climbing Gym</a>",
+		53.7518439,
+		-2.4874641
+	],
+	[
+		"<b>High Sports Brighton</b><br>Withdean Sports Complex; Tongdean Lane, Brighton, East Sussex BN1 5JD England<br>0845 363 1177<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/climbing-walls/brighton.html'>High Sports Brighton</a>",
+		50.8538631,
+		-0.159572
+	],
+	[
+		"<b>Centre for Sport, University of the West of England</b><br>Frenchay Campus; Coldhabour Lane, Bristol, England BS16 1QY United Kingdom<br>0117 32 86200/86201<br><a target='_blank' rel='noopener noreferrer'href = 'https://www1.uwe.ac.uk/aboutus/departmentsandservices/professionalservices/centreforsport/facilities/climbingwall.aspx'>Centre for Sport, University of the West of England</a>",
+		51.497895,
+		-2.5482407
+	],
+	[
+		"<b>Redpoint Bristol Climbing Centre</b><br>40 Winterstoke Rd Bristol, Bristol, Bristol BS3 2NW England<br>0117 332 2222<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.redpointbristol.co.uk/climbing/'>Redpoint Bristol Climbing Centre</a>",
+		51.4337997,
+		-2.6115576
+	],
+	[
+		"<b>The Climbing Academy</b><br>Charlton Street, Bristol, England BS5 0FD United Kingdom<br>01179 072956<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbingacademy.com/'>The Climbing Academy</a>",
+		51.4558032,
+		-2.5688406
+	],
+	[
+		"<b>Under Cover Rock Ltd</b><br>St. Werburgh's Church; Mina Road; St. Werburgs, Bristol, England BS2 9YT United Kingdom<br>0117 941 3489<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.undercover-rock.com/'>Under Cover Rock Ltd</a>",
+		51.4720732,
+		-2.5753726
+	],
+	[
+		"<b>Dart Rock Climbing Centre</b><br>Dart Mills Old Totnes Road, Buckfastleigh, England TQ11 0NF United Kingdom<br>01364 644 499<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dartrock.co.uk/'>Dart Rock Climbing Centre</a>",
+		50.4810664,
+		-3.7656287
+	],
+	[
+		"<b>Kelsey Kerridge</b><br>Queen Anne Terrace, Cambridge, England CB1 1NA United Kingdom<br>01223 462226<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kelseykerridge.co.uk/sports-centre/climbing-wall/'>Kelsey Kerridge</a>",
+		52.2011142,
+		0.1305383
+	],
+	[
+		"<b>The Sands Centre</b><br>The Sands; Carlisle; Cumbria, Carlisle, England CA1 1JQ United Kingdom<br>01228 625 222<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thesandscentre.co.uk/'>The Sands Centre</a>",
+		54.8998568,
+		-2.9341255
+	],
+	[
+		"<b>Cockermouth Sports Centre</b><br>Castle Gate Drive, Cockermouth, England CA13 9JR United Kingdom<br>01900 823 596<br><a target='_blank' rel='noopener noreferrer'href = 'https://beta.better.org.uk'>Cockermouth Sports Centre</a>",
+		54.666601,
+		-3.3520104
+	],
+	[
+		"<b>Bear Rock</b><br>Sports Centre; University Of Warwick, Coventry, England CV4 7AL United Kingdom<br>024 765 23011/23039<br><a target='_blank' rel='noopener noreferrer'href = 'https://warwick.ac.uk/services/sport/active/climbing'>Bear Rock</a>",
+		52.379411,
+		-1.563191
+	],
+	[
+		"<b>Dolphin Leisure Centre</b><br>Horse Market, Darlington, England DL1 5RP United Kingdom<br>01325 388 406<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.darlington.gov.uk/Leisure/eastbourne/facilities/Climbing%20Boulder%20and%20Play%20Park.htm'>Dolphin Leisure Centre</a>",
+		54.5241252,
+		-1.554894
+	],
+	[
+		"<b>Alter Rock Climbing</b><br>St. James Church; Malcolm Street, Derby, DE23 8LU England<br>01332 367200<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.alter-rock.co.uk/'>Alter Rock Climbing</a>",
+		52.9084448,
+		-1.4693882
+	],
+	[
+		"<b>Wirksworth Leisure Centre climbing gym The Face</b><br>Hannage Way; Wirksworth, Derbyshire, England DE4 4GH United Kingdom<br>01629 824717<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.freedom-leisure.co.uk/centres/wirksworth-leisure-centre/'>Wirksworth Leisure Centre climbing gym The Face</a>",
+		53.077701,
+		-1.5715743
+	],
+	[
+		"<b>Quay Climbing Centre</b><br>Haven Rd; Exeter, Devon, EX2 8AX England<br>01392 426850<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.quayclimbingcentre.co.uk/'>Quay Climbing Centre</a>",
+		50.7165705,
+		-3.5304927
+	],
+	[
+		"<b>The Project Climbing Centre</b><br>The Project Climbing Centre; Dolphin Centre, Poole, Dorset BH15 1UD United Kingdom<br>01202660153<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theprojectclimbingcentre.co.uk/'>The Project Climbing Centre</a>",
+		50.7182470,
+		-1.9793440
+	],
+	[
+		"<b>Lancaster University Climbing Gym</b><br>Bailrigg; Lancashire, England LA1 4YW United Kingdom<br>01524 594 000 <br><a target='_blank' rel='noopener noreferrer'href = 'http://www.lancaster.ac.uk/sport/sports-centre/facilities/climbingwall/'>Lancaster University Climbing Gym</a>",
+		54.0104685,
+		-2.7869096
+	],
+	[
+		"<b>Rock Climbing & Caving Centre</b><br>Rock House/Station Hill; Newton Abbot, Exeter, England TQ13 0EE United Kingdom<br>01626 852 717<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockcentre.co.uk/'>Rock Climbing & Caving Centre</a>",
+		50.5979595,
+		-3.607192
+	],
+	[
+		"<b>Whickham Thorns Centre</b><br>Market Lane; Dunston, Gateshead, England NE11 9NX United Kingdom<br>0191 433 5767<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.gogateshead.com/article/6645'>Whickham Thorns Centre</a>",
+		54.9489065,
+		-1.6523588
+	],
+	[
+		"<b>Glossop Leisure Centre</b><br>High Street East, Glossop, England NE11 9NX United Kingdom<br>01457 842272<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.placesleisure.org/centres/glossop-leisure-centre/'>Glossop Leisure Centre</a>",
+		53.4437772,
+		-1.9439281
+	],
+	[
+		"<b>The Warehouse</b><br>Parliament Street, Gloucester, England GL1 1HY United Kingdom<br>(01452) 302351<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.the-warehouse.co.uk/'>The Warehouse</a>",
+		51.8623541,
+		-2.247254
+	],
+	[
+		"<b>Craggy Island</b><br>Unit 9; Cobbett Park; Slyfield Industrial Estate, Guildford, England GU1 1RU United Kingdom<br>01483 566880<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.craggy-island.com/'>Craggy Island</a>",
+		51.2600182,
+		-0.5643656
+	],
+	[
+		"<b>University of Surrey</b><br>Guilford; Surrey, Guildford, England GU2 7XH United Kingdom<br>44 1483 689201<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.surreysportspark.co.uk/climbing/'>University of Surrey</a>",
+		51.2425719,
+		-0.5879459
+	],
+	[
+		"<b>Alton Sports Centre</b><br>Chawton Park Road; Alton, Hampshire, England GU34 1RQ United Kingdom<br>08701 624890<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/climbing-walls/alton.html'>Alton Sports Centre</a>",
+		51.140031,
+		-0.9877221
+	],
+	[
+		"<b>Harlow Centre for Outdoor Learning</b><br>Burnt Mill Lane, Harlow, England CM20 2QS United Kingdom<br>01279 620270<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.essexoutdoors.com/wall_to_rock.php'>Harlow Centre for Outdoor Learning</a>",
+		51.7831342,
+		0.095793
+	],
+	[
+		"<b>Hertfordshire Sports Village</b><br>De Havilland Campus; Mosquito Way, Hatfield, England AL10 9EU United Kingdom<br>01707 284 466<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.hertssportsvillage.co.uk/facilities/climbing-wall'>Hertfordshire Sports Village</a>",
+		51.7627115,
+		-0.2489347
+	],
+	[
+		"<b>XC</b><br>Jarman Park, Hemel Hempstead, England HP2 4JS <br>01442507100<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thexc.co.uk/'>XC</a>",
+		51.7468534,
+		-0.4554083
+	],
+	[
+		"<b>Rockcity</b><br>Hawthorn Avenue, Hull, England HU3 5JX United Kingdom<br>+44 (0)1482 223030 <br><a target='_blank' rel='noopener noreferrer'href = 'https://rockcity.co.uk/'>Rockcity</a>",
+		53.7386001,
+		-0.3809325
+	],
+	[
+		"<b>Inglesport Indoor Climbing Gym</b><br>11 The Square, Ingleton, England LA6 3EB United Kingdom<br>015242 41146<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.inglesport.com/our-climbing-wall/'>Inglesport Indoor Climbing Gym</a>",
+		54.1545885,
+		-2.4677166
+	],
+	[
+		"<b>Suffolk Leisure Park</b><br>Bourne Hill; Wherstead, Ipswich, England IP2 8NQ United Kingdom<br>01473 602347<br><a target='_blank' rel='noopener noreferrer'href = 'http://suffolkleisurepark.co.uk/'>Suffolk Leisure Park</a>",
+		52.0291193,
+		1.1466752
+	],
+	[
+		"<b>Lakeland Climbing Centre</b><br>Unit 27; Lake District Business Park; Mintbridge Rd, Kendal, England LA9 6NH United Kingdom<br>01539 721 766<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kendalwall.co.uk/'>Lakeland Climbing Centre</a>",
+		54.3422449,
+		-2.7414354
+	],
+	[
+		"<b>Revolution Climbing Centre</b><br>Oakwood Industrial Estate; Dane Valley Road, Kent, England CT10 3JJ United Kingdom<br>01843 866706<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.revolutionclimbingcentre.co.uk/'>Revolution Climbing Centre</a>",
+		51.3700653,
+		1.4191362
+	],
+	[
+		"<b>Keswick Climbing Gym</b><br>Goosewell Farm, Keswick, England CA12 4RN United Kingdom<br>+44 (0)17687 72000<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.keswickclimbingwall.co.uk/'>Keswick Climbing Gym</a>",
+		54.6033738,
+		-3.107035
+	],
+	[
+		"<b>CityBloc</b><br>Airedale Industrial Estate; Kitson Road, Leeds, England LS10 1NT United Kingdom<br>01133912652<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.citybloc.co.uk/'>CityBloc</a>",
+		53.7855205,
+		-1.5341929
+	],
+	[
+		"<b>The Leeds Wall</b><br>100a Gelderd Road, Leeds, England LS12 6BY United Kingdom<br>0113 2341554<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.theleedswall.co.uk/cms/index.php/'>The Leeds Wall</a>",
+		53.784211,
+		-1.576071
+	],
+	[
+		"<b>Climbing Hangar</b><br>6 Birchall Street, Liverpool, England L20 8PD United Kingdom<br>01513450587<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbinghangar.com/'>Climbing Hangar</a>",
+		53.4319388,
+		-2.9918548
+	],
+	[
+		"<b>Mile End Climbing Gym</b><br>Haverfield Road; Bow, London, England E3 5BE United Kingdom<br>020 8980 0289<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.mileendwall.org.uk/'>Mile End Climbing Gym</a>",
+		51.5287938,
+		-0.0395978
+	],
+	[
+		"<b>The Castle Climbing Centre</b><br>Green Lanes; Stoke Newington, London, England N4 2HA United Kingdom<br>020 8211 7000<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.castle-climbing.co.uk/'>The Castle Climbing Centre</a>",
+		51.5646573,
+		-0.0928525
+	],
+	[
+		"<b>Third Space Climbing Wall</b><br>16-19 Canada Square; Canary Wharf, London, England E14 5ER United Kingdom<br>020 7970 0925<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.thirdspace.london/canary-wharf/'>Third Space Climbing Wall</a>",
+		51.5045844,
+		-0.0161466
+	],
+	[
+		"<b>Westway Sports Centre</b><br>1 Crowthorne Rd, London, England W10 6RP United Kingdom<br>020 8969 0992<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.westway.org/sportsandfitness'>Westway Sports Centre</a>",
+		51.5163886,
+		-0.2200167
+	],
+	[
+		"<b>Rope Race Climbing & Activity Centre</b><br>Goyt Mill; Upper Hibbert Lane, Marple, England SK6 7HX United Kingdom<br>0161 426 0226<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.roperace.com/'>Rope Race Climbing & Activity Centre</a>",
+		53.3851482,
+		-2.0649199
+	],
+	[
+		"<b>Big Rock Climbing Ltd</b><br>Mandeville Drive, Milton Keynes, England MK10 0AG United Kingdom<br>01908 583128<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bigrockclimbing.com/'>Big Rock Climbing Ltd</a>",
+		52.0394757,
+		-0.6881844
+	],
+	[
+		"<b>Newcastle Climbing Centre</b><br>285 Shields Road, Newcastle Upon Tyne, NE6 2UQ United Kingdom<br>+44 (0)191 265 6060<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.newcastleclimbingcentre.co.uk'>Newcastle Climbing Centre</a>",
+		54.9786932,
+		-1.575405
+	],
+	[
+		"<b>Shropshire Climbing Centre</b><br>Springfield Industrial Estate, Newport, England TF10 7EZ United Kingdom<br>01952 814566<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.newportrock.com/'>Shropshire Climbing Centre</a>",
+		52.7620902,
+		-2.3736719
+	],
+	[
+		"<b>Rock Antics Ltd.</b><br>Everidge Arcade; Newton Aycliffe; County Durham, Newton, England DL5 4EH United Kingdom<br>01952 814566<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockantics.co.uk/'>Rock Antics Ltd.</a>",
+		54.6191211,
+		-1.574244
+	],
+	[
+		"<b>Harrogate Climbing Centre</b><br>Hornbeam Park Avenue, North Yorkshire, England HG2 8QT United Kingdom<br>01423 815024<br><a target='_blank' rel='noopener noreferrer'href = 'https://harrogateclimbingcentre.com/'>Harrogate Climbing Centre</a>",
+		53.9775843,
+		-1.5214362
+	],
+	[
+		"<b>The Pinnacle Centre</b><br>Unit 1; Minton Business Centre, North Yorkshire, England NN4 8ES United Kingdom<br>01604 875996<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thepinnaclecentre.co.uk/'>The Pinnacle Centre</a>",
+		52.2283004,
+		-0.9085042
+	],
+	[
+		"<b>Wild Rock Climbing</b><br>Far Peak, Northleach, England GL54 3JL United Kingdom<br>+44 1285 721090 <br><a target='_blank' rel='noopener noreferrer'href = 'http://www.wildrockclimbing.co.uk/Climbing/index.html'>Wild Rock Climbing</a>",
+		51.817715,
+		-1.860895
+	],
+	[
+		"<b>UEA Sports Park</b><br>University of East Anglia, Norwich, England NR4 7TJ United Kingdom<br>01603 592398<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.sportspark.co.uk/en/web/sportspark/join-in/indoor'>UEA Sports Park</a>",
+		52.6184758,
+		1.2406141
+	],
+	[
+		"<b>Nottingham Climbing Centre</b><br>Rawson Street, Nottingham, Nottinghamshire NG7 7FR England<br>0115 9988233<br><a target='_blank' rel='noopener noreferrer'href = 'https://nottingham-climbing.co.uk/'>Nottingham Climbing Centre</a>",
+		52.9723594,
+		-1.171341
+	],
+	[
+		"<b>Oldham Climbing Gym</b><br>Oldham Sports; Centre Lord Street, Oldham, England LE15 8BL United Kingdom<br>0161-911 4090<br><a target='_blank' rel='noopener noreferrer'href = 'https://oclactive.co.uk/activities/'>Oldham Climbing Gym</a>",
+		52.6648809,
+		-0.6364327
+	],
+	[
+		"<b>Eden Climbing Gym</b><br>Penrith Leisure Centre; Southend Road, Penrith, England CA11 7YG United Kingdom<br>01768 863 450 <br><a target='_blank' rel='noopener noreferrer'href = 'https://www.better.org.uk/leisure-centre/eden/penrithlc/climbing-wall-penrith-leisure-centre'>Eden Climbing Gym</a>",
+		54.6610504,
+		-2.7492751
+	],
+	[
+		"<b>Granite Planet Climbing Centre</b><br>Unit 10 Parkengue; Kernick Ind Estate, Penryn, England TR10 9EP United Kingdom<br>01326 376633<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.graniteplanetclimbing.co.uk/'>Granite Planet Climbing Centre</a>",
+		50.1661886,
+		-5.1225497
+	],
+	[
+		"<b>The Peterborough Mountaineering Club Climbing Gym</b><br>Bretton Gate, Peterborough, England PE3 United Kingdom<br>01733 560303<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.peterboroughmc.co.uk/climbing-wall/'>The Peterborough Mountaineering Club Climbing Gym</a>",
+		52.5856236,
+		-0.2742071
+	],
+	[
+		"<b>Fort Purbrook</b><br>Portsdown Hill Road; Cosham, Portsmouth, England PO6 1BJ United Kingdom<br>023 92 32 1223<br><a target='_blank' rel='noopener noreferrer'href = 'https://peterashleyactivitycentres.co.uk/'>Fort Purbrook</a>",
+		50.8522985,
+		-1.038827
+	],
+	[
+		"<b>Reading Climbing Centre</b><br>Unit 33 Robert Cort Industrial Estate; Britten Road, Reading, England RG2 0AU United Kingdom<br>0118 975 6298<br><a target='_blank' rel='noopener noreferrer'href = 'https://readingclimbingcentre.com/'>Reading Climbing Centre</a>",
+		51.4423071,
+		-0.9708816
+	],
+	[
+		"<b>High Sports Indoor Rock Climbing Centre</b><br>Unit 6; Orchard Business Centre; Bonehurst Road; Salfords, Redhill, England RH1 5EL United Kingdom<br>01293 822 884<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/'>High Sports Indoor Rock Climbing Centre</a>",
+		51.1973385,
+		-0.1624069
+	],
+	[
+		"<b>Rotherham High Sports</b><br>Rotherham Leisure Complex; Effingham Street, Rotherham, England S66 1BL United Kingdom<br>0845 363 1177<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/'>Rotherham High Sports</a>",
+		53.4326035,
+		-1.3635009
+	],
+	[
+		"<b>Awesome Walls - Sheffield</b><br>Garter Street, Sheffield, S4 7QX England<br>0114 244 6622<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.awesomewalls.co.uk/centres/sheffield/'>Awesome Walls - Sheffield</a>",
+		53.4000904,
+		-1.4453442
+	],
+	[
+		"<b>The Climbing Works</b><br>150 Little London Road, Sheffield, England S8 United Kingdom<br>+44 114 250 9990<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.climbingworks.com/'>The Climbing Works</a>",
+		53.3535764,
+		-1.4830908
+	],
+	[
+		"<b>The Edge Climbing Centre</b><br>John Street off Bramall Lane, Sheffield, England S2 4QU United Kingdom<br>0114 275 8899<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.sheffieldclimbing.com/'>The Edge Climbing Centre</a>",
+		53.3688795,
+		-1.4717133
+	],
+	[
+		"<b>The Foundry Climbing Centre Ltd.</b><br>45 Mowbray Street; Unit 2, Sheffield, England S3 8EN United Kingdom<br>0114 2796331<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.foundryclimbing.com/'>The Foundry Climbing Centre Ltd.</a>",
+		53.3900705,
+		-1.471562
+	],
+	[
+		"<b>Rock and Rapid Adventure Centre</b><br>Hacche Mill, South Molton, England EX36 3NA United Kingdom<br>+44 0333 600 6001<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockandrapidadventures.co.uk/'>Rock and Rapid Adventure Centre</a>",
+		51.0293839,
+		-3.8279318
+	],
+	[
+		"<b>Calshot Activities Centre</b><br>Calshot Spit; Fawley, Southampton, England SO45 1BR United Kingdom<br>023 80 892 077<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.hants.gov.uk/thingstodo/outdoorcentres/recreation/climbing'>Calshot Activities Centre</a>",
+		50.819826,
+		-1.307432
+	],
+	[
+		"<b>Southampton Climbing Wall</b><br>Unit 4 Imperial Park; Empress Road, Southampton, England SO14 0BL United Kingdom<br>023 8007 0171<br><a target='_blank' rel='noopener noreferrer'href = 'https://bouldershack.co.uk/'>Southampton Climbing Wall</a>",
+		50.9164768,
+		-1.3937911
+	],
+	[
+		"<b>Awesome Walls Climbing Centre Stockport</b><br>Pear Mill; Lower Bredbury, Stockport, England SK6 2BP United Kingdom<br>0161 494 9949<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.awesomewalls.co.uk/centres/stockport'>Awesome Walls Climbing Centre Stockport</a>",
+		53.4138336,
+		-2.1338732
+	],
+	[
+		"<b>Sunderland Wall</b><br>Doxford Works; Pallion Quay, Sunderland, England SR4 6TQ United Kingdom<br>0191 514 4234<br><a target='_blank' rel='noopener noreferrer'href = 'http://sunderlandwall.co.uk/'>Sunderland Wall</a>",
+		54.914853,
+		-1.4153035
+	],
+	[
+		"<b>White Spider Climbing</b><br>225 Hook Rise South, Surbiton, London KT6 7LD United Kingdom<br>0208 397 0390<br><a target='_blank' rel='noopener noreferrer'href = 'https://spiderclimbing.com/white-spider/'>White Spider Climbing</a>",
+		51.3727127,
+		-0.2914028
+	],
+	[
+		"<b>The Barn Climbing Center</b><br>Eastacott Barton; Milton Abbott, Tavistock, England PL19 0QP United Kingdom<br>01822 870521<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.barnclimbingwall.co.uk/'>The Barn Climbing Center</a>",
+		50.5938676,
+		-4.2768981
+	],
+	[
+		"<b>North West Face</b><br>St Anns Church; Winwick Road, Warrington, England WA2 7NE United Kingdom<br>+44 1925 650022<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.northwestface.com/'>North West Face</a>",
+		53.3959113,
+		-2.5948492
+	],
+	[
+		"<b>Boulder Central</b><br>Richmond Street South, West Bromwich, England B70 0DG <br>0121 448 3736<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bouldercentral.co.uk/'>Boulder Central</a>",
+		52.5302579,
+		-2.0262689
+	],
+	[
+		"<b>The Edge </b><br>Queen Elizabeth Leisure Centre; Blandford Road, Wimborne, England BH21 4DT United Kingdom<br>01202 888 208 <br><a target='_blank' rel='noopener noreferrer'href = '/sport-leisure/leisure-centres/qe-leisure-centre/climbing/climbing.aspx'>The Edge </a>",
+		50.8061341,
+		-2.0034251
+	],
+	[
+		"<b>Wolf Mountain</b><br>Paget Road, Wolverhampton, WV6 0DU England<br>01902 711 186<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.wolfmountainactivitycentre.co.uk/'>Wolf Mountain</a>",
+		52.5890357,
+		-2.1557456
+	],
+	[
+		"<b>Sport Martley</b><br>Martley Road, Worcester, England WR6 6QA United Kingdom<br>01886 888999<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.riversfitness.co.uk/'>Sport Martley</a>",
+		52.286667,
+		-2.3591824
+	],
+	[
+		"<b>Vertical Limit Worcester Indoor Climbing Centre</b><br>Unit 11 Shrub Hill Road; Shrub Hill, Worcester, England WR6 6QA United Kingdom<br>01905 613044<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.vlimit.co.uk/'>Vertical Limit Worcester Indoor Climbing Centre</a>",
+		52.2373867,
+		-2.3577886
+	],
+	[
+		"<b>BeBloc salle d'escalade</b><br>Rue de Gronsart 148; 5100, Namur, Belgium<br>+32 (0)81 31 35 73<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bebloc.be/'>BeBloc salle d'escalade</a>",
+		50.4506069,
+		4.8744681
+	],
+	[
+		"<b>Halle Olympique</b><br>15 Avennue de Winneden, Albertville, 73200 France<br>04 79 32 84 84<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.halleolympique.com/'>Halle Olympique</a>",
+		45.6634328,
+		6.3729605
+	],
+	[
+		"<b>Altissimo Albi</b><br>2 Chemin Bourgelat, Albi, 81000 France<br>+33(0)5 63 38 09 38<br><a target='_blank' rel='noopener noreferrer'href = 'https://albi.altissimo.fr'>Altissimo Albi</a>",
+		43.9010807,
+		2.1436962
+	],
+	[
+		"<b>Freestone</b><br>ZA des Marais, Argonay, 74370 France<br>33 (0) 4 50 27 26 68<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.freestone.fr/fr/'>Freestone</a>",
+		45.944649,
+		6.139093
+	],
+	[
+		"<b>Altissimo Avignon</b><br>82 route de Montfavet, Avignon, 84000 France<br>+33 (0)4 90 88 19 92<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.altissimo.fr'>Altissimo Avignon</a>",
+		43.940544,
+		4.8275427
+	],
+	[
+		"<b>Autan Grimper</b><br>177 Chemin de la Fort, Bessieres, 31660 France<br>06 83 30 89 87 / 05 34 26 49 53<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.autangrimper.fr/'>Autan Grimper</a>",
+		43.7731599,
+		1.5880591
+	],
+	[
+		"<b>Centre Rgional Aquitaine d'escalade</b><br>11 impasse des hortensias, Bidos, 64400 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://club.ffme.fr/le-mur/'>Centre Rgional Aquitaine d'escalade</a>",
+		43.1721528,
+		-0.608419
+	],
+	[
+		"<b>Roc 'N Pof</b><br>RN 106, Brignon, 30190 France<br>04 66 81 72 61<br><a target='_blank' rel='noopener noreferrer'href = 'https://rocnpof.fr/'>Roc 'N Pof</a>",
+		43.989172,
+		4.213527
+	],
+	[
+		"<b>Block Out</b><br>9 Chausse Jules Csar, Cergy, Pontoise / Osny 95520 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blockout.fr/en/'>Block Out</a>",
+		49.0489818,
+		2.071397
+	],
+	[
+		"<b>Mont Blanc Escalade</b><br>Z.A. Les Trabets 2 - F.74310 Les Houches, Chamonix, France<br>33 (0) 450.54.76.48<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.montblancescalade.com/'>Mont Blanc Escalade</a>",
+		45.923697,
+		6.869433
+	],
+	[
+		"<b>Salle Chambord</b><br>Rue de Chambord, Cholet, 49300 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://www.aesmcholet.fr/'>Salle Chambord</a>",
+		47.0520674,
+		-0.8965678
+	],
+	[
+		"<b>Casamur Indoor Climbing Gym</b><br>22 ter impasse Bonnabaud, Clermont-Ferrand, 63000 France<br>04 73 29 24 71<br><a target='_blank' rel='noopener noreferrer'href = 'http://casamur.perso.worldonline.fr/IMAGES.SALLE2.htm'>Casamur Indoor Climbing Gym</a>",
+		45.774982,
+		3.079478
+	],
+	[
+		"<b>Blocbuster</b><br>47 Av de l'Europe, Courbevoie, Paris, 92400 France<br>01 71 12 86 32<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.blocbuster.fr'>Blocbuster</a>",
+		48.9060973,
+		2.2584438
+	],
+	[
+		"<b>Cime Altitude 245</b><br>45 Alle Marius Chanteur, Dijon, 21000 France<br>+33 (0)3 80 31 91 35<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.cime-dijon.com/'>Cime Altitude 245</a>",
+		47.337124,
+		5.064798
+	],
+	[
+		"<b>Climb Up Dijon (anciennement Meltin bloc)</b><br>14 Impasse Bouarac, Dijon, 21000 France<br>+33 (0) 9.80.41.00.03<br><a target='_blank' rel='noopener noreferrer'href = 'https://dijon.climb-up.fr/'>Climb Up Dijon (anciennement Meltin bloc)</a>",
+		47.3510329,
+		5.0652114
+	],
+	[
+		"<b>A BLOK</b><br>Get directions 23 Chemin de l'glise, Grenoble, 38100 France<br>04 76 25 46 60<br><a target='_blank' rel='noopener noreferrer'href = 'https://ablok.fr'>A BLOK</a>",
+		45.1767714,
+		5.7339704
+	],
+	[
+		"<b>Escalade Aventure</b><br>4 Boulevard du Grand Parc; 14200, Hrouville-Saint-Clair, France<br>+33 2 31 94 19 86<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.escaladeaventure.com/'>Escalade Aventure</a>",
+		49.1957945,
+		-0.3351021
+	],
+	[
+		"<b>MurMur Issy</b><br>Arche 1 6 Bld Garibaldi, Issy Les Moulineaux, 92130 France<br>01 58 88 00 22<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.murmur.fr/'>MurMur Issy</a>",
+		45.1900633,
+		5.6960986
+	],
+	[
+		"<b>SOLO Escalade</b><br>51 bis route de Bessires, L'Union, 31240 France<br>0534250145<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.soloescalade.fr/fr/'>SOLO Escalade</a>",
+		43.6638567,
+		1.4700036
+	],
+	[
+		"<b>Salle d'escalade Bloc Session</b><br>14 avenue du sorbier zone Athlia IV 13600, La Ciotat, France<br>04 42 72 05 18<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blocsession.com/'>Salle d'escalade Bloc Session</a>",
+		43.2030401,
+		5.5976915
+	],
+	[
+		"<b>WHAT'S UP - Lesquin</b><br>110 Rue Jean Jaurs 59810, Lesquin, France<br>+33 (0)3 20 07 57 42<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.whatsup.fr/visite/23/la-salle-d-escalade-de-lesquin.htm'>WHAT'S UP - Lesquin</a>",
+		50.583864,
+		3.093037
+	],
+	[
+		"<b>Altissimo Lille - Lomme</b><br>1 rue du chateau d'Isenghien, Lille, 59160 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://lille.altissimo.fr'>Altissimo Lille - Lomme</a>",
+		50.6510641,
+		2.9823168
+	],
+	[
+		"<b>WHAT'S UP - Villeneuve d'Ascq</b><br>51 rue trmire, Lille, 59650 France<br>+ 33 (0)3 20 04 97 50<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.whatsup.fr/visite/8/la-salle-de-blocs-de-villeneuve-d-ascq.htm'>WHAT'S UP - Villeneuve d'Ascq</a>",
+		50.623137,
+		3.135958
+	],
+	[
+		"<b>WHAT'S UP - Wambrechies</b><br>av. St Pierre, Lille, 59118 France<br>+33 (0)3 20 39 78 88<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.whatsup.fr/visite/7/la-salle-d-escalade-de-wambrechies.htm'>WHAT'S UP - Wambrechies</a>",
+		50.6801468,
+		3.0502836
+	],
+	[
+		"<b>Le Mur de Lyon</b><br>11 rue Lortet, Lyon, 69007 France<br>04 72 71 83 84<br><a target='_blank' rel='noopener noreferrer'href = 'https://lyon-gerland.climb-up.fr/'>Le Mur de Lyon</a>",
+		45.7430209,
+		4.8355029
+	],
+	[
+		"<b>Altissimo Marseille Arnavaux</b><br>27 bld Gay Lussac, Marseille, 13014 France<br>+33(0) 4 90 47 04 70<br><a target='_blank' rel='noopener noreferrer'href = 'https://marseille.altissimo.fr'>Altissimo Marseille Arnavaux</a>",
+		43.3341786,
+		5.3737343
+	],
+	[
+		"<b>Boite Grimpe</b><br>272 avenue de Mazargues, Marseille, 13008 France<br>04 91 71 61 58<br><a target='_blank' rel='noopener noreferrer'href = 'http://boiteagrimpe.fr/'>Boite Grimpe</a>",
+		43.262102,
+		5.392122
+	],
+	[
+		"<b>Couleur Caillou salle d'escalade - Club Alpin Francais</b><br>1 rue de la prise d'eau, Millau, 12100 France<br>0565605725<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.couleurcaillou.fr/salle/'>Couleur Caillou salle d'escalade - Club Alpin Francais</a>",
+		44.1105557,
+		3.0822709
+	],
+	[
+		"<b>Espace Grimpe</b><br>7 rue du Gnie, Montauban, 82000 France<br>05 63 91 41 78<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.espacegrimpe.com/'>Espace Grimpe</a>",
+		44.015484,
+		1.342070
+	],
+	[
+		"<b>Vertical'Art</b><br>10 Avenue Andr Marie Ampre Zone du Pas du Lac, Montigny le Bretonneux, Yvelines 78180 France<br>01 75 21 38 59<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.vertical-art.fr/'>Vertical'Art</a>",
+		48.793430,
+		2.040032
+	],
+	[
+		"<b>Altissimo Montpellier</b><br>(commune de grabels) rue de la treille - place de l'ancienne cave cooprative, Montpellier, Grabels 34790 France<br>+33 (0)4 67 03 05 53<br><a target='_blank' rel='noopener noreferrer'href = 'https://montpellier-grabels.altissimo.fr'>Altissimo Montpellier</a>",
+		43.647560,
+		3.801207
+	],
+	[
+		"<b>Altissimo Odysseum</b><br>alle Ulysse, Montpellier, 34000 France<br>+33 4 67 64 14 18<br><a target='_blank' rel='noopener noreferrer'href = 'https://montpellier-odysseum.altissimo.fr'>Altissimo Odysseum</a>",
+		43.603247,
+		3.917245
+	],
+	[
+		"<b>Casabloc</b><br>44 rue du lion d'or Malzville, Lorraine, France<br>03 83 21 44 86<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.casabloc.net/'>Casabloc</a>",
+		48.7129526,
+		6.1771519
+	],
+	[
+		"<b>Altissimo Nantes</b><br>3 rue Louis Blanc, Nantes, 44230 France<br>+33(0) 2 40 54 17 17<br><a target='_blank' rel='noopener noreferrer'href = 'https://nantes.altissimo.fr'>Altissimo Nantes</a>",
+		47.1888744,
+		-1.491666
+	],
+	[
+		"<b>El Cap</b><br>7 rue des Compagnons, Nantes, Saint-Herblain 44806 France<br>02 40 36 48 16<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.elcap.fr/tarifs-salle-escalade/'>El Cap</a>",
+		47.2237621,
+		-1.6409046
+	],
+	[
+		"<b>Art Bloc Escalade</b><br>23 avenue Auguste Vrola, Nice, St Isidore 06200 France<br>04 93 29 84 51<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.art-bloc.com/'>Art Bloc Escalade</a>",
+		43.710339,
+		7.195048
+	],
+	[
+		"<b>Grimp Azur </b><br>45 Boulevard de la Madeleine, Nice, 06000 France<br>33 04 93 97 14 33<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.grimpazur.fr/'>Grimp Azur </a>",
+		43.6966619,
+		7.2410886
+	],
+	[
+		"<b>Le Mur</b><br>Place Georges Clmenceau, Oloron-Sainte-Marie, Aquitaine, France<br>05 59 39 40 24<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.lemuroloron.com/'>Le Mur</a>",
+		43.1940784,
+		-0.6053158
+	],
+	[
+		"<b>Block'Out</b><br>9 chausse Jules Csar, Osny, 95000 France<br>01 30 75 13 27<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blockout.fr/en/'>Block'Out</a>",
+		49.048964,
+		2.071397
+	],
+	[
+		"<b>MurMur Pantin</b><br>MurMur Pantin, Pantin, 93500 France<br>01 48 46 11 00<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.murmur.fr/salle-escalade-pantin/'>MurMur Pantin</a>",
+		48.894533,
+		2.40963
+	],
+	[
+		"<b>Antrebloc</b><br>5 rue Henri Barbusse, Paris, Villejuif 94800 France<br>01 47 26 52 44<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.antrebloc.com/'>Antrebloc</a>",
+		48.8034132,
+		2.3660034
+	],
+	[
+		"<b>ROC & RESINE</b><br>3 rue des Alouettes, Paris, Thiasis 94320 France<br>01 46 75 04 21<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.roc-et-resine.fr/'>ROC & RESINE</a>",
+		48.8770036,
+		2.3852634
+	],
+	[
+		"<b>Cap Al Nou</b><br>3 av du palais des expositions, Perpignan, 66000 France<br>0619393929<br>",
+		42.7018599,
+		2.8828561
+	],
+	[
+		"<b>Le Nautil</b><br>Route Dpartementale 21, Pontault, Combault, 77340 France<br>00 33 1 60 34 62 62<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.placeoweb.com/nautil/escalade/'>Le Nautil</a>",
+		48.800914,
+		2.606776
+	],
+	[
+		"<b>Les arts de la grimpe</b><br>58 bvd Wilson, Reims, 51100 France<br>03 26 86 05 06<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.lesartsdelagrimpe.com/'>Les arts de la grimpe</a>",
+		49.2411311,
+		4.0173773
+	],
+	[
+		"<b>Pied-Main Escalade</b><br>10 Allee du Rue du Vieux Pont, Rochemaure, 07400 France<br>06 85 47 51 94<br><a target='_blank' rel='noopener noreferrer'href = 'http://piedmain.over-blog.com/'>Pied-Main Escalade</a>",
+		44.5858954,
+		4.7072519
+	],
+	[
+		"<b>Casabloc</b><br>44, Rue du Lion d'Or, Malzville, (Nancy), 54220 France<br>+33 (0) 3 83 21 44 86<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.casabloc.net/'>Casabloc</a>",
+		48.712942,
+		6.176941
+	],
+	[
+		"<b>SMUS Escalade - Centre Sportif Pierre Brossolette</b><br>Avenue Pierre Brossolette, Saint Maur des Fosss, 94100 France<br>06 66 62 87 23<br><a target='_blank' rel='noopener noreferrer'href = 'http://smus.free.fr/escalade/'>SMUS Escalade - Centre Sportif Pierre Brossolette</a>",
+		48.807903,
+		2.490515
+	],
+	[
+		"<b>100% Grimpe</b><br>19 boulevard de l'atelier, Saint-Estve, 66240 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://centpourcentgrimpe.fr/la-salle/'>100% Grimpe</a>",
+		42.719938,
+		2.851154
+	],
+	[
+		"<b>Block'Out Paris</b><br>50 Rue Ardoin 93400, Saint-Ouen, France<br>+331 40 10 91 50<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blockout.fr/bo2-paris'>Block'Out Paris</a>",
+		48.9120352,
+		2.324303
+	],
+	[
+		"<b>Climb Up</b><br>Parc de loisir - alle de l'ore de la fort, Saran, 45770 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://climbup.fr/'>Climb Up</a>",
+		47.959193,
+		1.893179
+	],
+	[
+		"<b>Block'Out Strasbourg</b><br>4 rue Alexandre Dumas, Strasbourg, 67200 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://www.blockout.fr/bo-strasbourg'>Block'Out Strasbourg</a>",
+		48.5903902,
+		7.6987955
+	],
+	[
+		"<b>Hueco</b><br>13 rue Ettore Bugatti 67201 Eckbolsheim., Strasbourg, Alsace 67201 France<br>03 88 28 58 48<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.hueco.fr/'>Hueco</a>",
+		48.5909187,
+		7.6813784
+	],
+	[
+		"<b>Roc en Stock</b><br>25d Rue Du Marechal Lefebvre, Strasbourg, 67100 France<br>03 88 79 11 70<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.roc-en-stock.fr/'>Roc en Stock</a>",
+		48.5607553,
+		7.7429163
+	],
+	[
+		"<b>Nature Tarbes</b><br>9 rue Marie Saint Frai, Tarbes, 65000 France<br>0607471849<br><a target='_blank' rel='noopener noreferrer'href = 'https://clubant.jimdo.com/'>Nature Tarbes</a>",
+		43.2334246,
+		0.0814859
+	],
+	[
+		"<b>Murs d'Escalade</b><br>Rue des Petits Remparts, Taulignan, 26770 France<br><br>",
+		44.4432381,
+		4.9815501
+	],
+	[
+		"<b>CENTRE EUROPEEN D ESCALADE</b><br>3 rue des Alouettes, Thiais, 9432 France<br>01 46 75 04 21<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.roc-et-resine.fr/'>CENTRE EUROPEEN D ESCALADE</a>",
+		48.7522132,
+		2.3738955
+	],
+	[
+		"<b>Altissimo Toulouse Saint-Martin-du-Touch</b><br>11 Rue MarieLouise Dissart - Zac de Saint-Martin, Toulouse, 31300 France<br>+33 (0)5 61 31 02 02<br><a target='_blank' rel='noopener noreferrer'href = 'https://toulouse-saint-martin.altissimo.fr'>Altissimo Toulouse Saint-Martin-du-Touch</a>",
+		43.605271,
+		1.466990
+	],
+	[
+		"<b>Altissimo Toulouse-Montaudran</b><br>5 Rue Jean Rodier - Zi Montaudran, Toulouse, 31400 France<br>+33 (0)5 61 54 32 00<br><a target='_blank' rel='noopener noreferrer'href = 'https://toulouse-montaudran.altissimo.fr'>Altissimo Toulouse-Montaudran</a>",
+		43.5611027,
+		1.4531355
+	],
+	[
+		"<b>SOLO Escalade</b><br>51 bis route de Bessires - L'Union, Toulouse, 31240 France<br>05 34 25 01 45<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.soloescalade.fr/fr/'>SOLO Escalade</a>",
+		43.663868,
+		1.470004
+	],
+	[
+		"<b>Touraine Escalade</b><br>31 rue des Grands Mortiers, Tours/St Pierre des Corps, 37700 France<br>02 47 32 72 45<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.touraineescalade.fr/'>Touraine Escalade</a>",
+		47.3813279,
+		0.7254673
+	],
+	[
+		"<b>Antrebloc</b><br>5 rue Henri Barbusse, Villejuif, 94800 France<br>01 47 26 52 44<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.antrebloc.com/'>Antrebloc</a>",
+		48.8034132,
+		2.3660034
+	],
+	[
+		"<b>What's Up Blocks</b><br>51 rue trmire, Villeneuve, d'Ascq 59650 France<br>0320049750<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.whatsup.fr/visite/13/la-salle-de-blocs-de-villeneuve-d-ascq.htm'>What's Up Blocks</a>",
+		50.623130,
+		3.135861
+	],
+	[
+		"<b>M'Roc</b><br>52 rue Alexis Perroncel - 69100, Villeurbanne, France<br>04 78 85 73 04<br><a target='_blank' rel='noopener noreferrer'href = 'https://villeurbanne.mroc.fr/#le-bloc'>M'Roc</a>",
+		45.7751253,
+		4.8759604
+	],
+	[
+		"<b>Association Vincennoise d'Escalade</b><br>41/43 rue Raymond du Temple 94300, Vincennes, France<br>06 73 24 31 17<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.escaladevincennes.net/'>Association Vincennoise d'Escalade</a>",
+		48.8436331,
+		2.4311584
+	],
+	[
+		"<b>Port l'anglais</b><br>22 rue Charles Fourrier, Vitry Sur Seine, 94400 France<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://quatreplus.org/?option=com_content&view=article&id=56&Itemid=68'>Port l'anglais</a>",
+		48.8027857,
+		2.4078835
+	],
+	[
+		"<b>What's Up</b><br>av. St Pierre, Wambrechies, 59118 France<br>03 20 39 78 88<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.whatsup.fr/visite/12/la-salle-d-escalade-de-wambrechies.htm'>What's Up</a>",
+		50.6803251,
+		3.0504616
+	],
+	[
+		"<b>Mourlon</b><br>19 rue Gaston de Caillavet, Paris, 75015 France<br>01 45 75 40 43<br>",
+		48.8488991,
+		2.2849313
+	],
+	[
+		"<b>Shannon Leisure Centre</b><br>Tullyglass; Shannon; Co., Clare, Ireland<br>061-361841<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.shannonleisurecentre.ie/'>Shannon Leisure Centre</a>",
+		52.7055942,
+		-8.8783788
+	],
+	[
+		"<b>Suas Climbing Centre</b><br>Burlington Business and leisure Park, Clonlara, Couny Clare<br>061345167<br><a target='_blank' rel='noopener noreferrer'href = 'http://suasclimbing.ie/'>Suas Climbing Centre</a>",
+		52.6834985,
+		-8.578456
+	],
+	[
+		"<b>Mardyke Arena UCC</b><br>Western Road, Cork, Ireland<br>021 490 4751<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.mardykearena.com/climbingwall.cfm'>Mardyke Arena UCC</a>",
+		51.5279,
+		-9.18078
+	],
+	[
+		"<b>Foyle Arena</b><br>St Columbs Park; Limavady Road, Derry, BT47 6JY Ireland<br>(028) 71 376555<br><a target='_blank' rel='noopener noreferrer'href = 'http://foylearena.com/'>Foyle Arena</a>",
+		55.002057,
+		-7.31123
+	],
+	[
+		"<b>Awesome Walls Climbing Centre - Dublin</b><br>Unit 6; North Park Business Park; Finglas, Dublin, 11 Ireland<br>35318800088<br><a target='_blank' rel='noopener noreferrer'href = 'https://awesomewalls.ie/dublin/'>Awesome Walls Climbing Centre - Dublin</a>",
+		53.401677,
+		-6.315965
+	],
+	[
+		"<b>DCU Sports Complex</b><br>Dublin City University - Glasnevin, Dublin, Ireland<br>+353 1 700 5797<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dcu.ie/dcusport/index.shtml'>DCU Sports Complex</a>",
+		53.385811,
+		-6.258945
+	],
+	[
+		"<b>Gravity Climbing Centre</b><br>Goldenbridge Industrial Estate; Inchicore, Dublin, Dublin 8, Ireland<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://www.gravityclimbing.ie/'>Gravity Climbing Centre</a>",
+		53.3360044,
+		-6.3236261
+	],
+	[
+		"<b>The Wall</b><br>5 Arkle Road; Sandyford, Dublin, Ireland<br>(01) 2970442<br><a target='_blank' rel='noopener noreferrer'href = 'https://thewall.ie/'>The Wall</a>",
+		53.2777443,
+		-6.2095875
+	],
+	[
+		"<b>Trinity Sports Centre</b><br>Trinity College, Dublin, Ireland<br>01 8961812<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.tcd.ie/Sport/facilities/sports-centre/climbing/'>Trinity Sports Centre</a>",
+		53.3437935,
+		-6.2545716
+	],
+	[
+		"<b>UCD Sports Centre</b><br>University College Dublin, Dublin, Belfield, Ireland<br>716 2145/2185<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.facebook.com/ucdclimbingwall'>UCD Sports Centre</a>",
+		53.307262,
+		-6.219077
+	],
+	[
+		"<b>West Wood Club - Clontarf</b><br>Clontarf Rd - Dublin 3, Dublin, Ireland<br>01-8530353<br><a target='_blank' rel='noopener noreferrer'href = 'https://westwood.ie/health-clubs/clontarf-dublin-3/'>West Wood Club - Clontarf</a>",
+		53.3583955,
+		-6.1925929
+	],
+	[
+		"<b>West Wood Club at Sandymount</b><br>1a St Johns Road, Dublin, Ireland<br>01-2695764<br><a target='_blank' rel='noopener noreferrer'href = 'https://westwood.ie/health-clubs/sandymount-dublin-4/'>West Wood Club at Sandymount</a>",
+		53.3256148,
+		-6.2095284
+	],
+	[
+		"<b>Awesome Walls - Cork</b><br>Sports Village, Eden Hall, Model Farm Road, Cork, Ireland<br>(021) 4867060<br><a target='_blank' rel='noopener noreferrer'href = 'https://awesomewalls.ie/cork/'>Awesome Walls - Cork</a>",
+		51.890814,
+		-8.538926
+	],
+	[
+		"<b>Play At Height</b><br>Baile Na Buaille; Dingle, Kerry, Ireland<br>066 9152822<br><a target='_blank' rel='noopener noreferrer'href = 'http://playatheight.com/'>Play At Height</a>",
+		52.1496562,
+		-10.2936949
+	],
+	[
+		"<b>Bens Surf Clinic</b><br>Promenade, Lahinch, Co.Clare, Ireland<br>086 844 8622<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.benssurfclinic.com/indoor-climbing/'>Bens Surf Clinic</a>",
+		52.9338964,
+		-9.3482824
+	],
+	[
+		"<b>Lahinch Adventures</b><br>The Promenade, Lahinch, Co. Clare, Ireland<br>+353 86 8448622<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.lahinchadventures.com/indoor-climbing-lessons-ireland/'>Lahinch Adventures</a>",
+		52.9335035,
+		-9.3477595
+	],
+	[
+		"<b>Kilfinane Outdoor Education Centre</b><br>Chapel Lane- Kilfinane; Co., Limerick, Ireland<br>00 353 (0)63 91161/91059<br><a target='_blank' rel='noopener noreferrer'href = 'https://kilfinaneoec.com/activities/rockclimbing-indoor-climbing.html'>Kilfinane Outdoor Education Centre</a>",
+		52.3601533,
+		-8.4704926
+	],
+	[
+		"<b>Nevsail Indoor Climbing Gym</b><br>Sexton Street, Limerick, Ireland<br>00353863308236<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.nevsailwatersports.ie/rock-climbing.html'>Nevsail Indoor Climbing Gym</a>",
+		52.6602884,
+		-8.6219754
+	],
+	[
+		"<b>UL Sports Arena</b><br>University of Limerick; Plassey; Castletroy, Limerick, Ireland<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://www.ulsport.ie/'>UL Sports Arena</a>",
+		52.673978,
+		-8.5542622
+	],
+	[
+		"<b>Spolo Ovenacher 90</b><br>, Boermereng, Luxembourg<br>(+352) 81 91 81 250<br><a target='_blank' rel='noopener noreferrer'href = 'http://homepages.internet.lu/polopolo/'>Spolo Ovenacher 90</a>",
+		49.4857475,
+		6.3225885
+	],
+	[
+		"<b>Hall Omnisport</b><br>Rue de Toernich 112, Steinsel, Arlon 6700 Luxembourg<br>00352 337931<br>",
+		49.6731026,
+		5.8029104
+	],
+	[
+		"<b>Energiehaven</b><br>Electronweg 10A, Utrecht, Utrecht, Netherlands<br>030-3075750<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.boulderhalenergiehaven.nl/'>Energiehaven</a>",
+		52.1002045,
+		5.0710078
+	],
+	[
+		"<b>I-vy climbing</b><br>Milaanstraat 115, Sittard, 6135 LH, Netherlands<br>+31 (0)46 8700086<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.ivyclimbing.nl/'>I-vy climbing</a>",
+		50.9913712,
+		5.8428357
+	],
+	[
+		"<b>De Klimmuur Alkmaar</b><br>Kees Boekestraat 2, Alkmaar, Noord-Holland 1817EZ Netherlands<br>+31725203209<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/de-klimmuur/'>De Klimmuur Alkmaar</a>",
+		52.6464038,
+		4.7271183
+	],
+	[
+		"<b>Kei Boulderhal</b><br>Soesterweg 314, Amersfoort, Utrecht 3812 BH Netherlands<br>0337370362<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.keiboulderhal.nl/'>Kei Boulderhal</a>",
+		52.156725,
+		5.3646702
+	],
+	[
+		"<b>Het Lab</b><br>Transformatorweg 32; 1014 AK, Amsterdam, Netherlands<br>+3120 334 6498<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.hetlabamsterdam.nl/'>Het Lab</a>",
+		52.3923846,
+		4.851343
+	],
+	[
+		"<b>Klimhal Amsterdam</b><br>Naritaweg 48, Amsterdam, 1043 BZ Netherlands<br>31 (0)20 6810121<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.klimhalamsterdam.nl/'>Klimhal Amsterdam</a>",
+		52.3883418,
+		4.8278578
+	],
+	[
+		"<b>Klimhal Centraal</b><br>Dijksgracht 2, Amsterdam, 1019 BS Netherlands<br>31 (0)20 4275777<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/'>Klimhal Centraal</a>",
+		52.376616,
+		4.9116126
+	],
+	[
+		"<b>Monk bouldergym Amsterdam</b><br>Aambeeldstraat 26, Amsterdam, 1021 KB Nederland<br>003140207370698<br><a target='_blank' rel='noopener noreferrer'href = 'https://monk.nl/amsterdam/'>Monk bouldergym Amsterdam</a>",
+		52.3843375,
+		4.9274865
+	],
+	[
+		"<b>Mountain Network Amsterdam - Tussen Hemel en Aarde (Between Heaven and Earth)</b><br>Erasmusgracht 297, Amsterdam, 1061MD Netherlands<br>088-1236835<br><a target='_blank' rel='noopener noreferrer'href = 'https://mountain-network.nl/klimcentra/locaties/klimhal-amsterdam/'>Mountain Network Amsterdam - Tussen Hemel en Aarde (Between Heaven and Earth)</a>",
+		52.3761438,
+		4.839556
+	],
+	[
+		"<b>USC Sport Center Universum</b><br>Science Park 306, Amsterdam, Netherlands<br>+31205258955<br><a target='_blank' rel='noopener noreferrer'href = 'https://usc.uva.nl/sport/klimmen/'>USC Sport Center Universum</a>",
+		52.3551074,
+		4.955311
+	],
+	[
+		"<b>Mountain Network Arnheim</b><br>Nieuwe Kade 4, Arnhem, 6827 AA Netherlands<br>31 (0)88 123 69 00<br><a target='_blank' rel='noopener noreferrer'href = 'https://mountain-network.nl/'>Mountain Network Arnheim</a>",
+		51.97415,
+		5.9159669
+	],
+	[
+		"<b>Monte Cervino</b><br>Hoeksekade 141c 2661 JL, Bergschenhoek, (near Rotterdam) Netherlands<br>31(0)10 522 10 92<br><a target='_blank' rel='noopener noreferrer'href = 'https://outdoorvalley.nl/'>Monte Cervino</a>",
+		51.9772581,
+		4.5360077
+	],
+	[
+		"<b>Rock Steady</b><br>Zanderijweg 12-14, Bussum, 1400 BG Netherlands<br>31 (0)35 6925000<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rocksteady.nl/'>Rock Steady</a>",
+		52.2596601,
+		5.1682327
+	],
+	[
+		"<b>Bouldercentrum Delfts Bleau</b><br>Schieweg 15, Delft, 2627 AN Netherlands<br>+31 15 7600090<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.delftsbleau.nl/en/'>Bouldercentrum Delfts Bleau</a>",
+		51.994512,
+		4.365735
+	],
+	[
+		"<b>Klimmuur Den Haag - Sport Complex De Uithof</b><br>Jaap Edenweg 10, Den Haag, 2544 NL Netherlands<br>070-3599229<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/'>Klimmuur Den Haag - Sport Complex De Uithof</a>",
+		52.0386236,
+		4.2404603
+	],
+	[
+		"<b>Steep Part</b><br>Waldorpstraat 15 - nabij Hollands Spoor, Den Haag, 2521 CA Netherlands<br>070 - 388 37 64<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/'>Steep Part</a>",
+		52.0691475,
+		4.3235747
+	],
+	[
+		"<b>Klimkerk Den Helder</b><br>OLVOO-kerk Den helder Jan in 't Veltstraat 94, Den Helder, Netherlands<br>06-48407614<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.klimmuurdenhelder.nl/'>Klimkerk Den Helder</a>",
+		52.9562808,
+		4.7607972
+	],
+	[
+		"<b>Mountain Network Dordrecht</b><br>Mary Montessorilaan 3a, Dordrecht, KJ 3312 Netherlands<br>+31 (0) 88 123 68 40<br><a target='_blank' rel='noopener noreferrer'href = 'https://mountain-network.nl/'>Mountain Network Dordrecht</a>",
+		51.7987212,
+		4.6789033
+	],
+	[
+		"<b>Pentagon</b><br>Sikkelstraat 3, Dordrecht, 3319 GB Netherlands<br>31 (0)78 6166964<br><a target='_blank' rel='noopener noreferrer'href = 'https://pentagonsport.nl/klimmen/klimmen-informatie/'>Pentagon</a>",
+		51.7967657,
+		4.7178723
+	],
+	[
+		"<b>Monk Bouldergym</b><br>Strijp S / gebouw SBX, Eindhoven, Noord-Brabant, Netherlands<br>+31402950488<br><a target='_blank' rel='noopener noreferrer'href = 'https://monk.nl/eindhoven/'>Monk Bouldergym</a>",
+		51.446456,
+		5.4612564
+	],
+	[
+		"<b>Neoliet Eindhoven- Zuid</b><br>Theo Koomenlaan 3, Eindhoven, 5644 HZ Netherlands<br>+3140248263<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.neoliet.nl/'>Neoliet Eindhoven- Zuid</a>",
+		51.4128539,
+		5.4794735
+	],
+	[
+		"<b>Arqu</b><br>J.J. van Deinselaan 20, Enschede, 7541 BR Netherlands<br>31 053 - 4340488<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.arque.nl/'>Arqu</a>",
+		52.2073145,
+		6.8999743
+	],
+	[
+		"<b>Cube Bouldergym</b><br>Hoge Bothofstraat 45, Enschede, 7511 ZA Netherlands<br>31 (0)6 10968707<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.cubebouldergym.nl/'>Cube Bouldergym</a>",
+		52.2233221,
+		6.901732
+	],
+	[
+		"<b>Bjoeks</b><br>Bieskemaar 3, Groningen, 9735 AE Netherlands<br>31 (0)50 5491230<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bjoeks.nl/'>Bjoeks</a>",
+		53.240582,
+		6.6011616
+	],
+	[
+		"<b>ROCCA Sport & Adventure</b><br>Landsraderweg 13, Gulpen, 6270 AB Netherlands<br>+31 (0)43 - 450 47 47<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.rocca.nl/'>ROCCA Sport & Adventure</a>",
+		50.80929,
+		5.8883897
+	],
+	[
+		"<b>Klimmuur Haarlem</b><br>Spaarndamseweg 120b, Haarlem, 2021 KA Netherlands<br>023 5259997<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/'>Klimmuur Haarlem</a>",
+		52.3911842,
+		4.6493881
+	],
+	[
+		"<b>Mountain Network Heereveen - Sportstad Heerenveen</b><br>Abe Lenstra Boulevard 23, Heereveen, 8448 JA Netherlands<br>30 (0)88 123 69 00<br><a target='_blank' rel='noopener noreferrer'href = 'https://mountain-network.nl/'>Mountain Network Heereveen - Sportstad Heerenveen</a>",
+		52.9567001,
+		5.936846
+	],
+	[
+		"<b>Boulderhal Kunststof</b><br>Rooseveltstraat 49 E; 2321 BL, Leiden, Netherlands<br>0031 - (0)71 576 3623<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.boulderhalkunststof.nl/'>Boulderhal Kunststof</a>",
+		52.1449374,
+		4.4810625
+	],
+	[
+		"<b>Mountain Network Nieuwegein</b><br>Blokhoeve 12, Nieuwegein, 3438 LC Netherlands<br>31 (0)88 123 69 00<br><a target='_blank' rel='noopener noreferrer'href = 'https://mountain-network.nl/'>Mountain Network Nieuwegein</a>",
+		52.0465327,
+		5.0918412
+	],
+	[
+		"<b>GRIP Boulderhal</b><br>Kamerlingh Onnesstraat 35 6533 HK, Nijmegen, Netherlands<br>+31 (0) 24 7370460<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.gripnijmegen.nl/nl/home/'>GRIP Boulderhal</a>",
+		51.8130865,
+		5.8383911
+	],
+	[
+		"<b>Grip Klimcentrum</b><br>Van Rosenburgweg 52 6537 TM, Nijmegen, Nederland<br>024-3443310<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.gripnijmegen.nl/en/home-2/'>Grip Klimcentrum</a>",
+		51.8218804,
+		5.7880178
+	],
+	[
+		"<b>Sportcenter Action</b><br>Moergestelseweg 36, Oisterwijk, 5062 JW Netherlands<br>31 (013) 521 91 78<br>",
+		51.572982,
+		5.1818356
+	],
+	[
+		"<b>Marian Fitness en Klimcentrum</b><br>Helmichstraat 18, Oldenzaal, Netherlands<br>31 (0)541 520444<br>",
+		52.3046161,
+		6.9358263
+	],
+	[
+		"<b>Klimcentrum Yellow Stone</b><br>Buijenstraat 16, Roosendaal, 4705 RD Netherlands<br>31(0)165-558426<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.yellow-stone.nl/'>Klimcentrum Yellow Stone</a>",
+		51.5503353,
+		4.4778101
+	],
+	[
+		"<b>Steep Part Klimcentrum</b><br>Prinsenlaan 910, Rotterdam, 3062 CT Netherlands<br>010 - 2869794<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.deklimmuur.nl/'>Steep Part Klimcentrum</a>",
+		51.9365808,
+		4.5330122
+	],
+	[
+		"<b>Bossche Boulders</b><br>Jagersheuvelstraat 32; 5222BJ, Hertogenbosch, Netherlands<br><br><a target='_blank' rel='noopener noreferrer'href = 'https://bosscheboulders.nl/'>Bossche Boulders</a>",
+		51.6959252,
+		5.2818029
+	],
+	[
+		"<b>Neoliet Tilburg - Sportpark Goirleseweg</b><br>Goirleseweg 44a, Tilburg, 5026 PC Netherlands<br>31 (0)13 5362940<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.neoliet.nl/'>Neoliet Tilburg - Sportpark Goirleseweg</a>",
+		51.5406543,
+		5.0676885
+	],
+	[
+		"<b>Boulderhal Sterk</b><br>Koningin Wilhelminalaan, Utrecht, Utrecht 3527LD The Netherlands<br>+31307370615<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.boulderhalsterk.nl/'>Boulderhal Sterk</a>",
+		52.0761238,
+		5.1032015
+	],
+	[
+		"<b>Klimmuur Utrecht</b><br>Vlampijpstraat 79, Utrecht, 3534 AR Netherlands<br>31 (0) 30 2467181<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.klimmuur-utrecht.nl/'>Klimmuur Utrecht</a>",
+		52.1047312,
+		5.0849616
+	],
+	[
+		"<b>Klim en Outdoorcentrum Yosemite</b><br>van der Heydenstraat 8, Zwolle, 8014 ZZ Netherlands<br>0031 - (0)38 4654877<br><a target='_blank' rel='noopener noreferrer'href = 'https://yosemite.nl/'>Klim en Outdoorcentrum Yosemite</a>",
+		52.4836259,
+		6.108206
+	],
+	[
+		"<b>DAV Kletterzentrum Ostwestfalen-Lippe</b><br>Ltkerlinde 12 33034, Brakel, Deutschland<br>05272 3949999<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kletterzentrum-owl.de/'>DAV Kletterzentrum Ostwestfalen-Lippe</a>",
+		51.7236945,
+		9.1938324
+	],
+	[
+		"<b>Tivoli Rock</b><br>Strangenhuschen 11, Aachen, Nordrhein D-52070 Deutschland<br>0241-157760<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.badmintoncenter-tivoli.de/Badminton/Klettern/index.html'>Tivoli Rock</a>",
+		50.80166,
+		6.1121
+	],
+	[
+		"<b>Big Wall Kletterzentrum Mnsterland - Ahlen</b><br>Zeche Westfalen 11; 59229, Ahlen, Germany<br>49 (0)2382 / 96 98 - 100<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bigwall.de/baustelle2/'>Big Wall Kletterzentrum Mnsterland - Ahlen</a>",
+		51.751404,
+		7.918163
+	],
+	[
+		"<b>Boulderhalle Bielefeld</b><br>Am Waldbad 60, Bielefeld, Nordrhein 33609 Deutschland<br>+49 521 95037070<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.boulderhalle-bielefeld.de/'>Boulderhalle Bielefeld</a>",
+		51.961311,
+		8.523773
+	],
+	[
+		"<b>Speicher1</b><br>Meisenstr. 65, Bielefeld, Nordrhein 33607 Deutschland<br>Telefon (whrend der ffnungszeiten): 0521 / 2084553<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.speicher1.net/'>Speicher1</a>",
+		52.0153007,
+		8.5717361
+	],
+	[
+		"<b>Sporthalle Sd-West</b><br>Werther Strae, Bocholt, D-46399 Deutschland<br>02871/37334<br><a target='_blank' rel='noopener noreferrer'href = 'https://dav-bocholt.de/gruppen/klettern/klettern-bocholt/'>Sporthalle Sd-West</a>",
+		51.8391141,
+		6.6026668
+	],
+	[
+		"<b>Neoliet Kletterzentrum Bochum</b><br>Flottmannstrae 53h, Bochum, Nordrhein 44807 Deutschland<br>0234-5409955<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.neoliet.de/'>Neoliet Kletterzentrum Bochum</a>",
+		51.515667,
+		7.220188
+	],
+	[
+		"<b>BRONX ROCK Kletterwald</b><br>n der Dehlen, Bonn, Nordrhein 53125 NRW Deutschland<br>02236-890568<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.kletterwald-bonn.de/kletterwald'>BRONX ROCK Kletterwald</a>",
+		50.7048005,
+		7.04361
+	],
+	[
+		"<b>Fit4Life Kletterhalle - Rhein-Ruhr-Sportcenter GmbH, Fitness- und Racket-Center</b><br>Sternbuschweg 360, Duisburg, Nordrhein 47057 Deutschland<br>0203 371441<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.fit4life-sport.de/'>Fit4Life Kletterhalle - Rhein-Ruhr-Sportcenter GmbH, Fitness- und Racket-Center</a>",
+		51.4149123,
+		6.7755658
+	],
+	[
+		"<b>Kletter und Alpinzentrum</b><br>Lsorter Str. 115; 47137, Duisburg, Deutschland<br>0203-428120<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dav-duisburg.de/'>Kletter und Alpinzentrum</a>",
+		51.4806258,
+		6.7843413
+	],
+	[
+		"<b>Klettermassiv</b><br>Wiesenstr. 76, Dsseldorf, Nordrhein 40549 Deutschland<br>0211/ 56 38 789<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.klettermassiv.de/'>Klettermassiv</a>",
+		51.2258979,
+		6.7072314
+	],
+	[
+		"<b>Monkeyspot</b><br>Schiessstrae 52, Dsseldorf, 40549 Deutschland<br>tel: +49021154416636<br><a target='_blank' rel='noopener noreferrer'href = 'https://monkeyspot.de/'>Monkeyspot</a>",
+		51.23892,
+		6.72328
+	],
+	[
+		"<b>Citymonkey</b><br>Auf'm Bgel 6, Essen, Nordrhein 45149 Deutschland<br>0201-7493081<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.citymonkey.de/'>Citymonkey</a>",
+		51.418586,
+		6.9590071
+	],
+	[
+		"<b>Chimpanzodrome</b><br>Ernst-Heinrich-Geist-Strae 18; 50226, Frechen, Germany<br>02234-273410<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.chimpanzodrome.de/'>Chimpanzodrome</a>",
+		50.9089791,
+		6.8190999
+	],
+	[
+		"<b>Kletteranlage Nordstern</b><br>, Gelsenkirchen, Nordrhein D-45899 Deutschland<br>0209-518204<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.alpenverein-gelsenkirchen.de/'>Kletteranlage Nordstern</a>",
+		51.519739,
+		7.025781
+	],
+	[
+		"<b>Freizeit-Treff</b><br>Hlser Str. 770, Krefeld, Nordrhein 47803 Deutschland<br>+49 (0)2151 - 53 52 40<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.okidoki-krefeld.de/kletterhalle-krefeld/'>Freizeit-Treff</a>",
+		51.359225,
+		6.524805
+	],
+	[
+		"<b>Canyon Chorweiler</b><br>Weichselring 6a, Kln, 50765 Deutschland<br>0221 / 53 43 510<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.canyon-chorweiler.de/canyon-chorweiler/home.html'>Canyon Chorweiler</a>",
+		51.02898,
+		6.89487
+	],
+	[
+		"<b>KletterFABRIK-Kln</b><br>Lichtstr. 25, Kln, Nordrhein D-50825 Deutschland<br>0221 -502 99 91<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kletterfabrik.koeln/'>KletterFABRIK-Kln</a>",
+		50.9490882,
+		6.9104519
+	],
+	[
+		"<b>Kletterkirche</b><br>Nicodemstrasse 36, Mnchengladbach, D-41068 Deutschland<br>021614613960<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kletterkirche.de/viewpage.php?page_id=9'>Kletterkirche</a>",
+		51.1959902,
+		6.4118766
+	],
+	[
+		"<b>The Wall - Sportpark West</b><br>An den Holter Sportsttten 1, Mnchengladbach, 41069 Deutschland<br>02161 35 39 70<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.sportpark-mg.de/klettern.htm'>The Wall - Sportpark West</a>",
+		51.1908883,
+		6.4058087
+	],
+	[
+		"<b>Allrounder WinterWorld</b><br>An der Skihalle 1, Neuss, D-41472 Deutschland<br>49 (0) 21 31 - 12 44 0<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.alpenpark-neuss.de/erlebniswelten/kletterpark.html'>Allrounder WinterWorld</a>",
+		51.1722106,
+		6.6509581
+	],
+	[
+		"<b>Kletterhalle XI. Grad</b><br>Nicolaus-Otto-Strasse 32, Paderborn Borchen, D-33178 Deutschland<br>05251-1843860<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.elftergrad.de/en/welcome/'>Kletterhalle XI. Grad</a>",
+		51.645108,
+		8.712802
+	],
+	[
+		"<b>Big Wall - Klettercentrum Munsterland</b><br>Im Sdfeld 2, Senden, D-48308 Deutschland<br>02536-341168<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bigwall.de/baustelle2/'>Big Wall - Klettercentrum Munsterland</a>",
+		51.90919,
+		7.47413
+	],
+	[
+		"<b>Clip 'n Climb Niederrhein</b><br>Ransberg 31, Viersen, 41751 Deutschland<br>02162 8177988<br><a target='_blank' rel='noopener noreferrer'href = 'https://clipnclimb.de/'>Clip 'n Climb Niederrhein</a>",
+		51.2531276,
+		6.3528421
+	],
+	[
+		"<b>BRONX ROCK Kletterhalle</b><br>Vorgebirgsstrae 5, Wesseling, 50672 Deutschland<br>02236-890570<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bronxrock.de/homepage'>BRONX ROCK Kletterhalle</a>",
+		50.8129679,
+		6.9919864
+	],
+	[
+		"<b>BoulderWorld</b><br>Unit 1 Boucher Centre; Apollo Road, Belfast, BT12 6HP<br>02890 662 007<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.boulderworldbelfast.com/'>BoulderWorld</a>",
+		54.5805302,
+		-5.9583572
+	],
+	[
+		"<b>Queens University Physical Education Centre</b><br>Botanic Park, Belfast, Antrim, Northern Ireland BT9 5EX<br>02890 681 126<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.queenssport.com/ActivityProgramme/'>Queens University Physical Education Centre</a>",
+		54.5816753,
+		-5.9306932
+	],
+	[
+		"<b>Foyle Arena</b><br>2 Limavady Road, Derry, BT47 6JY Northern Ireland<br>(028) 71 376555<br><a target='_blank' rel='noopener noreferrer'href = 'http://foylearena.com/'>Foyle Arena</a>",
+		54.9976396,
+		-7.3092633
+	],
+	[
+		"<b>Hanging Rockers' Climbing Club</b><br>Gortatole OEC, Florencecourt, Co Fermanagh BT92 1ED, Northern Ireland<br>07502007986<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.hangingrockers.co.uk/'>Hanging Rockers' Climbing Club</a>",
+		54.280458,
+		-7.831193
+	],
+	[
+		"<b>Gortin Activity Team</b><br>62 Main St, Gortin, Omagh, County Tyrone BT79 8NH<br>028 81648346<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.gortincommunity.com/climbing-wall'>Gortin Activity Team</a>",
+		54.7182531,
+		-7.2318528
+	],
+	[
+		"<b>Share Holiday Village</b><br>Smiths Strand, Lisnaskea, Northern Ireland BT920EQ<br>442867722122<br><a target='_blank' rel='noopener noreferrer'href = 'https://sharevillage.org/'>Share Holiday Village</a>",
+		54.2124992,
+		-7.4784074
+	],
+	[
+		"<b>Bewegungsforum</b><br>Fitness-Wellness-Klettern, Am Schwimmbad in Nieder-Olm, Nieder-Olm, Rheinland-Pfalz Deutschland<br>0613 95 3030<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bewegungsforum.de/'>Bewegungsforum</a>",
+		49.9071788,
+		8.1933601
+	],
+	[
+		"<b>Kandi-Turm</b><br>Stationstrae 77, Andernach, Rheinland-Pfalz D-56626 Deutschland<br>02632-491221<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kanditurm.de/'>Kandi-Turm</a>",
+		50.4267798,
+		7.4215453
+	],
+	[
+		"<b>Rhein-Nahe Sport Fitnesscenter</b><br>Saarlandstrae 379, Bingen, Rheinland-Pfalz D-55411 Deutschland<br>06721-47651<br>",
+		49.93429,
+		7.91381
+	],
+	[
+		"<b>Eis Sporthalle Kletterwand</b><br>Sudring 10, Bitburg, Rheinland-Pfalz Deutschland<br>06561-8447<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.eissporthalle-bitburg.de/'>Eis Sporthalle Kletterwand</a>",
+		49.96108,
+		6.52624
+	],
+	[
+		"<b>In Der Fabrik / Wasgau Kletterschule</b><br>Elisabethenstrae 1, Hauenstein, Rheinland-Pfalz D-76846 Deutschland<br>0171-6510347<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.kletterschule.de/'>In Der Fabrik / Wasgau Kletterschule</a>",
+		49.19041,
+		7.85284
+	],
+	[
+		"<b>Blockwerk</b><br>Gebude 6328, Hauptstrae 17-19, Mainz, Rheinland-Pfalz D-55120 Deutschland<br>06131-2500927<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.blockwerk.info/'>Blockwerk</a>",
+		50.0175282,
+		8.2350669
+	],
+	[
+		"<b>Kletterzentrum Barbarossahalle</b><br>Ludwig-Thoma-Str. 1, Kaiserslautern, 67663 Rheinland-Pfalz<br>0631-89291537<br><a target='_blank' rel='noopener noreferrer'href = 'https://kletterzentrum-kl.de/'>Kletterzentrum Barbarossahalle</a>",
+		49.428496,
+		7.756
+	],
+	[
+		"<b>Fitness Park</b><br>Industriestrasse, Kirchberg, Rheinland-Pfalz 55481 Deutschland<br>06763-1899<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.fitness.sc/'>Fitness Park</a>",
+		50.0006513,
+		7.3619483
+	],
+	[
+		"<b>Eifelblock</b><br>Ernst-Abbe-Strae 13, Koblenz, Rheinland-Pfalz 56070 Deutschland<br>02 61 / 98 85 30 33<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.eifelblock.de/'>Eifelblock</a>",
+		50.389256,
+		7.5525827
+	],
+	[
+		"<b>FITZ ROCKS</b><br>Albert-Einstein-Str. 4, Landau, 76829 Deutschland<br>06341-9949050<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.fitzrocks.de/index.php?id=31'>FITZ ROCKS</a>",
+		49.1877457,
+		8.1327344
+	],
+	[
+		"<b>Extrem-Das Kletterzentrum</b><br>Saarburger Strae 25, Ludwigshafen, Rheinland-Pfalz D-67071 Deutschland<br>0621-511287<br><a target='_blank' rel='noopener noreferrer'href = 'http://kletterzentrum.de/'>Extrem-Das Kletterzentrum</a>",
+		49.4867907,
+		8.407416
+	],
+	[
+		"<b>Kletterkiste</b><br>Turmstrasse, Mainz, Rheinland-Pfalz D-55120 Deutschland<br>06131-688829<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.kletterzentrum-mainz.de/'>Kletterkiste</a>",
+		50.0173704,
+		8.2299861
+	],
+	[
+		"<b>Sport-Treff</b><br>Hans-Bckler-Strae 114-118, Mainz, Rheinland-Pfalz D-55128 Deutschland<br><br>",
+		49.97465,
+		8.23746
+	],
+	[
+		"<b>Castel Trier</b><br>Fort Worth-Platz 1, Trier, Rheinland-Pfalz 54292 Deutschland<br>+49 651/46290-0<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.arena-trier.de/events/'>Castel Trier</a>",
+		49.7712377,
+		6.6641698
+	],
+	[
+		"<b>Kletterhalle Cube Trier</b><br>Diedenhofenerstrae 27c, Trier, Rheinland-Pfalz 54294 Deutschland<br>0651-99892212<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.cube-trier.de'>Kletterhalle Cube Trier</a>",
+		49.7294682,
+		6.615449
+	],
+	[
+		"<b>Camp4 Kletterzentrum GmbH</b><br>Pariser Str. 24, Zweibrcken, Rheinland-Pfalz 66482 Deutschland<br>06332- 481369<br><a target='_blank' rel='noopener noreferrer'href = 'https://campvier.de/'>Camp4 Kletterzentrum GmbH</a>",
+		49.22473,
+		7.39847
+	],
+	[
+		"<b>Sporthalle Ensdorf</b><br>Im Sportcentrum, Ensdorf, Saarland 66806 Deutschland<br>06831-59501<br>",
+		49.3132686,
+		6.7869619
+	],
+	[
+		"<b>AquaMonte</b><br>Balinger Strasse 7, Rottweil, Saarland 78628 Deutschland<br>+49 (0) 741/7196<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.aquamonte.de/'>AquaMonte</a>",
+		48.1762561,
+		8.6322975
+	],
+	[
+		"<b>Kletterzentrum Saarbrcken</b><br>Mainzer Strae 30, Saarbrcken, Saarland 66111 Deutschland<br>+49 (0) 681 / 910 22 32<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.kletterzentrum-saarbruecken.de/'>Kletterzentrum Saarbrcken</a>",
+		49.2311854,
+		7.0018453
+	],
+	[
+		"<b>KBA Kletter- und BoulderArena GmbH</b><br>Herrensohrer Wiesen 1, Saarbrcken-Herrensohr, Saarland 66125 Deutschland<br>06897 / 9522246<br><a target='_blank' rel='noopener noreferrer'href = 'https://kba-saar.de/'>KBA Kletter- und BoulderArena GmbH</a>",
+		49.2738241,
+		7.0219621
+	],
+	[
+		"<b>Rocklands Klettercentrum</b><br>Willi-Graf-Strae 3, St. Wendel, Saarland 66606 deutschland<br>06851/8024114<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.rocklands-climbing.com/'>Rocklands Klettercentrum</a>",
+		49.4696900,
+		7.1529400
+	],
+	[
+		"<b>Camp4 Kletterzentrum GmbH</b><br>Pariserstr. 24, Zweibrcken, Saarland 66482 Deutschland<br>+49 (0) 6332- 481369<br><a target='_blank' rel='noopener noreferrer'href = 'https://campvier.de/'>Camp4 Kletterzentrum GmbH</a>",
+		49.2247300,
+		7.3984700
+	],
+	[
+		"<b>Glenmore Lodge</b><br>Glenmore- Aviemore- Invernesshire, Scotland PH22 1QU United Kingdom<br>01479 861 256<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.glenmorelodge.org.uk/mountain-training-development-coach-training/'>Glenmore Lodge</a>",
+		57.1671856,
+		-3.6966346
+	],
+	[
+		"<b>RGU Climbing Gym</b><br>Garthdee campus of The Robert; Gordon University, Aberdeen, Scotland United Kingdom<br>(01224) 263666<br><a target='_blank' rel='noopener noreferrer'href = '//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk/student-life/campus-life/rgu-sport/facilities/climb?'>RGU Climbing Gym</a>",
+		57.118708,
+		-2.134303
+	],
+	[
+		"<b>Mclaren Leisure Centre Wall</b><br>Mollands Road, Callander, Scotland United Kingdom<br>01877330000<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.mclarenleisure.co.uk/'>Mclaren Leisure Centre Wall</a>",
+		56.2376911,
+		-4.2131754
+	],
+	[
+		"<b>Avertical World</b><br>7 Blinshall Street, Dundee, Scotland United Kingdom<br>01382 V201901<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.averticalworld.co.uk/'>Avertical World</a>",
+		56.4622283,
+		-2.9820024
+	],
+	[
+		"<b>Olympia Stakis Leisure Centre</b><br>Earl Grey Place, Dundee, Angus, Scotland DD1 4DE United Kingdom<br>01382 434 888<br>",
+		56.458044,
+		-2.965857
+	],
+	[
+		"<b>Alien Rock 2 The Bouldering Centre</b><br>37 West Bowling Green Street, Edinburgh, Scotland EH6 5NX United Kingdom<br>0131 555 3650 - or - 0131 552 7211<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.alienrock.co.uk/'>Alien Rock 2 The Bouldering Centre</a>",
+		55.972249,
+		-3.184229
+	],
+	[
+		"<b>Edinburgh International Climbing Arena, Ratho</b><br>South Platt Hill, Edinburgh, Scotland EH28 8AA United Kingdom<br>0131 333 6333<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.edinburghleisure.co.uk/venues/edinburgh-international-climbing-arena'>Edinburgh International Climbing Arena, Ratho</a>",
+		55.9253813,
+		-3.3734161
+	],
+	[
+		"<b>SpireRoxx Climbing Wall</b><br>27 Moray St, Elgin, IV30 1JS, UK<br>01343 542 666<br><a target='_blank' rel='noopener noreferrer'href = 'http://spireroxx.co.uk/'>SpireRoxx Climbing Wall</a>",
+		57.6464759,
+		-3.3150705
+	],
+	[
+		"<b>Glasgow Climbing Centre</b><br>534 Paisley Road West; Ibrox, Glasgow, Lanarkshire, Scotland G51 1RN United Kingdom<br>0141 427 9550<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.glasgowclimbingcentre.com/'>Glasgow Climbing Centre</a>",
+		55.8508059,
+		-4.3049741
+	],
+	[
+		"<b>Kelvin Hall Sports Centre</b><br>1431-1451 Argyle Street, Glasgow, Lanarkshire, Scotland G3 8AW United Kingdom<br>0141 357 2525<br><a target='_blank' rel='noopener noreferrer'href = '/sport/venues/glasgow-club-kelvin-hall'>Kelvin Hall Sports Centre</a>",
+		55.8582682,
+		-4.2559322
+	],
+	[
+		"<b>The Climbing Academy</b><br>124 Portman Street, Glasgow, Scotland G41 1EJ United Kingdom<br>0141 429 6331<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbingacademy.com/'>The Climbing Academy</a>",
+		55.8507512,
+		-4.2822486
+	],
+	[
+		"<b>Climb Caledonia, Aquadome</b><br>Bught Park; Inverness Sports Centre + Aquadome, Inverness, Invernesshire, Scotland IV3 5SS United Kingdom<br>01463 667 505 / 01463 667 535<br>",
+		57.4630478,
+		-4.2406136
+	],
+	[
+		"<b>Inverness Leisure Climbing Wall</b><br>Bught Lane, Inverness, IV3 5SS Scotland, UK<br>01463 667500<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.highlifehighland.com/il/climbing-wall/'>Inverness Leisure Climbing Wall</a>",
+		57.4631544,
+		-4.2406449
+	],
+	[
+		"<b>Alien Rock</b><br>Old St Andrews Church; 8 Pier Place, Newhaven, Edinburgh, Midlothian, Scotland EH6 4LP United Kingdom<br>0131 552 7211<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.alienrock.co.uk/'>Alien Rock</a>",
+		55.980639,
+		-3.1959372
+	],
+	[
+		"<b>Peterhead Community Centre</b><br>Balmoor Terrace, Peterhead, Aberdeenshire, Scotland AB42 1EP United Kingdom<br>01779 477 277<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aberdeenshire.gov.uk/schools/outdoor/activities/rock-climbing/'>Peterhead Community Centre</a>",
+		57.5105568,
+		-1.7894713
+	],
+	[
+		"<b>Transition Extreme</b><br>Links Road, Queens Links, Aberdeen, Scotland AB24 5NN United Kingdom<br>01224 626279<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.transition-extreme.com/climbing-wall'>Transition Extreme</a>",
+		57.1515452,
+		-2.0821121
+	],
+	[
+		"<b>Snow Factor</b><br>Soar intu Braehead; Kings Inch Road, Renfrewshire, PA48XQ Scotland<br>T. +44 (0)871 222 5672<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.snowfactor.com/about-our-ice-wall/'>Snow Factor</a>",
+		55.8801842,
+		-4.3778472
+	],
+	[
+		"<b>University of St Andrews Sports Centre</b><br>St Leonards Road, St Andrews, Fife, KY16 9DY<br>01334 462190<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.st-andrews.ac.uk/sport/'>University of St Andrews Sports Centre</a>",
+		56.3373702,
+		-2.8118221
+	],
+	[
+		"<b>The Peak Stirling Sports Village</b><br>Forthside Way, Stirling, Scotland FK8 1QZ United Kingdom<br>01786 273555<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.the-peak-stirling.org.uk/'>The Peak Stirling Sports Village</a>",
+		56.1183697,
+		-3.9301894
+	],
+	[
+		"<b>BoxRox (Aberystwyth University Sports Centre)</b><br>Penglais Campus, Aberystwyth, Ceredigion SY23 3AR United Kingdom<br>01970 622 280<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aber.ac.uk/en/sportscentre/facilities/boxrox/'>BoxRox (Aberystwyth University Sports Centre)</a>",
+		52.417793,
+		-4.065933
+	],
+	[
+		"<b>Plas Arthur Sports Centre</b><br>Llangefni, Anglesey, Gwynedd, Wales LL77 7QX United Kingdom<br>01248 722 966<br>",
+		53.2818699,
+		-3.7829281
+	],
+	[
+		"<b>Pavilion Leisure Centre</b><br>The Promenade, Barmouth, Gwynedd, Wales LL42 1NF United Kingdom<br>01341 280 111<br>",
+		52.7212447,
+		-4.0560148
+	],
+	[
+		"<b>Brecon Leisure Centre</b><br>Penlan, Brecon, Powys, Wales LD3 9SR United Kingdom<br>01874 623 677<br>",
+		51.9525766,
+		-3.3818392
+	],
+	[
+		"<b>Beacon Climbing Centre</b><br>Cibyn Estate, Caernarfon, Gwynedd LL55 2BD United Kingdom<br>0845 450 8222<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.beaconclimbing.com/'>Beacon Climbing Centre</a>",
+		53.1404011,
+		-4.2496952
+	],
+	[
+		"<b>Cragfit</b><br>Rassau Industrial Estate, Ebbw Vale, NP23 5SD<br>01495 305343<br><a target='_blank' rel='noopener noreferrer'href = 'https://cragfit.co.uk/'>Cragfit</a>",
+		51.802542,
+		-3.2338505
+	],
+	[
+		"<b>Ebbw Vale Leisure Centre</b><br>, Ebbw Vale, Gwent, Wales NP23 6XB United Kingdom<br>495 303 766<br>",
+		51.777532,
+		-3.206151
+	],
+	[
+		"<b>UWB Sports Centre</b><br>University of Wales, Ffriddoedd Rd, Bangor, Gwynedd, Wales LL57 2JR United Kingdom<br><br>",
+		53.223336,
+		-4.1430288
+	],
+	[
+		"<b>Gilwern Outdoor Centre</b><br>Ty Mawr Lane, Gilwern, Abergavenny, Monmouthshire, Wales 01873832164 United Kingdom<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://www.gwentoutdoorcentres.org.uk/'>Gilwern Outdoor Centre</a>",
+		53.0098251,
+		-3.6270191
+	],
+	[
+		"<b>The Heights </b><br>75 High St, Llanberis, Caernarfon, Gwynedd, Wales LL55 4HB United Kingdom<br>01286 871 179<br>",
+		53.1194486,
+		-4.1262332
+	],
+	[
+		"<b>Llandudno Junction Leisure Centre</b><br>Llandudno Junction, Llandudno, Gwynedd, Wales LL31 9XY United Kingdom<br>01492 583 592<br>",
+		53.2818699,
+		-3.7829281
+	],
+	[
+		"<b>Dyffryn Conwy Leisure Centre</b><br>Nebo Rd, Llanrwst, Gwynedd, Wales LL26 0SD United Kingdom<br>01492 642 028<br>",
+		53.1331862,
+		-3.7865412
+	],
+	[
+		"<b>Clyne Farm Centre</b><br>Westport Avenue, Mayals, Swansea, Wales SA3 5AR United Kingdom<br>01792 403333<br><a target='_blank' rel='noopener noreferrer'href = 'https://clynefarm.com/'>Clyne Farm Centre</a>",
+		51.5974016,
+		-4.0100972
+	],
+	[
+		"<b>Boulders</b><br>St Catherine's Park, Pengam Road, Cardiff, Wales CF24 2RZ United Kingdom<br>08455 211850<br><a target='_blank' rel='noopener noreferrer'href = 'https://bouldersuk.com/'>Boulders</a>",
+		51.4921238,
+		-3.1415889
+	],
+	[
+		"<b>Pontllanfrath Leisure Centre</b><br>Coed-cae-ddu Road, Pontllanfrath, Blackwood, Gwent, Wales NP12 2DA United Kingdom<br>01495 224 562<br>",
+		51.6551349,
+		-3.1930013
+	],
+	[
+		"<b>The Boardroom Climbing</b><br>Rectors Lane Ind Est, Rectors Lane, Pentre, Queensferry, Flintshire CH5 2DH Wales<br>01244 537476<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.theboardroomclimbing.com'>The Boardroom Climbing</a>",
+		53.2016953,
+		-3.00843
+	],
+	[
+		"<b>Spot Climbing Centre</b><br>Unit 11, Rizla House, Severn Road, Pontypridd, Treforest, Mid Glamorgan CF37 4AW Wales, UK<br>01443 843116<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.spotclimbing.co.uk/'>Spot Climbing Centre</a>",
+		51.6019372,
+		-3.3250184
+	],
+	[
+		"<b>Plas Power Adventure</b><br>Plas Power Road, Southsea, Wrexham, Wales LL115 SZ United Kingdom<br>01978 754747<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.plaspoweradventure.com/'>Plas Power Adventure</a>",
+		53.0598450,
+		-3.0467520
+	],
+	[
+		"<b>Swansea Indoor Rock Climbing Centre</b><br>Clydach, Swansea, Wales SA6 5EJ United Kingdom<br>01792 845655<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dynamicrock.co.uk/'>Swansea Indoor Rock Climbing Centre</a>",
+		51.6939964,
+		-3.8988117
+	],
+	[
+		"<b>The Overhang Indoor Climbing Centre Tenby</b><br>Castle Beach, Tenby, Pembrokeshire SA70 7BP Wales<br>01834 842302<br><a target='_blank' rel='noopener noreferrer'href = 'http://tenbyclimbingwall.co.uk/'>The Overhang Indoor Climbing Centre Tenby</a>",
+		51.6719349,
+		-4.6953876
+	],
+	[
+		"<b>Rock UK Summit Centre</b><br>The Old Drift Mine, Trelewis, Treharris, Wales CF46 6RD United Kingdom<br>0844 8000 222<br><a target='_blank' rel='noopener noreferrer'href = 'https://rockuk.org/'>Rock UK Summit Centre</a>",
+		51.683775,
+		-3.297319
+	],
+	[
+		"<b>The Beacon Climbing Centre</b><br>Waunfawr, nr Llanberis, Ceunant, Gwynedd, Wales LL55 4SA United Kingdom<br>01286 650045 / 01286 650105<br>",
+		53.1253269,
+		-4.199
+	]
+]}

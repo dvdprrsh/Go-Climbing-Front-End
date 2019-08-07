@@ -8,15 +8,17 @@ import FindRoute from "./screens/FindRoute";
 
 const App = () => {
 	return (
-		<Router history={history}>
-			<Header />
-			<div>
-				<Switch>
-					<Route path="/find/gym" component={FindGym} />
-					<Route path="/find/route" component={FindRoute} />
-				</Switch>
-			</div>
-		</Router>
+		<div>
+			<Router history={history}>
+				<div>
+					<Header />
+					<Switch>
+						<Route path="/find/gym" component={FindGym} />
+						<Route path="/find/route" component={FindRoute} />
+					</Switch>
+				</div>
+			</Router>
+		</div>
 	);
 };
 
