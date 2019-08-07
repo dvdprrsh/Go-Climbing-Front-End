@@ -4,14 +4,16 @@ import Header from "./Header.js";
 import history from "../history";
 
 import FindGym from "./screens/FindGym";
+import FindRoute from "./screens/FindRoute";
 
 const App = () => {
 	return (
 		<Router history={history}>
-				<Header />
+			<Header />
 			<div>
 				<Switch>
 					<Route path="/find/gym" component={FindGym} />
+					<Route path="/find/route" component={FindRoute} />
 				</Switch>
 			</div>
 		</Router>
