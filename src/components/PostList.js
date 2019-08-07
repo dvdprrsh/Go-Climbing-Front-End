@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 import UserHeader from "./UserHeader";
+import faker from "faker";
+import CreatePostForm from "./CreatePostForm";
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -15,21 +17,21 @@ class PostList extends React.Component {
         <div className="ui relaxed divided items" key={post.id}>
           <div className="item">
             <div className="ui small image">
-              <img src="https://www.proteomics.uni-freiburg.de/images/team/portrait-dummy.png/image" />
+              <img src="https://pkf-francisclarkcareers.co.uk/wp-content/uploads/2017/10/placeholder.png" />
             </div>
             <div className="content">
               <a className="header">{post.title}</a>
               <div className="meta">
-                <a>Date</a>
+                <a>{post.postDateTime}</a>
                 <a>Category</a>
               </div>
               <div className="description">{post.body}</div>
               <div className="extra">
                 <img
-                  src="https://www.proteomics.uni-freiburg.de/images/team/portrait-dummy.png/image"
+                  src={faker.image.avatar()}
                   className="ui circular avatar image"
                 />
-                Username
+                {post.username}
               </div>
             </div>
           </div>
@@ -39,7 +41,12 @@ class PostList extends React.Component {
   }
 
   render() {
-    return <div className="ui container">{this.renderList()}</div>;
+    return (
+      <div className="ui container">
+        <CreatePostForm />
+        {this.renderList()}
+      </div>
+    );
   }
 }
 
