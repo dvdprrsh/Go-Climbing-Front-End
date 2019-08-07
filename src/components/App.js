@@ -7,18 +7,14 @@ import FindGym from "./screens/FindGym";
 
 const App = () => {
 	return (
-		<div className="ui container">
-			<Router history={history}>
-				<div>
-					<Header />
-					{
-						<Switch>
-							<Route path="/find/gym" component={FindGym} />
-						</Switch>
-					}
-				</div>
-			</Router>
-		</div>
+		<Router history={history}>
+				<Header />
+			<div>
+				<Switch>
+					<Route path="/find/gym" component={FindGym} />
+				</Switch>
+			</div>
+		</Router>
 	);
 };
 
