@@ -1,4 +1,4 @@
-import jsonPlaceholder from "../../apis/jsonPlaceholder";
+import jsonPlaceholder from "../../apis/forumJsonAPI";
 import _ from "lodash";
 
 export const fetchPosts = () => async dispatch => {
