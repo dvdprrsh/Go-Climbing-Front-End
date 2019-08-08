@@ -24,12 +24,11 @@ const FindGym = () => (
 			<MapView toFind={GYMS} />
 		</div>
 		<div
-			className="ui list"
+			className="ui divided list pushable"
 			style={{
 				alignSelf: "flex-end",
 				height: "92vh",
-				width: "20%",
-				overflow: "scroll"
+				width: "19.5%"
 			}}
 		>
 			<h4>Locations</h4>
