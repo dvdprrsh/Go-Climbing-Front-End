@@ -20,16 +20,14 @@ class CreatePostForm extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    const { userId } = this.state.userId;
-    const { postId } = this.state.postId;
     const { title } = this.state.title;
     const { body } = this.state.body;
     const { username } = this.state.username;
 
     axios
       .post(
-        "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/create.php?postid=" +
-          "&posttitle=" +
+        "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/create.php" +
+          "?posttitle=" +
           this.state.title +
           "&postbody=" +
           this.state.body +
