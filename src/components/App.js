@@ -13,8 +13,8 @@ const App = () => {
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/find/gym" component={FindGym} />
-						<Route path="/find/route" component={FindRoute} />
+						<Route path="/find-gym" component={FindGym} />
+						<Route path="/find-route" component={FindRoute} />
 					</Switch>
 				</div>
 			</Router>

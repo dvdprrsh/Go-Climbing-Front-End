@@ -1,51 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import { Map as GoogleMap, GoogleApiWrapper } from "google-maps-react";
+import { GYMS } from "../types";
+
 import { locations } from "../apis/gymLocations";
-import { GYMS, LATITUDE, LONGITUDE, DETAIL } from "../types";
+import makeMarker from "./makeMarker";
 
 const Map = ({
 	google,
 	location = { lat: 37.774929, lng: -122.419416 },
 	toFind
 }) => {
-	const fetchGyms = map => {
+	const EMPTY_DETAIL = new google.maps.InfoWindow();
+	const [markerDetail, setMarkerDetail] = useState(EMPTY_DETAIL);
+
+	const renderGyms = map => {
 		locations.map(location => {
-			const marker = new google.maps.Marker({
-				position: new google.maps.LatLng(
-					location[LATITUDE],
-					location[LONGITUDE]
-				),
-				map,
-				detail: location[DETAIL]
-			});
-
-			google.maps.event.addListener(marker, "click", () => {
-				const detail = new google.maps.InfoWindow();
-				console.log(marker);
-
-				detail.setContent(marker.detail);
-				detail.open(map, marker);
-			});
+			makeMarker(map, google, location, setMarkerDetail);
 		});
 	};
 
 	const fetchPlaces = (_, map) => {
 		if (toFind.toFind === GYMS) {
-			fetchGyms(map);
+			renderGyms(map, google, markerDetail, setMarkerDetail);
+		}
+	};
+
+	const onClick = () => {
+		if (markerDetail !== EMPTY_DETAIL) {
+			markerDetail.close();
 		}
 	};
 
 	return (
-		<div>
-			<GoogleMap
-				google={google}
-				zoom={14}
-				onReady={fetchPlaces}
-				initialCenter={location}
-				center={location}
-				style={{ width: "100%", height: "100%", position: "relative" }}
-			/>
-		</div>
+		<GoogleMap
+			google={google}
+			zoom={14}
+			onReady={fetchPlaces}
+			onClick={onClick}
+			initialCenter={location}
+			center={location}
+			containerStyle={{ height: "93.5%", width: "80%" }}
+		/>
 	);
 };
 

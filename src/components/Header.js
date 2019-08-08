@@ -17,12 +17,12 @@ const Header = () => {
 					Forums
 				</Link>
 
-				<Link to='/find/gym' className='item'>
+				<Link to='/find-gym' className='item'>
 					<i className="search icon" />
 					Find a Gym
 				</Link>
 
-				<Link to='/find/route' className='item'>
+				<Link to='/find-route' className='item'>
 					<i className="map icon" />
 					Find a Route
 				</Link>

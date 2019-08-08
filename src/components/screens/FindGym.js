@@ -1,18 +1,41 @@
 import React from "react";
 import MapView from "../../common-components/MapView";
+import { locations } from "../../apis/gymLocations";
+import { GYMS, DETAIL } from "../../types";
 
-import { GYMS } from "../../types";
-
-const FindGym = () => {
-	return (
-		<div className="ui grid" style={{height:'100%'}}>
-			<div className="twelve wide column">
-				<MapView toFind={GYMS} />
+const renderList = () => {
+	return locations.map(location => {
+		const detail = location[DETAIL];
+		return (
+			<div className="item" key={location[DETAIL]}>
+				<i className="map marker icon" />
+				<div
+					className="content"
+					dangerouslySetInnerHTML={{ __html: detail }}
+				/>
 			</div>
-
-			<div className="four wide column" />
-		</div>
-	);
+		);
+	});
 };
+
+const FindGym = () => (
+	<div style={{ display: "flex", flex: 1, flexDirection: "column" }}>
+		<div>
+			<MapView toFind={GYMS} />
+		</div>
+		<div
+			className="ui list"
+			style={{
+				alignSelf: "flex-end",
+				height: "92vh",
+				width: "20%",
+				overflow: "scroll"
+			}}
+		>
+			<h4>Locations</h4>
+			{renderList()}
+		</div>
+	</div>
+);
 
 export default FindGym;
