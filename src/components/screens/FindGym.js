@@ -3,6 +3,8 @@ import MapView from "../../common-components/MapView";
 import { locations } from "../../apis/gymLocations";
 import { GYMS, DETAIL } from "../../types";
 
+import "../styles/FindGym.css";
+
 const renderList = () => {
 	return locations.map(location => {
 		const detail = location[DETAIL];
@@ -19,18 +21,11 @@ const renderList = () => {
 };
 
 const FindGym = () => (
-	<div style={{ display: "flex", flex: 1, flexDirection: "column" }}>
+	<div id="gymFlex">
 		<div>
 			<MapView toFind={GYMS} />
 		</div>
-		<div
-			className="ui divided list pushable"
-			style={{
-				alignSelf: "flex-end",
-				height: "92vh",
-				width: "19.5%"
-			}}
-		>
+		<div id="gymList" className="ui divided list pushable">
 			<h4>Locations</h4>
 			{renderList()}
 		</div>
