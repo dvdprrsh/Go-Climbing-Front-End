@@ -25,7 +25,7 @@ const FindGym = () => (
 		<div>
 			<MapView toFind={GYMS} />
 		</div>
-		<div id="gymList" className="ui divided list pushable">
+		<div id="gymList" className="ui divided list">
 			<h4>Locations</h4>
 			{renderList()}
 		</div>
