@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
-import UserHeader from "./UserHeader";
 import faker from "faker";
 import CreatePostForm from "./CreatePostForm";
 import "./styles/PostList.css";

@@ -1,14 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import axios from "axios";
-import forumJsonAPI from "../apis/forumJsonAPI";
 import "./styles/CreatePostForm.css";
-import { fetchPosts } from "../actions/forum";
-import { connect } from "react-redux";
 
 const deletepost = a => {
   axios
     .post(
-      "http://51.255.163.79:8080/https://empiredigital.eu/phptest/delete.php?postid=" +
+      "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/delete.php?postid=" +
         a
     )
     .then(result => {

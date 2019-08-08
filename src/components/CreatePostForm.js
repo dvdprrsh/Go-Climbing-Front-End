@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import forumJsonAPI from "../apis/forumJsonAPI";
 import "./styles/CreatePostForm.css";
 
 class CreatePostForm extends Component {
@@ -30,7 +29,7 @@ class CreatePostForm extends Component {
 
     axios
       .post(
-        "http://51.255.163.79:8080/https://empiredigital.eu/phptest/create.php?postid=" +
+        "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/create.php?postid=" +
           "&posttitle=" +
           this.state.title +
           "&postbody=" +
