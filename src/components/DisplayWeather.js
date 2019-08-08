@@ -22,9 +22,7 @@ class Weather extends React.Component {
               this.state.long +
               "&oneobservation=true&app_id=YMzC0O27tIk0W1Q8NI6T&app_code=pgp95AhYZSRz9PgUFpfxUg"
           )
-          .then(result => {
-            console.log("get successful");
-          });
+          .then(result => {});
       },
       err => this.setState({ errorMessage: err.message })
     );

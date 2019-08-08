@@ -25,7 +25,6 @@ class CreatePostForm extends Component {
     const { title } = this.state.title;
     const { body } = this.state.body;
     const { username } = this.state.username;
-    console.log(this.state);
 
     axios
       .post(
@@ -38,7 +37,6 @@ class CreatePostForm extends Component {
           this.state.username
       )
       .then(result => {
-        console.log("posted, refreshng");
         window.location.reload(true);
       });
   };
