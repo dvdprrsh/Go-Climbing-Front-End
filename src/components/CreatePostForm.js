@@ -6,8 +6,6 @@ class CreatePostForm extends Component {
   constructor() {
     super();
     this.state = {
-      userId: "",
-      postId: "",
       title: "",
       body: "",
       username: ""
