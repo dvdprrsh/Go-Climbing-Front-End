@@ -3,27 +3,17 @@ import { Router, Route, Switch } from "react-router-dom";
 import Header from "./Header.js";
 import history from "../history";
 import PostList from "./PostList";
+import Forum from "./screens/Forum";
 
 const App = () => {
   return (
-    <div className="ui container">
+    <div>
       <Router history={history}>
         <div>
           <Header />
-          <PostList />
-          {/* <Switch>
-						<Route path="/" exact component={StreamList} />
-						<Route path="/streams/new" component={StreamCreate} />
-						<Route
-							path="/streams/delete/:id"
-							component={StreamDelete}
-						/>
-						<Route
-							path="/streams/edit/:id"
-							component={StreamEdit}
-						/>
-						<Route path="/streams/:id" component={StreamShow} />
-					</Switch> */}
+          <Switch>
+            <Route path="/forums" component={Forum} />
+          </Switch>
         </div>
       </Router>
     </div>

@@ -5,6 +5,7 @@ import UserHeader from "./UserHeader";
 import faker from "faker";
 import CreatePostForm from "./CreatePostForm";
 import "./styles/PostList.css";
+import { DeleteButton } from "./DeleteButton";
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -15,7 +16,7 @@ class PostList extends React.Component {
     console.log(this.props.posts);
     return this.props.posts.map(post => (
       <div className="postListMain">
-        <div className="ui relaxed divided items" key={post.id}>
+        <div className="ui relaxed divided items" id={post.id}>
           <div className="item">
             <div className="ui small image">
               <img src="https://pkf-francisclarkcareers.co.uk/wp-content/uploads/2017/10/placeholder.png" />
@@ -27,10 +28,8 @@ class PostList extends React.Component {
                 <a>Category</a>
               </div>
               <div className="description">{post.body}</div>
-              <div className="extra">
-                <button id="deletebutton" className="circular ui icon button">
-                  <i className="trash alternate outline icon"></i>
-                </button>
+              <div className="extra" id={post.id}>
+                <DeleteButton postId={post.id} />
                 <img
                   src={faker.image.avatar()}
                   className="ui circular avatar image"
