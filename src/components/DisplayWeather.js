@@ -75,11 +75,7 @@ class Weather extends React.Component {
   }
 
   render() {
-    return (
-      <div id="maincard" className="border red">
-        {this.renderContent()}
-      </div>
-    );
+    return <div id="maincard">{this.renderContent()}</div>;
   }
 }
 const mapStateToProps = state => {
