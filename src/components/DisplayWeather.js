@@ -69,7 +69,9 @@ class Weather extends React.Component {
         </div>
       );
     }
-    return <Spinner message="Please accept location request" />;
+    return (
+      <Spinner message="Loading user location... You may need to accept the location request." />
+    );
   }
 
   render() {

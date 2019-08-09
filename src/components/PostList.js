@@ -28,7 +28,10 @@ class PostList extends React.Component {
               <div className="description">{post.body}</div>
               <div className="extra" id={post.id}>
                 <DeleteButton postId={post.id} />
-                <img src={faker.image.avatar()} className="ui circular avatar image" />
+                <img
+                  src={faker.image.avatar()}
+                  className="ui circular avatar image"
+                />
                 {post.username}
               </div>
             </div>
