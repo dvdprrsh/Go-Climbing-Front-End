@@ -24,11 +24,9 @@ class Weather extends React.Component {
           )
           .then(result => {
             this.setState({
-              test: result.data.observations.location[0].observation[0].comfort
+              test: result.data.observations.location[0].observation[0]
             });
-            console.log(
-              result.data.observations.location[0].observation[0].comfort
-            );
+            console.log(result.data.observations.location[0].observation[0]);
           });
       },
       err => this.setState({ errorMessage: err.message })
@@ -43,9 +41,19 @@ class Weather extends React.Component {
     if (!this.state.errorMessage && this.state.lat) {
       return (
         <div>
-          Latitude: {this.state.test}
+          Latitude: {this.state.lat}
           <br />
           Longitude: {this.state.long}
+          <br />
+          City: {this.state.test.city}
+          <br />
+          High Temp: {this.state.test.highTemperature}
+          <br />
+          Low Temp: {this.state.test.lowTemperature}
+          <br />
+          Description: {this.state.test.description}
+          <br />
+          Description: <img src={this.state.test.iconLink}></img>
         </div>
       );
     }
