@@ -5,6 +5,7 @@ import axios from "axios";
 import { getWeather } from "../actions/forum";
 import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
+import "./screens/styles/Weather.css";
 
 class Weather extends React.Component {
   state = { lat: null, long: null, errorMessage: "", test: "" };
@@ -40,20 +41,31 @@ class Weather extends React.Component {
 
     if (!this.state.errorMessage && this.state.lat) {
       return (
-        <div>
-          Latitude: {this.state.lat}
-          <br />
-          Longitude: {this.state.long}
-          <br />
-          City: {this.state.test.city}
-          <br />
-          High Temp: {this.state.test.highTemperature}
-          <br />
-          Low Temp: {this.state.test.lowTemperature}
-          <br />
-          Description: {this.state.test.description}
-          <br />
-          Description: <img src={this.state.test.iconLink}></img>
+        <div className="ui card">
+          <div className="ui slide masked reveal image">
+            <img src={this.state.test.iconLink}></img>
+          </div>
+          <div className="content">
+            <a className="header">
+              {this.state.test.city}, {this.state.test.state}
+            </a>
+            <br />
+            <a className="header">{this.state.test.temperature}°C</a>
+            <br />
+            <a className="header">{this.state.test.description}</a>
+            <div className="meta">
+              <span className="date">
+                Wind Direction:{this.state.test.windDesc},{" "}
+                {this.state.test.windSpeed} Knots
+              </span>
+            </div>
+          </div>
+          <div className="extra content">
+            <a>
+              <i className="clock"></i>Last updated:{" "}
+              {this.state.test.ageMinutes}m ago
+            </a>
+          </div>
         </div>
       );
     }
@@ -61,7 +73,11 @@ class Weather extends React.Component {
   }
 
   render() {
-    return <div className="border red">{this.renderContent()}</div>;
+    return (
+      <div id="maincard" className="border red">
+        {this.renderContent()}
+      </div>
+    );
   }
 }
 const mapStateToProps = state => {
