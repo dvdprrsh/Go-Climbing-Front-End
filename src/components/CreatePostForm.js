@@ -21,16 +21,15 @@ class CreatePostForm extends Component {
     const { title } = this.state.title;
     const { body } = this.state.body;
     const { username } = this.state.username;
-
     axios
       .post(
         "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/create.php" +
           "?posttitle=" +
-          this.state.title +
+          title +
           "&postbody=" +
-          this.state.body +
+          body +
           "&username=" +
-          this.state.username
+          username
       )
       .then(result => {
         window.location.reload(true);
@@ -38,7 +37,7 @@ class CreatePostForm extends Component {
   };
 
   render() {
-    const { userId, postId, title, body, username } = this.state;
+    const { title, body, username } = this.state;
     return (
       <div id="testing" className="ui form">
         <form onSubmit={this.onSubmit}>
