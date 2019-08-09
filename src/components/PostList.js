@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 import faker from "faker";
 import CreatePostForm from "./CreatePostForm";
-import "./styles/PostList.css";
+import "./screens/styles/PostList.css";
 import { DeleteButton } from "./DeleteButton";
 
 class PostList extends React.Component {
@@ -28,10 +28,7 @@ class PostList extends React.Component {
               <div className="description">{post.body}</div>
               <div className="extra" id={post.id}>
                 <DeleteButton postId={post.id} />
-                <img
-                  src={faker.image.avatar()}
-                  className="ui circular avatar image"
-                />
+                <img src={faker.image.avatar()} className="ui circular avatar image" />
                 {post.username}
               </div>
             </div>

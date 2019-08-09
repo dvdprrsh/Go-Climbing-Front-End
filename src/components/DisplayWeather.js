@@ -1,6 +1,6 @@
 import React from "react";
 import Spinner from "../common-components/Spinner";
-import "./styles/PostList.css";
+import "./screens/styles/PostList.css";
 import axios from "axios";
 import { getWeather } from "../actions/forum";
 import { connect } from "react-redux";
