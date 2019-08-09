@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 
 class Weather extends React.Component {
-  state = { lat: null, long: null, errorMessage: "" };
+  state = { lat: null, long: null, errorMessage: "", test: "" };
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
@@ -22,7 +22,14 @@ class Weather extends React.Component {
               this.state.long +
               "&oneobservation=true&app_id=YMzC0O27tIk0W1Q8NI6T&app_code=pgp95AhYZSRz9PgUFpfxUg"
           )
-          .then(result => {});
+          .then(result => {
+            this.setState({
+              test: result.data.observations.location[0].observation[0].comfort
+            });
+            console.log(
+              result.data.observations.location[0].observation[0].comfort
+            );
+          });
       },
       err => this.setState({ errorMessage: err.message })
     );
@@ -36,7 +43,7 @@ class Weather extends React.Component {
     if (!this.state.errorMessage && this.state.lat) {
       return (
         <div>
-          Latitude: {this.state.lat}
+          Latitude: {this.state.test}
           <br />
           Longitude: {this.state.long}
         </div>
