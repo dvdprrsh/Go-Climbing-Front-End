@@ -23,6 +23,11 @@ const headerTabs = [
     route: "/find-route",
     icon: "map icon",
     text: "Find a Route"
+  },
+  {
+    route: "/weather",
+    icon: "cloud icon",
+    text: "Weather"
   }
 ];
 
