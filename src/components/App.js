@@ -3,8 +3,8 @@ import { Router, Route, Switch } from "react-router-dom";
 import { Header } from "../common-components";
 import history from "../history";
 
-import FindGym from "./screens/FindGym";
-import FindRoute from "./screens/FindRoute";
+import { FindGym } from "./screens/FindGym";
+import { FindRoute } from "./screens/FindRoute";
 
 export const App = () => (
   <Router history={history}>
