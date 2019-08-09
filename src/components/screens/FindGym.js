@@ -3,7 +3,7 @@ import { MapView } from "../../common-components";
 import { locations } from "../../apis/gymLocations";
 import { GYMS, DETAIL } from "../../types";
 
-import "../styles/FindGym.css";
+import "./styles/FindGym.css";
 
 const renderList = () => {
   return locations.map(location => {
