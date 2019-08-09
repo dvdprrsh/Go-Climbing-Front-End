@@ -1,0 +1,12 @@
+#gymFlex {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+#gymList {
+	align-self: flex-end;
+	height: 92vh;
+	width: 19.5%;
+	overflow: scroll;
+}
