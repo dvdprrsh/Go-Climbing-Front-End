@@ -1,15 +1,7 @@
 import React from "react";
 
-const Loading = props => {
-	return (
-		<div className="ui active dimmer">
-			<div className="ui text loader">{props.loadingText}</div>
-		</div>
-	);
-};
+export const Loading = ({ loadingText }) => <div className="ui text loader">{loadingText}</div>;
 
 Loading.defaultProps = {
-	loadingText: "Please Wait...."
+  loadingText: "Please Wait...."
 };
-
-export default Loading
