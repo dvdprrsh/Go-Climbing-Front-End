@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 import "./screens/styles/Weather.css";
 
-class Weather extends React.Component {
+class WeatherOverview extends React.Component {
   state = { lat: null, long: null, errorMessage: "", test: "" };
 
   componentDidMount() {
@@ -85,4 +85,4 @@ const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   { fetchPosts }
-)(Weather);
+)(WeatherOverview);

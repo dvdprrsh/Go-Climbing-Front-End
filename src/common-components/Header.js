@@ -28,6 +28,11 @@ const headerTabs = [
     route: "/weather",
     icon: "cloud icon",
     text: "Weather"
+  },
+  {
+    route: "/find-coach",
+    icon: "blind icon",
+    text: "Find a Coach"
   }
 ];
 

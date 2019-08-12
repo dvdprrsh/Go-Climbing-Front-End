@@ -8,6 +8,7 @@ import Forum from "./screens/Forum";
 import Weather from "./screens/Weather";
 import FindGym from "./screens/FindGym";
 import FindRoute from "./screens/FindRoute";
+import FindCoach from "./screens/FindCoach";
 
 export const App = () => (
   <Router history={history}>
@@ -17,6 +18,7 @@ export const App = () => (
       <Route path="/weather" component={Weather} />
       <Route path="/forums" component={Forum} />
       <Route path="/find-route" component={FindRoute} />
+      <Route path="/find-coach" component={FindCoach} />
     </Switch>
   </Router>
 );
