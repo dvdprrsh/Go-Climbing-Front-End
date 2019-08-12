@@ -20,9 +20,9 @@ const headerTabs = [
     text: "Find a Gym"
   },
   {
-    route: "/find-route",
+    route: "/find-crag",
     icon: "map icon",
-    text: "Find a Route"
+    text: "Find a Crag"
   },
   {
     route: "/weather",

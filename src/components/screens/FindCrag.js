@@ -25,7 +25,7 @@ const renderCragsList = map => {
   });
 };
 
-const FindRoute = ({ map }) => (
+const FindCrag = ({ map }) => (
   <div id="gymRouteFlex">
     <MapView toFind={CRAGS} />
     <div id="gymRouteList" className="ui divided list">
@@ -45,4 +45,4 @@ const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   { getMap }
-)(FindRoute);
+)(FindCrag);
