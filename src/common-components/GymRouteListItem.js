@@ -2,8 +2,11 @@ import React from "react";
 
 const onClicked = (markerLocation, map) => {
   if (map) {
-    console.log(map);
-    // map.panTo(markerLocation.lat, markerLocation.lng);
+    let latLng = new window.google.maps.LatLng(
+      markerLocation.lat,
+      markerLocation.lng
+    );
+    map.map.map.panTo(latLng);
   }
 };
 

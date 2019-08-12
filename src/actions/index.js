@@ -1,14 +1,15 @@
 import { SET_MAP, GET_MAP } from "./types";
 
-export const setMap = map => {
-  return {
+export const setMap = map => dispatch => {
+  dispatch({
     type: SET_MAP,
     payload: map
-  };
+  });
 };
 
-export const alsoChange = () => {
+export const getMap = () => getState => {
   return {
-    type: GET_MAP
+    type: GET_MAP,
+    payload: getState().getMap
   };
 };

@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import mapReducer from "./mapReducer";
 
 export default combineReducers({
-	change_me: () => "change_me"
+  map: mapReducer
 });

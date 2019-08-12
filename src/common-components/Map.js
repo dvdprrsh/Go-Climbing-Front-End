@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
 import { Map as GoogleMap, GoogleApiWrapper } from "google-maps-react";
+import { setMap, getMap } from "../actions";
 import { GYMS, CRAGS } from "../types";
 import { makeMarker } from "./";
 import { locations as gymLocations } from "../apis/gymLocations";
@@ -7,7 +9,7 @@ import cragLocations from "../apis/cragLocations";
 
 const initLocation = { lat: 37.774929, lng: -122.419416 };
 
-const Map = ({ google, location, toFind }) => {
+const Map = ({ setMap, google, toFind }) => {
   const EMPTY_DETAIL = new google.maps.InfoWindow();
   const [markerDetail, setMarkerDetail] = useState(EMPTY_DETAIL);
 
@@ -34,6 +36,7 @@ const Map = ({ google, location, toFind }) => {
   };
 
   const fetchPlaces = (mapProps, map) => {
+    setMap({ map });
     if (toFind.toFind === GYMS) {
       renderGyms(map);
     } else if (toFind.toFind === CRAGS) {
@@ -49,6 +52,7 @@ const Map = ({ google, location, toFind }) => {
 
   return (
     <GoogleMap
+      id="map"
       google={google}
       zoom={14}
       onReady={fetchPlaces}
@@ -60,6 +64,15 @@ const Map = ({ google, location, toFind }) => {
   );
 };
 
-export default GoogleApiWrapper({
-  apiKey: "AIzaSyAg3FF6ZCSmStzyLe9viIyoOC0M-3TdR20"
-})(Map);
+const mapStateToProps = state => {
+  return { map: state.map, panToPoint: state.panToPoint };
+};
+
+export default connect(
+  mapStateToProps,
+  { setMap, getMap }
+)(
+  GoogleApiWrapper({
+    apiKey: "AIzaSyAg3FF6ZCSmStzyLe9viIyoOC0M-3TdR20"
+  })(Map)
+);
