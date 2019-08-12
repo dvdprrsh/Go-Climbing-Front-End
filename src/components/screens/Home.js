@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./styles/Home.css";
 import coachImage from "../../images/coachImage.jpg";
 import cragImage from "../../images/cragImage.jpg";
 import forumImage from "../../images/forumImage.jpg";
@@ -10,36 +10,36 @@ const linkImages = [
   {
     route: "/coach",
     src: coachImage,
-    text: "Find a Coach"
+    text: "FIND A COACH"
   },
   {
     route: "/forums",
     src: forumImage,
-    text: "Forums"
+    text: "FIND A FORUM"
   },
   {
     route: "/find-gym",
     src: gymImage,
-    text: "Find a Gym"
+    text: "FIND A GYM"
   },
   {
     route: "/find-crag",
     src: cragImage,
-    text: "Find a Crag"
+    text: "FIND A CRAG"
   }
 ];
 
 const card = (src, route, text) => (
-  <Link key={src} to={route}>
-    <img className="ui image card" alt={text} src={src} />
-  </Link>
+  <div key={route} className="image">
+    <Link to={route}>
+      <img className="ui image card" alt={text} src={src} />
+      <h1 id="centered">{text}</h1>
+    </Link>
+  </div>
 );
 
 export const Home = () => (
-  <div
-    style={{ display: "flex", flexWrap: "wrap" }}
-    className="ui centered grid containers images"
-  >
+  <div id="card-layout" className="ui centered grid container images">
     {linkImages.map(link => card(link.src, link.route, link.text))}
   </div>
 );

@@ -1,0 +1,31 @@
+#card-layout {
+  height: 90%;
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ui.image.card {
+  max-height: 44vh;
+  width: auto;
+
+  margin-bottom: 10px;
+}
+
+.image {
+  position: relative;
+}
+
+#centered {
+  position: absolute;
+  color: white;
+  top: 40%;
+  bottom: 40%;
+  left: 40%;
+  right: 40%;
+}
+
+h1 {
+  margin-top: 0px;
+  text-align: center;
+}
