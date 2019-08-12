@@ -22,7 +22,7 @@ class CreatePostForm extends Component {
 
     axios
       .post(
-        "http://51.255.163.79:8080/https://empiredigital.eu/goclimbing/create.php" +
+        "https://climbing-cors.herokuapp.com/https://empiredigital.eu/goclimbing/create.php" +
           "?posttitle=" +
           title +
           "&postbody=" +

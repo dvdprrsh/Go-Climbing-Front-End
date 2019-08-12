@@ -17,7 +17,7 @@ class Weather extends React.Component {
         this.setState({ long: position.coords.longitude });
         axios
           .get(
-            "http://51.255.163.79:8080/https://weather.cit.api.here.com/weather/1.0/report.json?product=observation&latitude=" +
+            "https://climbing-cors.herokuapp.com/https://weather.cit.api.here.com/weather/1.0/report.json?product=observation&latitude=" +
               this.state.lat +
               "&longitude=" +
               this.state.long +
