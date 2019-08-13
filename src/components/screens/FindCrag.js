@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import { connect } from "react-redux";
 import { MapView, GymRouteListItem } from "../../common-components";
 import { getMap } from "../../actions";
@@ -7,7 +8,7 @@ import { CRAGS } from "../../types";
 import usersLocation from "../../common-components/usersLocation";
 import "./styles/FindGym.css";
 
-const sortCragsList = map => {
+const getCragList = map => {
   const usersLoc = usersLocation();
   return cragLocations.map(cragLocation => {
     const cragDetail = `${cragLocation.name} When To Go: ${
@@ -28,7 +29,16 @@ const sortCragsList = map => {
 };
 
 const renderCragsList = () => {
-  console.log(sortCragsList());
+  var cragList = getCragList();
+  cragList.map(crag => {
+    crag.distance.then(result => {
+      if (crag === cragList[cragList.length - 1]) {
+        return crag.item;
+      }
+      crag.distance = result;
+    });
+  });
+  console.log("hi", cragList);
 };
 
 const FindCrag = ({ map }) => (
