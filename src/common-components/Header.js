@@ -20,17 +20,22 @@ const headerTabs = [
     text: "Find a Gym"
   },
   {
-    route: "/find-route",
+    route: "/find-crag",
     icon: "map icon",
-    text: "Find a Route"
+    text: "Find a Crag"
+  },
+  {
+    route: "/weather",
+    icon: "cloud icon",
+    text: "Weather"
   }
 ];
 
 export const Header = () => {
   return (
-    <div className="main ui attached stackable menu">
+    <div className="ui attached stackable menu">
       {headerTabs.map(link => (
-        <Link to={link.route} className="item">
+        <Link key={link.route} to={link.route} className="item">
           <i className={link.icon} />
           {link.text}
         </Link>

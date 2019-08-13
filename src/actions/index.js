@@ -1,20 +1,15 @@
-import streams from "../apis/streams";
-import history from "../history";
+import { SET_MAP, GET_MAP } from "./types";
 
-import {
-	CHANGE_ME,
-	ALSO_CHANGE,
-} from "./types";
-
-export const changeMe = userId => {
-	return {
-		type: CHANGE_ME,
-		payload: userId
-	};
+export const setMap = map => dispatch => {
+  dispatch({
+    type: SET_MAP,
+    payload: map
+  });
 };
 
-export const alsoChange = () => {
-	return {
-		type: ALSO_CHANGE
-	};
+export const getMap = () => getState => {
+  return {
+    type: GET_MAP,
+    payload: getState().getMap
+  };
 };

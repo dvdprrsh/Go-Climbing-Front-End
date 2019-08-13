@@ -1,32 +1,43 @@
 import React from "react";
-import { MapView } from "../../common-components";
-import { locations } from "../../apis/gymLocations";
-import { GYMS, DETAIL } from "../../types";
+import { connect } from "react-redux";
+import { MapView, GymRouteListItem } from "../../common-components";
+import { getMap } from "../../actions";
+import { locations as gymLocations } from "../../apis/gymLocations";
+import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
 
 import "./styles/FindGym.css";
 
-const renderList = () => {
-  return locations.map(location => {
-    const detail = location[DETAIL];
-    return (
-      <div className="item" key={location[DETAIL]}>
-        <i className="map marker icon" />
-        <div className="content" dangerouslySetInnerHTML={{ __html: detail }} />
-      </div>
-    );
+const renderLocationsList = map => {
+  return gymLocations.map(gymLocation => {
+    const detail = gymLocation[DETAIL];
+
+    return GymRouteListItem({
+      detail: detail,
+      key: detail,
+      loc: {
+        lat: gymLocation[LATITUDE],
+        lng: gymLocation[LONGITUDE]
+      },
+      map: map
+    });
   });
 };
 
-const FindGym = () => (
-  <div id="gymFlex">
-    <div>
-      <MapView toFind={GYMS} />
-    </div>
-    <div id="gymList" className="ui divided list">
+const FindGym = ({ map }) => (
+  <div id="gymRouteFlex">
+    <MapView toFind={GYMS} />
+    <div id="gymRouteList" className="ui divided list">
       <h4>Locations</h4>
-      {renderList()}
+      {renderLocationsList(map)}
     </div>
   </div>
 );
 
-export default FindGym;
+const mapStateToProps = state => {
+  return { map: state.map };
+};
+
+export default connect(
+  mapStateToProps,
+  { getMap }
+)(FindGym);
