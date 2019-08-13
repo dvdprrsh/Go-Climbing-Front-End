@@ -7,7 +7,7 @@ import history from "../history";
 import Forum from "./screens/Forum";
 import Weather from "./screens/Weather";
 import FindGym from "./screens/FindGym";
-import FindRoute from "./screens/FindRoute";
+import FindCrag from "./screens/FindCrag";
 import FindCoach from "./screens/FindCoach";
 
 export const App = () => (
@@ -17,7 +17,7 @@ export const App = () => (
       <Route path="/find-gym" component={FindGym} />
       <Route path="/weather" component={Weather} />
       <Route path="/forums" component={Forum} />
-      <Route path="/find-route" component={FindRoute} />
+      <Route path="/find-crag" component={FindCrag} />
       <Route path="/find-coach" component={FindCoach} />
     </Switch>
   </Router>

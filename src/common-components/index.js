@@ -4,3 +4,4 @@ export * from "./makeMarker";
 export * from "./Map";
 export * from "./MapView";
 export * from "./usersLocation";
+export * from "./GymRouteListItem";
