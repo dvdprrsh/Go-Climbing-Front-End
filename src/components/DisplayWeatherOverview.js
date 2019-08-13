@@ -2,7 +2,6 @@ import React from "react";
 import Spinner from "../common-components/Spinner";
 import "./screens/styles/PostList.css";
 import axios from "axios";
-import { getWeather } from "../actions/forum";
 import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 import "./screens/styles/Weather.css";
@@ -27,7 +26,6 @@ class WeatherOverview extends React.Component {
             this.setState({
               test: result.data.observations.location[0].observation[0]
             });
-            console.log(result.data.observations.location[0].observation[0]);
           });
       },
       err => this.setState({ errorMessage: err.message })

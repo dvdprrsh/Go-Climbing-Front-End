@@ -5,6 +5,5 @@ import usersReducer from "./usersReducer";
 
 export default combineReducers({
   posts: postsReducer,
-  users: usersReducer,
-  change_me: () => "change_me"
+  users: usersReducer
 });

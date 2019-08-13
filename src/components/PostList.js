@@ -12,7 +12,6 @@ class PostList extends React.Component {
   }
 
   renderList() {
-    console.log(this.props);
     return this.props.posts.map(post => (
       <div className="postListMain">
         <div className="ui relaxed divided items" id={post.id}>

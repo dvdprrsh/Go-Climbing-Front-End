@@ -1,6 +1,5 @@
 import React from "react";
 import WeatherOverview from "../DisplayWeatherOverview";
-import WeatherForecastWeek from "../DisplayWeatherWeek";
 
 const weatherdisplay = () => {
   return (
