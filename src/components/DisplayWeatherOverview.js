@@ -12,8 +12,7 @@ class WeatherOverview extends React.Component {
     long: null,
     errorMessage: "",
     test: "",
-    mphwind: "",
-    windround: ""
+    mphwind: ""
   };
 
   componentDidMount() {
