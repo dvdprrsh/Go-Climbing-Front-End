@@ -6,6 +6,6 @@ import mapReducer from "./mapReducer";
 
 export default combineReducers({
   posts: postsReducer,
-  users: usersReducer
+  users: usersReducer,
   map: mapReducer
 });

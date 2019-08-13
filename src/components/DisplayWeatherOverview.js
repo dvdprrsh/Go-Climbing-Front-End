@@ -44,13 +44,13 @@ class WeatherOverview extends React.Component {
             <img src={this.state.test.iconLink}></img>
           </div>
           <div className="content">
-            <a className="header">
+            <h2 className="header">
               {this.state.test.city}, {this.state.test.state}
-            </a>
+            </h2>
             <br />
-            <a className="header">{this.state.test.temperature}°C</a>
+            <h2 className="header">{this.state.test.temperature}°C</h2>
             <br />
-            <a className="header">{this.state.test.description}</a>
+            <h2 className="header">{this.state.test.description}</h2>
             <div className="meta">
               <span className="date">
                 Wind Direction:{this.state.test.windDesc},{" "}
@@ -59,10 +59,10 @@ class WeatherOverview extends React.Component {
             </div>
           </div>
           <div className="extra content">
-            <a>
+            <h4>
               <i className="clock"></i>Last updated:{" "}
               {this.state.test.ageMinutes}m ago
-            </a>
+            </h4>
           </div>
         </div>
       );
