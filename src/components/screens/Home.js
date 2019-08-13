@@ -33,13 +33,12 @@ const card = (src, route, text) => (
   <div key={route} className="image">
     <Link to={route}>
       <img className="ui image card" alt={text} src={src} />
-      <h1 id="centered">{text}</h1>
     </Link>
   </div>
 );
 
 export const Home = () => (
-  <div id="card-layout" className="ui centered grid container images">
+  <div id="card-layout" className="ui centered grid container">
     {linkImages.map(link => card(link.src, link.route, link.text))}
   </div>
 );
