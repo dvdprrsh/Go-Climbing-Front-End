@@ -4,10 +4,11 @@ import { MapView, GymRouteListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import cragLocations from "../../apis/cragLocations";
 import { CRAGS } from "../../types";
-
+import usersLocation from "../../common-components/usersLocation";
 import "./styles/FindGym.css";
 
-const renderCragsList = map => {
+const sortCragsList = map => {
+  const usersLoc = usersLocation();
   return cragLocations.map(cragLocation => {
     const cragDetail = `${cragLocation.name} When To Go: ${
       cragLocation.whenToGo
@@ -20,9 +21,14 @@ const renderCragsList = map => {
         lat: cragLocation.location.lat,
         lng: cragLocation.location.lng
       },
-      map: map
+      map: map,
+      usersLoc: usersLoc
     });
   });
+};
+
+const renderCragsList = () => {
+  console.log(sortCragsList());
 };
 
 const FindCrag = ({ map }) => (

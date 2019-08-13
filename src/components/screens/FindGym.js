@@ -4,10 +4,11 @@ import { MapView, GymRouteListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { locations as gymLocations } from "../../apis/gymLocations";
 import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
-
+import usersLocation from "../../common-components/usersLocation";
 import "./styles/FindGym.css";
 
 const renderLocationsList = map => {
+  const usersLoc = usersLocation();
   return gymLocations.map(gymLocation => {
     const detail = gymLocation[DETAIL];
 
@@ -18,8 +19,9 @@ const renderLocationsList = map => {
         lat: gymLocation[LATITUDE],
         lng: gymLocation[LONGITUDE]
       },
-      map: map
-    });
+      map: map,
+      usersLoc: usersLoc
+    }).item;
   });
 };
 
