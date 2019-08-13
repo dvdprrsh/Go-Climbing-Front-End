@@ -1,0 +1,89 @@
+[
+  {
+    "name": "<h4>Wyndcliffe Quarry</h4>",
+    "location": { "lat": 51.673384, "lng": -2.6825196 },
+    "description": "The tranquil Wye Valley is well worth a visit – there are all styles of climbing across a wide range of grades, generally on limestone. Wyndcliffe is a disused roadside limestone quarry, which offers slabby climbing in a sheltered woodland. Of the nearly 60 recorded routes, it’s roughly half and half trad versus sport climbing. Around a dozen sport routes are grade 4-6a. Be aware that some descents may require abseiling from cliff top trees.",
+    "whenToGo": "Cold, dry days"
+  },
+  {
+    "name": "<h4>Grower: Southgate Area</h4>",
+    "location": {
+      "lat": 51.565802,
+      "lng": -4.0977349
+    },
+    "description": "A complex area of stunning sea cliffs, caves and sheltered bays on the south Gower coast. Southgate is made up of several separate climbing crags a few minutes’ walk from the National Trust car park in the tiny village of Southgate. The setting is further enhanced by superb beaches and a really good  cafe and cake shop near the cliff top. Some of the best easier grade routes are on Watch House slab, which is non-tidal and dries quickly after rain. Be aware that some of the crags here are affected by the tides, so study the tide tables to avoid getting wet feet (or worse).",
+    "whenToGo": "Very sheltered and pleasant even on cold winter days"
+  },
+  {
+    "name": "<h4>Horseshoe Quarry</h4>",
+    "location": {
+      "lat": 53.280584,
+      "lng": -1.6940049
+    },
+    "description": "This large, disused limestone quarry near Stoney Middleton in Derbyshire is the centre of lower to mid grade sport climbing in the Peak District. Sheltered and quick drying, it’s superb for cold days and summer evenings. The best climbing lies on the Main Face but a wealth of easier and introductory routes can also be found on the Upper Tier. As with many old quarries there is still quite a lot of loose rock so wearing a helmet is advised. Access is easy - a well-surfaced path leads to the climbing areas in minutes.",
+    "whenToGo": "Colder days and summer evenings"
+  },
+  {
+    "name": "<h4>Trevor Rocks</h4>",
+    "location": {
+      "lat": 52.981475,
+      "lng": -3.1497976
+    },
+    "description": "A stunning setting overlooking the Upper Dee valley above Llangollen in North East Wales. Again, it’s an old limestone quarry. Over 150 climbing routes line an embankment with tremendous views over the remains of Dinas Bran castle, a medieval Welsh fort. With over ten separate climbing walls on a south-facing escarpment there’s something for every aspiring sport climber here. Look out for falcons and check access restrictions on our Regional Access Database. The left side of the cliff sometimes has nesting falcons and may be subject to access restrictions during spring and early summer.",
+    "whenToGo": "Sunny days – very exposed so don’t go on cold, windy days"
+  },
+  {
+    "name": "<h4>Castle Inn Quarry</h4>",
+    "location": {
+      "lat": 53.280995,
+      "lng": -3.6677982
+    },
+    "description": "No crags are more road-side than this one! Near Colwyn Bay, close to the A55 North Wales  expressway, limestone walls rise directly above a car park. Not only is this venue incredibly accessible, it’s often bathed in sunshine when the nearby mountains of Snowdonia are cloud-covered. It can be cold on windy days, but dries very quickly after rain. A number of really useful climbing routes for novice leaders can be found on the right wing of the main crag, including over a dozen that are less than grade 5. If you get bored of climbing, the top of the crag is part of the Mynydd Marian Nature Reserve. It’s a refuge for rare butterﬂies and nationally scarce heathland ﬂowers.",
+    "whenToGo": "Sunny days – take a picnic"
+  },
+  {
+    "name": "<h4>The Cuttings</h4>",
+    "location": {
+      "lat": 50.542492,
+      "lng": -2.4247321
+    },
+    "description": "An excellent, popular inland crag, looking out across Weymouth Bay. An old railway cutting has left several rock walls rising directly from a ﬂ at clear base. Although mainly quarried, the climbs are  highly varied on good clean vertical rock. Routes can require lots of ﬁnger strength and technique. In summer, the Cuttings can be hot, but makes a superb morning or evening venue. There are routes to suit all grades of climber, including a beginners’ sector.",
+    "whenToGo": "Looking for morning sunshine or evening shade"
+  },
+  {
+    "name": "<h4>Dinorwig slate quarries: Australia Area</h4>",
+    "location": {
+      "lat": 53.128362,
+      "lng": -4.1087963
+    },
+    "description": "Slate is a very unusual rock to climb on, requiring precise footwork, good balance and strong ﬁngers. The vast abandoned slate quarries of Llanberis in Snowdonia provide a surreal and dramatic backdrop to some very good sport climbs. Over 50 bolted climbing routes can be found on the slabby, terraced levels of the Australia sector at Dinorwig. Access is gained by following a public footpath from the parking area. Bear in mind that technically the routes are on private land and that the landowner (a power generation company) does not ofﬁcially allow access away from the marked footpaths.",
+    "whenToGo": "Not in winter, when it’s very cold. Dries quickly though"
+  },
+  {
+    "name": "<h4>Castlebergh Crag</h4>",
+    "location": {
+      "lat": 54.06982,
+      "lng": -2.2750186
+    },
+    "description": "There was no recorded climbing on this crag before 2009. Most local climbers apparently thought climbing wouldn’t be permitted here as it’s so close to the town centre of Settle in Yorkshire. Early in 2009, a rock-fall brought attention to the crag, and conversations led to an intense crag clean-up and transformation into a superb, south-facing climbing area. It was a unique collaboration: the local council funded the development, and local shops bought route names. Castlebergh offers a number of climbing routes from 4+ to 6a+ and a couple of harder routes for those wanting to push themselves a bit more. Some loose rock remains here, so wear a helmet.",
+    "whenToGo": "Sheltered venue when it’s windy"
+  },
+  {
+    "name": "<h4>Llanymynech</h4>",
+    "location": {
+      "lat": 52.787833,
+      "lng": -3.0927845
+    },
+    "description": "A limestone quarry on the border between England and Wales, near Oswestry, Shropshire. Offers dramatic, quite adventurous sport climbing - probably not suitable for novices on their ﬁ rst outdoor ventures. For those with a little more experience under their belts there are over 100, long sports routes here on several different faces. This quarry is a nature reserve managed by Shropshire Wildlife Trust. Be aware that due to rare nesting birds parts of the cliffs are under restricted access from 1 March to 30 June.",
+    "whenToGo": "Long, adventurous, vertical and steeper routes"
+  },
+  {
+    "name": "<h4>Dancing Ledge</h4>",
+    "location": {
+      "lat": 50.59003,
+      "lng": -2.0041852
+    },
+    "description": "Dancing Ledge offers easy access from a free car park close to the village of Langton Matravers and non-tidal climbing by the sea. As a result, it’s probably the most popular cliff at Swanage. However there’s plenty to go around: roughly 100 climbs, mostly sport, ranging from very hard routes to easier beginner climbs. Be aware that some of the 5s and 6s have become polished due to the passage of many rock shoes, and are consequently hard for their grade. Also worth noting: a small tidal pool was blasted into the rock overlooking the sea for local schools to use about 100 years ago. It’s not big enough to swim in, but a great place to cool down on a hot day.",
+    "whenToGo": "Out of peak season, when it’s quieter"
+  }
+]
