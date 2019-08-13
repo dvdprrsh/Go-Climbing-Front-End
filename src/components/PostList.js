@@ -17,18 +17,25 @@ class PostList extends React.Component {
         <div className="ui relaxed divided items" id={post.id}>
           <div className="item">
             <div className="ui small image">
-              <img src="https://pkf-francisclarkcareers.co.uk/wp-content/uploads/2017/10/placeholder.png" />
+              <img
+                alt="Forum Post"
+                src="https://pkf-francisclarkcareers.co.uk/wp-content/uploads/2017/10/placeholder.png"
+              />
             </div>
             <div className="content">
-              <a className="header">{post.title}</a>
+              <h2 className="header">{post.title}</h2>
               <div className="meta">
-                <a>{post.postDateTime}</a>
-                <a>Category</a>
+                <span>{post.postDateTime}</span>
+                <span>Category</span>
               </div>
               <div className="description">{post.body}</div>
               <div className="extra" id={post.id}>
                 <DeleteButton postId={post.id} />
-                <img src={faker.image.avatar()} className="ui circular avatar image" />
+                <img
+                  alt="Avatar"
+                  src={faker.image.avatar()}
+                  className="ui circular avatar image"
+                />
                 {post.username}
               </div>
             </div>
