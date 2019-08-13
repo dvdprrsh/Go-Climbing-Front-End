@@ -30,6 +30,7 @@ const getDistance = async (loc, { position }) => {
             }
           }
         }
+        console.log(distance);
         return distance;
       }
     );
@@ -47,7 +48,7 @@ const onClicked = (markerLocation, map) => {
 };
 
 export const GymRouteListItem = ({ detail, key, loc, map, usersLoc }) => ({
-  distance: getDistance(loc, usersLoc),
+  distance: getDistance(loc, usersLoc).then(response => response),
   item: (
     <div
       onClick={() => onClicked(loc, map)}
