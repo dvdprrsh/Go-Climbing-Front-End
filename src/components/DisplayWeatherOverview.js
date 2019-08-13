@@ -7,7 +7,14 @@ import { fetchPosts } from "../actions/forum";
 import "./screens/styles/Weather.css";
 
 class WeatherOverview extends React.Component {
-  state = { lat: null, long: null, errorMessage: "", test: "" };
+  state = {
+    lat: null,
+    long: null,
+    errorMessage: "",
+    test: "",
+    mphwind: "",
+    windround: ""
+  };
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
@@ -38,6 +45,7 @@ class WeatherOverview extends React.Component {
     }
 
     if (!this.state.errorMessage && this.state.lat) {
+      var mphwind = Math.round(this.state.test.windSpeed * 1.15078);
       return (
         <div className="ui card">
           <div className="ui slide masked reveal image">
@@ -53,8 +61,7 @@ class WeatherOverview extends React.Component {
             <h2 className="header">{this.state.test.description}</h2>
             <div className="meta">
               <span className="date">
-                Wind Direction:{this.state.test.windDesc},{" "}
-                {this.state.test.windSpeed} Knots
+                Wind Direction:{this.state.test.windDesc}, {mphwind} MPH
               </span>
             </div>
           </div>
