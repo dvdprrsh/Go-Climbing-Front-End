@@ -1,11 +1,11 @@
 import React from "react";
-import Weather from "../DisplayWeather";
+import WeatherOverview from "../DisplayWeatherOverview";
 
 const weatherdisplay = () => {
   return (
     <div className="ui container">
       <div>
-        <Weather />
+        <WeatherOverview />
       </div>
     </div>
   );
