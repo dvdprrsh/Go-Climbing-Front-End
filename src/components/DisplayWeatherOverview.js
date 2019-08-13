@@ -41,7 +41,7 @@ class WeatherOverview extends React.Component {
       return (
         <div className="ui card">
           <div className="ui slide masked reveal image">
-            <img src={this.state.test.iconLink}></img>
+            <img alt="Weather" src={this.state.test.iconLink}></img>
           </div>
           <div className="content">
             <h2 className="header">
