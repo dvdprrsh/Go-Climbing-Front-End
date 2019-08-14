@@ -4,6 +4,8 @@ import { Header } from "../common-components";
 import history from "../history";
 
 /* ROUTES HERE */
+import { Home } from "./screens/Home";
+
 import Forum from "./screens/Forum";
 import Weather from "./screens/Weather";
 import FindGym from "./screens/FindGym";
@@ -14,6 +16,7 @@ export const App = () => (
   <Router history={history}>
     <Header />
     <Switch>
+      <Route path="/" exact component={Home} />
       <Route path="/find-gym" component={FindGym} />
       <Route path="/weather" component={Weather} />
       <Route path="/forums" component={Forum} />
