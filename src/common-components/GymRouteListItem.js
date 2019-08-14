@@ -1,6 +1,6 @@
 import React from "react";
 
-const getDistance = async (loc, { position }) => {
+const getDistance = async (loc, position) => {
   if (position.lat !== undefined) {
     const locations = {
       destination: new window.google.maps.LatLng(loc.lat, loc.lng),
@@ -8,7 +8,7 @@ const getDistance = async (loc, { position }) => {
     };
 
     const service = new window.google.maps.DistanceMatrixService();
-    return await new Promise(resolve => {
+    return new Promise(resolve => {
       service.getDistanceMatrix(
         {
           origins: [locations.origin],
@@ -19,7 +19,10 @@ const getDistance = async (loc, { position }) => {
           avoidTolls: false
         },
         response => {
-          let distance = response.rows[0].elements[0].distance.value;
+          let distance = -1;
+          if (response) {
+            distance = response.rows[0].elements[0].distance.value;
+          }
           resolve(distance);
         }
       );
@@ -37,8 +40,14 @@ const onClicked = (markerLocation, map) => {
   }
 };
 
-export const GymRouteListItem = ({ detail, key, loc, map, usersLoc }) => ({
-  distance: getDistance(loc, usersLoc).then(response => response),
+export const GymRouteListItem = async ({
+  detail,
+  key,
+  loc,
+  map,
+  usersLoc
+}) => ({
+  distance: await getDistance(loc, usersLoc),
   item: (
     <div
       onClick={() => onClicked(loc, map)}

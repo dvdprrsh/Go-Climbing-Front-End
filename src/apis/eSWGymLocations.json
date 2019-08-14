@@ -1,0 +1,624 @@
+{
+  "locations": [
+    [
+      "<b>The Reach Climbing Gym</b><br>Unit 6 Mellish Estate; Harrington Way; Woolwich; London, England SE18 5NR United Kingdom<br>020 8855 9598<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.thereach.org.uk/'>The Reach Climbing Gym</a>",
+      51.4944703,
+      0.0423256
+    ],
+    [
+      "<b>River Dart Country Park</b><br>River Dart Country Park, Ashburton, TQ13 7NP, United Kingdom<br>01364 652511<br><a target='_blank' rel='noopener noreferrer'href = 'http://riverdart.co.uk/'>River Dart Country Park</a>",
+      50.51339,
+      -3.776037
+    ],
+    [
+      "<b>Awesome Walls Climbing Centre</b><br>Saint Albans Church; Athol Street, Liverpool, England L5 9XT United Kingdom<br>0044 (0)151 298 2422<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.awesomewalls.co.uk/'>Awesome Walls Climbing Centre</a>",
+      53.4241,
+      -2.9960967
+    ],
+    [
+      "<b>Aylesford School Sports College</b><br>Teapot Lane; Maidstone; Kent, Aylesford, England ME20 7JU United Kingdom<br>01622 717341<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aylesford.kent.sch.uk/'>Aylesford School Sports College</a>",
+      51.2981956,
+      0.4659717
+    ],
+    [
+      "<b>Writhlington Sports Centre</b><br>Knobsbury Lane, Bath, England BA3 3NQ United Kingdom<br>01761 438559<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.writhlingtonleisure.co.uk/activities/climbing-wall/'>Writhlington Sports Centre</a>",
+      51.2861503,
+      -2.4312298
+    ],
+    [
+      "<b>Manchester Climbing Centre</b><br>St. Benedicts Church, Bennett St, Manchester M12 5ND, United Kingdom<br>0161 2307006<br><a target='_blank' rel='noopener noreferrer'href = 'https://manchesterclimbingcentre.com/'>Manchester Climbing Centre</a>",
+      53.4694604,
+      -2.2049963
+    ],
+    [
+      "<b>Creation climbing gym, The Epic Centre</b><br>582 Moseley Road, Birmingham, England B12 9AA United Kingdom<br>(0121) 4498000<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.creationwall.co.uk/'>Creation climbing gym, The Epic Centre</a>",
+      52.4541648,
+      -1.8863551
+    ],
+    [
+      "<b>Redpoint Climbing Centre</b><br>77 Cecil Street, Birmingham, England B19 3SU United Kingdom<br>01213591777<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.redpointbirmingham.co.uk/'>Redpoint Climbing Centre</a>",
+      52.4893736,
+      -1.8959082
+    ],
+    [
+      "<b>YMCA Climbing Gym</b><br>5 Wellington St; St. Johns, Blackburn, England BB1 8AF United Kingdom<br>01254 51009<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.ymca.org.uk/'>YMCA Climbing Gym</a>",
+      53.7518439,
+      -2.4874641
+    ],
+    [
+      "<b>High Sports Brighton</b><br>Withdean Sports Complex; Tongdean Lane, Brighton, East Sussex BN1 5JD England<br>0845 363 1177<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/climbing-walls/brighton.html'>High Sports Brighton</a>",
+      50.8538631,
+      -0.159572
+    ],
+    [
+      "<b>Centre for Sport, University of the West of England</b><br>Frenchay Campus; Coldhabour Lane, Bristol, England BS16 1QY United Kingdom<br>0117 32 86200/86201<br><a target='_blank' rel='noopener noreferrer'href = 'https://www1.uwe.ac.uk/aboutus/departmentsandservices/professionalservices/centreforsport/facilities/climbingwall.aspx'>Centre for Sport, University of the West of England</a>",
+      51.497895,
+      -2.5482407
+    ],
+    [
+      "<b>Redpoint Bristol Climbing Centre</b><br>40 Winterstoke Rd Bristol, Bristol, Bristol BS3 2NW England<br>0117 332 2222<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.redpointbristol.co.uk/climbing/'>Redpoint Bristol Climbing Centre</a>",
+      51.4337997,
+      -2.6115576
+    ],
+    [
+      "<b>The Climbing Academy</b><br>Charlton Street, Bristol, England BS5 0FD United Kingdom<br>01179 072956<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbingacademy.com/'>The Climbing Academy</a>",
+      51.4558032,
+      -2.5688406
+    ],
+    [
+      "<b>Under Cover Rock Ltd</b><br>St. Werburgh's Church; Mina Road; St. Werburgs, Bristol, England BS2 9YT United Kingdom<br>0117 941 3489<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.undercover-rock.com/'>Under Cover Rock Ltd</a>",
+      51.4720732,
+      -2.5753726
+    ],
+    [
+      "<b>Dart Rock Climbing Centre</b><br>Dart Mills Old Totnes Road, Buckfastleigh, England TQ11 0NF United Kingdom<br>01364 644 499<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dartrock.co.uk/'>Dart Rock Climbing Centre</a>",
+      50.4810664,
+      -3.7656287
+    ],
+    [
+      "<b>Kelsey Kerridge</b><br>Queen Anne Terrace, Cambridge, England CB1 1NA United Kingdom<br>01223 462226<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kelseykerridge.co.uk/sports-centre/climbing-wall/'>Kelsey Kerridge</a>",
+      52.2011142,
+      0.1305383
+    ],
+    [
+      "<b>The Sands Centre</b><br>The Sands; Carlisle; Cumbria, Carlisle, England CA1 1JQ United Kingdom<br>01228 625 222<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thesandscentre.co.uk/'>The Sands Centre</a>",
+      54.8998568,
+      -2.9341255
+    ],
+    [
+      "<b>Cockermouth Sports Centre</b><br>Castle Gate Drive, Cockermouth, England CA13 9JR United Kingdom<br>01900 823 596<br><a target='_blank' rel='noopener noreferrer'href = 'https://beta.better.org.uk'>Cockermouth Sports Centre</a>",
+      54.666601,
+      -3.3520104
+    ],
+    [
+      "<b>Bear Rock</b><br>Sports Centre; University Of Warwick, Coventry, England CV4 7AL United Kingdom<br>024 765 23011/23039<br><a target='_blank' rel='noopener noreferrer'href = 'https://warwick.ac.uk/services/sport/active/climbing'>Bear Rock</a>",
+      52.379411,
+      -1.563191
+    ],
+    [
+      "<b>Dolphin Leisure Centre</b><br>Horse Market, Darlington, England DL1 5RP United Kingdom<br>01325 388 406<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.darlington.gov.uk/Leisure/eastbourne/facilities/Climbing%20Boulder%20and%20Play%20Park.htm'>Dolphin Leisure Centre</a>",
+      54.5241252,
+      -1.554894
+    ],
+    [
+      "<b>Alter Rock Climbing</b><br>St. James Church; Malcolm Street, Derby, DE23 8LU England<br>01332 367200<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.alter-rock.co.uk/'>Alter Rock Climbing</a>",
+      52.9084448,
+      -1.4693882
+    ],
+    [
+      "<b>Wirksworth Leisure Centre climbing gym The Face</b><br>Hannage Way; Wirksworth, Derbyshire, England DE4 4GH United Kingdom<br>01629 824717<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.freedom-leisure.co.uk/centres/wirksworth-leisure-centre/'>Wirksworth Leisure Centre climbing gym The Face</a>",
+      53.077701,
+      -1.5715743
+    ],
+    [
+      "<b>Quay Climbing Centre</b><br>Haven Rd; Exeter, Devon, EX2 8AX England<br>01392 426850<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.quayclimbingcentre.co.uk/'>Quay Climbing Centre</a>",
+      50.7165705,
+      -3.5304927
+    ],
+    [
+      "<b>The Project Climbing Centre</b><br>The Project Climbing Centre; Dolphin Centre, Poole, Dorset BH15 1UD United Kingdom<br>01202660153<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theprojectclimbingcentre.co.uk/'>The Project Climbing Centre</a>",
+      50.718247,
+      -1.979344
+    ],
+    [
+      "<b>Lancaster University Climbing Gym</b><br>Bailrigg; Lancashire, England LA1 4YW United Kingdom<br>01524 594 000 <br><a target='_blank' rel='noopener noreferrer'href = 'http://www.lancaster.ac.uk/sport/sports-centre/facilities/climbingwall/'>Lancaster University Climbing Gym</a>",
+      54.0104685,
+      -2.7869096
+    ],
+    [
+      "<b>Rock Climbing & Caving Centre</b><br>Rock House/Station Hill; Newton Abbot, Exeter, England TQ13 0EE United Kingdom<br>01626 852 717<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockcentre.co.uk/'>Rock Climbing & Caving Centre</a>",
+      50.5979595,
+      -3.607192
+    ],
+    [
+      "<b>Whickham Thorns Centre</b><br>Market Lane; Dunston, Gateshead, England NE11 9NX United Kingdom<br>0191 433 5767<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.gogateshead.com/article/6645'>Whickham Thorns Centre</a>",
+      54.9489065,
+      -1.6523588
+    ],
+    [
+      "<b>Glossop Leisure Centre</b><br>High Street East, Glossop, England NE11 9NX United Kingdom<br>01457 842272<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.placesleisure.org/centres/glossop-leisure-centre/'>Glossop Leisure Centre</a>",
+      53.4437772,
+      -1.9439281
+    ],
+    [
+      "<b>The Warehouse</b><br>Parliament Street, Gloucester, England GL1 1HY United Kingdom<br>(01452) 302351<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.the-warehouse.co.uk/'>The Warehouse</a>",
+      51.8623541,
+      -2.247254
+    ],
+    [
+      "<b>Craggy Island</b><br>Unit 9; Cobbett Park; Slyfield Industrial Estate, Guildford, England GU1 1RU United Kingdom<br>01483 566880<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.craggy-island.com/'>Craggy Island</a>",
+      51.2600182,
+      -0.5643656
+    ],
+    [
+      "<b>University of Surrey</b><br>Guilford; Surrey, Guildford, England GU2 7XH United Kingdom<br>44 1483 689201<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.surreysportspark.co.uk/climbing/'>University of Surrey</a>",
+      51.2425719,
+      -0.5879459
+    ],
+    [
+      "<b>Alton Sports Centre</b><br>Chawton Park Road; Alton, Hampshire, England GU34 1RQ United Kingdom<br>08701 624890<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/climbing-walls/alton.html'>Alton Sports Centre</a>",
+      51.140031,
+      -0.9877221
+    ],
+    [
+      "<b>Harlow Centre for Outdoor Learning</b><br>Burnt Mill Lane, Harlow, England CM20 2QS United Kingdom<br>01279 620270<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.essexoutdoors.com/wall_to_rock.php'>Harlow Centre for Outdoor Learning</a>",
+      51.7831342,
+      0.095793
+    ],
+    [
+      "<b>Hertfordshire Sports Village</b><br>De Havilland Campus; Mosquito Way, Hatfield, England AL10 9EU United Kingdom<br>01707 284 466<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.hertssportsvillage.co.uk/facilities/climbing-wall'>Hertfordshire Sports Village</a>",
+      51.7627115,
+      -0.2489347
+    ],
+    [
+      "<b>XC</b><br>Jarman Park, Hemel Hempstead, England HP2 4JS <br>01442507100<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thexc.co.uk/'>XC</a>",
+      51.7468534,
+      -0.4554083
+    ],
+    [
+      "<b>Rockcity</b><br>Hawthorn Avenue, Hull, England HU3 5JX United Kingdom<br>+44 (0)1482 223030 <br><a target='_blank' rel='noopener noreferrer'href = 'https://rockcity.co.uk/'>Rockcity</a>",
+      53.7386001,
+      -0.3809325
+    ],
+    [
+      "<b>Inglesport Indoor Climbing Gym</b><br>11 The Square, Ingleton, England LA6 3EB United Kingdom<br>015242 41146<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.inglesport.com/our-climbing-wall/'>Inglesport Indoor Climbing Gym</a>",
+      54.1545885,
+      -2.4677166
+    ],
+    [
+      "<b>Suffolk Leisure Park</b><br>Bourne Hill; Wherstead, Ipswich, England IP2 8NQ United Kingdom<br>01473 602347<br><a target='_blank' rel='noopener noreferrer'href = 'http://suffolkleisurepark.co.uk/'>Suffolk Leisure Park</a>",
+      52.0291193,
+      1.1466752
+    ],
+    [
+      "<b>Lakeland Climbing Centre</b><br>Unit 27; Lake District Business Park; Mintbridge Rd, Kendal, England LA9 6NH United Kingdom<br>01539 721 766<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.kendalwall.co.uk/'>Lakeland Climbing Centre</a>",
+      54.3422449,
+      -2.7414354
+    ],
+    [
+      "<b>Revolution Climbing Centre</b><br>Oakwood Industrial Estate; Dane Valley Road, Kent, England CT10 3JJ United Kingdom<br>01843 866706<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.revolutionclimbingcentre.co.uk/'>Revolution Climbing Centre</a>",
+      51.3700653,
+      1.4191362
+    ],
+    [
+      "<b>Keswick Climbing Gym</b><br>Goosewell Farm, Keswick, England CA12 4RN United Kingdom<br>+44 (0)17687 72000<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.keswickclimbingwall.co.uk/'>Keswick Climbing Gym</a>",
+      54.6033738,
+      -3.107035
+    ],
+    [
+      "<b>CityBloc</b><br>Airedale Industrial Estate; Kitson Road, Leeds, England LS10 1NT United Kingdom<br>01133912652<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.citybloc.co.uk/'>CityBloc</a>",
+      53.7855205,
+      -1.5341929
+    ],
+    [
+      "<b>The Leeds Wall</b><br>100a Gelderd Road, Leeds, England LS12 6BY United Kingdom<br>0113 2341554<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.theleedswall.co.uk/cms/index.php/'>The Leeds Wall</a>",
+      53.784211,
+      -1.576071
+    ],
+    [
+      "<b>Climbing Hangar</b><br>6 Birchall Street, Liverpool, England L20 8PD United Kingdom<br>01513450587<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbinghangar.com/'>Climbing Hangar</a>",
+      53.4319388,
+      -2.9918548
+    ],
+    [
+      "<b>Mile End Climbing Gym</b><br>Haverfield Road; Bow, London, England E3 5BE United Kingdom<br>020 8980 0289<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.mileendwall.org.uk/'>Mile End Climbing Gym</a>",
+      51.5287938,
+      -0.0395978
+    ],
+    [
+      "<b>The Castle Climbing Centre</b><br>Green Lanes; Stoke Newington, London, England N4 2HA United Kingdom<br>020 8211 7000<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.castle-climbing.co.uk/'>The Castle Climbing Centre</a>",
+      51.5646573,
+      -0.0928525
+    ],
+    [
+      "<b>Third Space Climbing Wall</b><br>16-19 Canada Square; Canary Wharf, London, England E14 5ER United Kingdom<br>020 7970 0925<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.thirdspace.london/canary-wharf/'>Third Space Climbing Wall</a>",
+      51.5045844,
+      -0.0161466
+    ],
+    [
+      "<b>Westway Sports Centre</b><br>1 Crowthorne Rd, London, England W10 6RP United Kingdom<br>020 8969 0992<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.westway.org/sportsandfitness'>Westway Sports Centre</a>",
+      51.5163886,
+      -0.2200167
+    ],
+    [
+      "<b>Rope Race Climbing & Activity Centre</b><br>Goyt Mill; Upper Hibbert Lane, Marple, England SK6 7HX United Kingdom<br>0161 426 0226<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.roperace.com/'>Rope Race Climbing & Activity Centre</a>",
+      53.3851482,
+      -2.0649199
+    ],
+    [
+      "<b>Big Rock Climbing Ltd</b><br>Mandeville Drive, Milton Keynes, England MK10 0AG United Kingdom<br>01908 583128<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.bigrockclimbing.com/'>Big Rock Climbing Ltd</a>",
+      52.0394757,
+      -0.6881844
+    ],
+    [
+      "<b>Newcastle Climbing Centre</b><br>285 Shields Road, Newcastle Upon Tyne, NE6 2UQ United Kingdom<br>+44 (0)191 265 6060<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.newcastleclimbingcentre.co.uk'>Newcastle Climbing Centre</a>",
+      54.9786932,
+      -1.575405
+    ],
+    [
+      "<b>Shropshire Climbing Centre</b><br>Springfield Industrial Estate, Newport, England TF10 7EZ United Kingdom<br>01952 814566<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.newportrock.com/'>Shropshire Climbing Centre</a>",
+      52.7620902,
+      -2.3736719
+    ],
+    [
+      "<b>Rock Antics Ltd.</b><br>Everidge Arcade; Newton Aycliffe; County Durham, Newton, England DL5 4EH United Kingdom<br>01952 814566<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockantics.co.uk/'>Rock Antics Ltd.</a>",
+      54.6191211,
+      -1.574244
+    ],
+    [
+      "<b>Harrogate Climbing Centre</b><br>Hornbeam Park Avenue, North Yorkshire, England HG2 8QT United Kingdom<br>01423 815024<br><a target='_blank' rel='noopener noreferrer'href = 'https://harrogateclimbingcentre.com/'>Harrogate Climbing Centre</a>",
+      53.9775843,
+      -1.5214362
+    ],
+    [
+      "<b>The Pinnacle Centre</b><br>Unit 1; Minton Business Centre, North Yorkshire, England NN4 8ES United Kingdom<br>01604 875996<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.thepinnaclecentre.co.uk/'>The Pinnacle Centre</a>",
+      52.2283004,
+      -0.9085042
+    ],
+    [
+      "<b>Wild Rock Climbing</b><br>Far Peak, Northleach, England GL54 3JL United Kingdom<br>+44 1285 721090 <br><a target='_blank' rel='noopener noreferrer'href = 'http://www.wildrockclimbing.co.uk/Climbing/index.html'>Wild Rock Climbing</a>",
+      51.817715,
+      -1.860895
+    ],
+    [
+      "<b>UEA Sports Park</b><br>University of East Anglia, Norwich, England NR4 7TJ United Kingdom<br>01603 592398<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.sportspark.co.uk/en/web/sportspark/join-in/indoor'>UEA Sports Park</a>",
+      52.6184758,
+      1.2406141
+    ],
+    [
+      "<b>Nottingham Climbing Centre</b><br>Rawson Street, Nottingham, Nottinghamshire NG7 7FR England<br>0115 9988233<br><a target='_blank' rel='noopener noreferrer'href = 'https://nottingham-climbing.co.uk/'>Nottingham Climbing Centre</a>",
+      52.9723594,
+      -1.171341
+    ],
+    [
+      "<b>Oldham Climbing Gym</b><br>Oldham Sports; Centre Lord Street, Oldham, England LE15 8BL United Kingdom<br>0161-911 4090<br><a target='_blank' rel='noopener noreferrer'href = 'https://oclactive.co.uk/activities/'>Oldham Climbing Gym</a>",
+      52.6648809,
+      -0.6364327
+    ],
+    [
+      "<b>Eden Climbing Gym</b><br>Penrith Leisure Centre; Southend Road, Penrith, England CA11 7YG United Kingdom<br>01768 863 450 <br><a target='_blank' rel='noopener noreferrer'href = 'https://www.better.org.uk/leisure-centre/eden/penrithlc/climbing-wall-penrith-leisure-centre'>Eden Climbing Gym</a>",
+      54.6610504,
+      -2.7492751
+    ],
+    [
+      "<b>Granite Planet Climbing Centre</b><br>Unit 10 Parkengue; Kernick Ind Estate, Penryn, England TR10 9EP United Kingdom<br>01326 376633<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.graniteplanetclimbing.co.uk/'>Granite Planet Climbing Centre</a>",
+      50.1661886,
+      -5.1225497
+    ],
+    [
+      "<b>The Peterborough Mountaineering Club Climbing Gym</b><br>Bretton Gate, Peterborough, England PE3 United Kingdom<br>01733 560303<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.peterboroughmc.co.uk/climbing-wall/'>The Peterborough Mountaineering Club Climbing Gym</a>",
+      52.5856236,
+      -0.2742071
+    ],
+    [
+      "<b>Fort Purbrook</b><br>Portsdown Hill Road; Cosham, Portsmouth, England PO6 1BJ United Kingdom<br>023 92 32 1223<br><a target='_blank' rel='noopener noreferrer'href = 'https://peterashleyactivitycentres.co.uk/'>Fort Purbrook</a>",
+      50.8522985,
+      -1.038827
+    ],
+    [
+      "<b>Reading Climbing Centre</b><br>Unit 33 Robert Cort Industrial Estate; Britten Road, Reading, England RG2 0AU United Kingdom<br>0118 975 6298<br><a target='_blank' rel='noopener noreferrer'href = 'https://readingclimbingcentre.com/'>Reading Climbing Centre</a>",
+      51.4423071,
+      -0.9708816
+    ],
+    [
+      "<b>High Sports Indoor Rock Climbing Centre</b><br>Unit 6; Orchard Business Centre; Bonehurst Road; Salfords, Redhill, England RH1 5EL United Kingdom<br>01293 822 884<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/'>High Sports Indoor Rock Climbing Centre</a>",
+      51.1973385,
+      -0.1624069
+    ],
+    [
+      "<b>Rotherham High Sports</b><br>Rotherham Leisure Complex; Effingham Street, Rotherham, England S66 1BL United Kingdom<br>0845 363 1177<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.high-sports.co.uk/'>Rotherham High Sports</a>",
+      53.4326035,
+      -1.3635009
+    ],
+    [
+      "<b>Awesome Walls - Sheffield</b><br>Garter Street, Sheffield, S4 7QX England<br>0114 244 6622<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.awesomewalls.co.uk/centres/sheffield/'>Awesome Walls - Sheffield</a>",
+      53.4000904,
+      -1.4453442
+    ],
+    [
+      "<b>The Climbing Works</b><br>150 Little London Road, Sheffield, England S8 United Kingdom<br>+44 114 250 9990<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.climbingworks.com/'>The Climbing Works</a>",
+      53.3535764,
+      -1.4830908
+    ],
+    [
+      "<b>The Edge Climbing Centre</b><br>John Street off Bramall Lane, Sheffield, England S2 4QU United Kingdom<br>0114 275 8899<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.sheffieldclimbing.com/'>The Edge Climbing Centre</a>",
+      53.3688795,
+      -1.4717133
+    ],
+    [
+      "<b>The Foundry Climbing Centre Ltd.</b><br>45 Mowbray Street; Unit 2, Sheffield, England S3 8EN United Kingdom<br>0114 2796331<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.foundryclimbing.com/'>The Foundry Climbing Centre Ltd.</a>",
+      53.3900705,
+      -1.471562
+    ],
+    [
+      "<b>Rock and Rapid Adventure Centre</b><br>Hacche Mill, South Molton, England EX36 3NA United Kingdom<br>+44 0333 600 6001<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.rockandrapidadventures.co.uk/'>Rock and Rapid Adventure Centre</a>",
+      51.0293839,
+      -3.8279318
+    ],
+    [
+      "<b>Calshot Activities Centre</b><br>Calshot Spit; Fawley, Southampton, England SO45 1BR United Kingdom<br>023 80 892 077<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.hants.gov.uk/thingstodo/outdoorcentres/recreation/climbing'>Calshot Activities Centre</a>",
+      50.819826,
+      -1.307432
+    ],
+    [
+      "<b>Southampton Climbing Wall</b><br>Unit 4 Imperial Park; Empress Road, Southampton, England SO14 0BL United Kingdom<br>023 8007 0171<br><a target='_blank' rel='noopener noreferrer'href = 'https://bouldershack.co.uk/'>Southampton Climbing Wall</a>",
+      50.9164768,
+      -1.3937911
+    ],
+    [
+      "<b>Awesome Walls Climbing Centre Stockport</b><br>Pear Mill; Lower Bredbury, Stockport, England SK6 2BP United Kingdom<br>0161 494 9949<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.awesomewalls.co.uk/centres/stockport'>Awesome Walls Climbing Centre Stockport</a>",
+      53.4138336,
+      -2.1338732
+    ],
+    [
+      "<b>Sunderland Wall</b><br>Doxford Works; Pallion Quay, Sunderland, England SR4 6TQ United Kingdom<br>0191 514 4234<br><a target='_blank' rel='noopener noreferrer'href = 'http://sunderlandwall.co.uk/'>Sunderland Wall</a>",
+      54.914853,
+      -1.4153035
+    ],
+    [
+      "<b>White Spider Climbing</b><br>225 Hook Rise South, Surbiton, London KT6 7LD United Kingdom<br>0208 397 0390<br><a target='_blank' rel='noopener noreferrer'href = 'https://spiderclimbing.com/white-spider/'>White Spider Climbing</a>",
+      51.3727127,
+      -0.2914028
+    ],
+    [
+      "<b>The Barn Climbing Center</b><br>Eastacott Barton; Milton Abbott, Tavistock, England PL19 0QP United Kingdom<br>01822 870521<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.barnclimbingwall.co.uk/'>The Barn Climbing Center</a>",
+      50.5938676,
+      -4.2768981
+    ],
+    [
+      "<b>North West Face</b><br>St Anns Church; Winwick Road, Warrington, England WA2 7NE United Kingdom<br>+44 1925 650022<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.northwestface.com/'>North West Face</a>",
+      53.3959113,
+      -2.5948492
+    ],
+    [
+      "<b>Boulder Central</b><br>Richmond Street South, West Bromwich, England B70 0DG <br>0121 448 3736<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.bouldercentral.co.uk/'>Boulder Central</a>",
+      52.5302579,
+      -2.0262689
+    ],
+    [
+      "<b>The Edge </b><br>Queen Elizabeth Leisure Centre; Blandford Road, Wimborne, England BH21 4DT United Kingdom<br>01202 888 208 <br><a target='_blank' rel='noopener noreferrer'href = '/sport-leisure/leisure-centres/qe-leisure-centre/climbing/climbing.aspx'>The Edge </a>",
+      50.8061341,
+      -2.0034251
+    ],
+    [
+      "<b>Wolf Mountain</b><br>Paget Road, Wolverhampton, WV6 0DU England<br>01902 711 186<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.wolfmountainactivitycentre.co.uk/'>Wolf Mountain</a>",
+      52.5890357,
+      -2.1557456
+    ],
+    [
+      "<b>Sport Martley</b><br>Martley Road, Worcester, England WR6 6QA United Kingdom<br>01886 888999<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.riversfitness.co.uk/'>Sport Martley</a>",
+      52.286667,
+      -2.3591824
+    ],
+    [
+      "<b>Vertical Limit Worcester Indoor Climbing Centre</b><br>Unit 11 Shrub Hill Road; Shrub Hill, Worcester, England WR6 6QA United Kingdom<br>01905 613044<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.vlimit.co.uk/'>Vertical Limit Worcester Indoor Climbing Centre</a>",
+      52.2373867,
+      -2.3577886
+    ],
+    [
+      "<b>Glenmore Lodge</b><br>Glenmore- Aviemore- Invernesshire, Scotland PH22 1QU United Kingdom<br>01479 861 256<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.glenmorelodge.org.uk/mountain-training-development-coach-training/'>Glenmore Lodge</a>",
+      57.1671856,
+      -3.6966346
+    ],
+    [
+      "<b>RGU Climbing Gym</b><br>Garthdee campus of The Robert; Gordon University, Aberdeen, Scotland United Kingdom<br>(01224) 263666<br><a target='_blank' rel='noopener noreferrer'href = '//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk//www3.rgu.ac.uk/student-life/campus-life/rgu-sport/facilities/climb?'>RGU Climbing Gym</a>",
+      57.118708,
+      -2.134303
+    ],
+    [
+      "<b>Mclaren Leisure Centre Wall</b><br>Mollands Road, Callander, Scotland United Kingdom<br>01877330000<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.mclarenleisure.co.uk/'>Mclaren Leisure Centre Wall</a>",
+      56.2376911,
+      -4.2131754
+    ],
+    [
+      "<b>Avertical World</b><br>7 Blinshall Street, Dundee, Scotland United Kingdom<br>01382 V201901<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.averticalworld.co.uk/'>Avertical World</a>",
+      56.4622283,
+      -2.9820024
+    ],
+    [
+      "<b>Olympia Stakis Leisure Centre</b><br>Earl Grey Place, Dundee, Angus, Scotland DD1 4DE United Kingdom<br>01382 434 888<br>",
+      56.458044,
+      -2.965857
+    ],
+    [
+      "<b>Alien Rock 2 The Bouldering Centre</b><br>37 West Bowling Green Street, Edinburgh, Scotland EH6 5NX United Kingdom<br>0131 555 3650 - or - 0131 552 7211<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.alienrock.co.uk/'>Alien Rock 2 The Bouldering Centre</a>",
+      55.972249,
+      -3.184229
+    ],
+    [
+      "<b>Edinburgh International Climbing Arena, Ratho</b><br>South Platt Hill, Edinburgh, Scotland EH28 8AA United Kingdom<br>0131 333 6333<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.edinburghleisure.co.uk/venues/edinburgh-international-climbing-arena'>Edinburgh International Climbing Arena, Ratho</a>",
+      55.9253813,
+      -3.3734161
+    ],
+    [
+      "<b>SpireRoxx Climbing Wall</b><br>27 Moray St, Elgin, IV30 1JS, UK<br>01343 542 666<br><a target='_blank' rel='noopener noreferrer'href = 'http://spireroxx.co.uk/'>SpireRoxx Climbing Wall</a>",
+      57.6464759,
+      -3.3150705
+    ],
+    [
+      "<b>Glasgow Climbing Centre</b><br>534 Paisley Road West; Ibrox, Glasgow, Lanarkshire, Scotland G51 1RN United Kingdom<br>0141 427 9550<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.glasgowclimbingcentre.com/'>Glasgow Climbing Centre</a>",
+      55.8508059,
+      -4.3049741
+    ],
+    [
+      "<b>Kelvin Hall Sports Centre</b><br>1431-1451 Argyle Street, Glasgow, Lanarkshire, Scotland G3 8AW United Kingdom<br>0141 357 2525<br><a target='_blank' rel='noopener noreferrer'href = '/sport/venues/glasgow-club-kelvin-hall'>Kelvin Hall Sports Centre</a>",
+      55.8582682,
+      -4.2559322
+    ],
+    [
+      "<b>The Climbing Academy</b><br>124 Portman Street, Glasgow, Scotland G41 1EJ United Kingdom<br>0141 429 6331<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.theclimbingacademy.com/'>The Climbing Academy</a>",
+      55.8507512,
+      -4.2822486
+    ],
+    [
+      "<b>Climb Caledonia, Aquadome</b><br>Bught Park; Inverness Sports Centre + Aquadome, Inverness, Invernesshire, Scotland IV3 5SS United Kingdom<br>01463 667 505 / 01463 667 535<br>",
+      57.4630478,
+      -4.2406136
+    ],
+    [
+      "<b>Inverness Leisure Climbing Wall</b><br>Bught Lane, Inverness, IV3 5SS Scotland, UK<br>01463 667500<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.highlifehighland.com/il/climbing-wall/'>Inverness Leisure Climbing Wall</a>",
+      57.4631544,
+      -4.2406449
+    ],
+    [
+      "<b>Alien Rock</b><br>Old St Andrews Church; 8 Pier Place, Newhaven, Edinburgh, Midlothian, Scotland EH6 4LP United Kingdom<br>0131 552 7211<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.alienrock.co.uk/'>Alien Rock</a>",
+      55.980639,
+      -3.1959372
+    ],
+    [
+      "<b>Peterhead Community Centre</b><br>Balmoor Terrace, Peterhead, Aberdeenshire, Scotland AB42 1EP United Kingdom<br>01779 477 277<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aberdeenshire.gov.uk/schools/outdoor/activities/rock-climbing/'>Peterhead Community Centre</a>",
+      57.5105568,
+      -1.7894713
+    ],
+    [
+      "<b>Transition Extreme</b><br>Links Road, Queens Links, Aberdeen, Scotland AB24 5NN United Kingdom<br>01224 626279<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.transition-extreme.com/climbing-wall'>Transition Extreme</a>",
+      57.1515452,
+      -2.0821121
+    ],
+    [
+      "<b>Snow Factor</b><br>Soar intu Braehead; Kings Inch Road, Renfrewshire, PA48XQ Scotland<br>T. +44 (0)871 222 5672<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.snowfactor.com/about-our-ice-wall/'>Snow Factor</a>",
+      55.8801842,
+      -4.3778472
+    ],
+    [
+      "<b>University of St Andrews Sports Centre</b><br>St Leonards Road, St Andrews, Fife, KY16 9DY<br>01334 462190<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.st-andrews.ac.uk/sport/'>University of St Andrews Sports Centre</a>",
+      56.3373702,
+      -2.8118221
+    ],
+    [
+      "<b>The Peak Stirling Sports Village</b><br>Forthside Way, Stirling, Scotland FK8 1QZ United Kingdom<br>01786 273555<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.the-peak-stirling.org.uk/'>The Peak Stirling Sports Village</a>",
+      56.1183697,
+      -3.9301894
+    ],
+    [
+      "<b>BoxRox (Aberystwyth University Sports Centre)</b><br>Penglais Campus, Aberystwyth, Ceredigion SY23 3AR United Kingdom<br>01970 622 280<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.aber.ac.uk/en/sportscentre/facilities/boxrox/'>BoxRox (Aberystwyth University Sports Centre)</a>",
+      52.417793,
+      -4.065933
+    ],
+    [
+      "<b>Plas Arthur Sports Centre</b><br>Llangefni, Anglesey, Gwynedd, Wales LL77 7QX United Kingdom<br>01248 722 966<br>",
+      53.2818699,
+      -3.7829281
+    ],
+    [
+      "<b>Pavilion Leisure Centre</b><br>The Promenade, Barmouth, Gwynedd, Wales LL42 1NF United Kingdom<br>01341 280 111<br>",
+      52.7212447,
+      -4.0560148
+    ],
+    [
+      "<b>Brecon Leisure Centre</b><br>Penlan, Brecon, Powys, Wales LD3 9SR United Kingdom<br>01874 623 677<br>",
+      51.9525766,
+      -3.3818392
+    ],
+    [
+      "<b>Beacon Climbing Centre</b><br>Cibyn Estate, Caernarfon, Gwynedd LL55 2BD United Kingdom<br>0845 450 8222<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.beaconclimbing.com/'>Beacon Climbing Centre</a>",
+      53.1404011,
+      -4.2496952
+    ],
+    [
+      "<b>Cragfit</b><br>Rassau Industrial Estate, Ebbw Vale, NP23 5SD<br>01495 305343<br><a target='_blank' rel='noopener noreferrer'href = 'https://cragfit.co.uk/'>Cragfit</a>",
+      51.802542,
+      -3.2338505
+    ],
+    [
+      "<b>Ebbw Vale Leisure Centre</b><br>, Ebbw Vale, Gwent, Wales NP23 6XB United Kingdom<br>495 303 766<br>",
+      51.777532,
+      -3.206151
+    ],
+    [
+      "<b>UWB Sports Centre</b><br>University of Wales, Ffriddoedd Rd, Bangor, Gwynedd, Wales LL57 2JR United Kingdom<br><br>",
+      53.223336,
+      -4.1430288
+    ],
+    [
+      "<b>Gilwern Outdoor Centre</b><br>Ty Mawr Lane, Gilwern, Abergavenny, Monmouthshire, Wales 01873832164 United Kingdom<br><br><a target='_blank' rel='noopener noreferrer'href = 'http://www.gwentoutdoorcentres.org.uk/'>Gilwern Outdoor Centre</a>",
+      53.0098251,
+      -3.6270191
+    ],
+    [
+      "<b>The Heights </b><br>75 High St, Llanberis, Caernarfon, Gwynedd, Wales LL55 4HB United Kingdom<br>01286 871 179<br>",
+      53.1194486,
+      -4.1262332
+    ],
+    [
+      "<b>Llandudno Junction Leisure Centre</b><br>Llandudno Junction, Llandudno, Gwynedd, Wales LL31 9XY United Kingdom<br>01492 583 592<br>",
+      53.2818699,
+      -3.7829281
+    ],
+    [
+      "<b>Dyffryn Conwy Leisure Centre</b><br>Nebo Rd, Llanrwst, Gwynedd, Wales LL26 0SD United Kingdom<br>01492 642 028<br>",
+      53.1331862,
+      -3.7865412
+    ],
+    [
+      "<b>Clyne Farm Centre</b><br>Westport Avenue, Mayals, Swansea, Wales SA3 5AR United Kingdom<br>01792 403333<br><a target='_blank' rel='noopener noreferrer'href = 'https://clynefarm.com/'>Clyne Farm Centre</a>",
+      51.5974016,
+      -4.0100972
+    ],
+    [
+      "<b>Boulders</b><br>St Catherine's Park, Pengam Road, Cardiff, Wales CF24 2RZ United Kingdom<br>08455 211850<br><a target='_blank' rel='noopener noreferrer'href = 'https://bouldersuk.com/'>Boulders</a>",
+      51.4921238,
+      -3.1415889
+    ],
+    [
+      "<b>Pontllanfrath Leisure Centre</b><br>Coed-cae-ddu Road, Pontllanfrath, Blackwood, Gwent, Wales NP12 2DA United Kingdom<br>01495 224 562<br>",
+      51.6551349,
+      -3.1930013
+    ],
+    [
+      "<b>The Boardroom Climbing</b><br>Rectors Lane Ind Est, Rectors Lane, Pentre, Queensferry, Flintshire CH5 2DH Wales<br>01244 537476<br><a target='_blank' rel='noopener noreferrer'href = 'http://www.theboardroomclimbing.com'>The Boardroom Climbing</a>",
+      53.2016953,
+      -3.00843
+    ],
+    [
+      "<b>Spot Climbing Centre</b><br>Unit 11, Rizla House, Severn Road, Pontypridd, Treforest, Mid Glamorgan CF37 4AW Wales, UK<br>01443 843116<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.spotclimbing.co.uk/'>Spot Climbing Centre</a>",
+      51.6019372,
+      -3.3250184
+    ],
+    [
+      "<b>Plas Power Adventure</b><br>Plas Power Road, Southsea, Wrexham, Wales LL115 SZ United Kingdom<br>01978 754747<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.plaspoweradventure.com/'>Plas Power Adventure</a>",
+      53.059845,
+      -3.046752
+    ],
+    [
+      "<b>Swansea Indoor Rock Climbing Centre</b><br>Clydach, Swansea, Wales SA6 5EJ United Kingdom<br>01792 845655<br><a target='_blank' rel='noopener noreferrer'href = 'https://www.dynamicrock.co.uk/'>Swansea Indoor Rock Climbing Centre</a>",
+      51.6939964,
+      -3.8988117
+    ],
+    [
+      "<b>The Overhang Indoor Climbing Centre Tenby</b><br>Castle Beach, Tenby, Pembrokeshire SA70 7BP Wales<br>01834 842302<br><a target='_blank' rel='noopener noreferrer'href = 'http://tenbyclimbingwall.co.uk/'>The Overhang Indoor Climbing Centre Tenby</a>",
+      51.6719349,
+      -4.6953876
+    ],
+    [
+      "<b>Rock UK Summit Centre</b><br>The Old Drift Mine, Trelewis, Treharris, Wales CF46 6RD United Kingdom<br>0844 8000 222<br><a target='_blank' rel='noopener noreferrer'href = 'https://rockuk.org/'>Rock UK Summit Centre</a>",
+      51.683775,
+      -3.297319
+    ],
+    [
+      "<b>The Beacon Climbing Centre</b><br>Waunfawr, nr Llanberis, Ceunant, Gwynedd, Wales LL55 4SA United Kingdom<br>01286 650045 / 01286 650105<br>",
+      53.1253269,
+      -4.199
+    ]
+  ]
+}
