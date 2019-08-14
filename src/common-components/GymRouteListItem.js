@@ -19,7 +19,7 @@ const getDistance = async (loc, { position }) => {
         avoidTolls: false
       },
       await function callback(response, status) {
-        if (status == "OK") {
+        if (status === "OK") {
           var origins = response.originAddresses;
 
           for (var i = 0; i < origins.length; i++) {

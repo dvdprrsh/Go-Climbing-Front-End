@@ -16,7 +16,7 @@ const linkImages = [
   {
     route: "/forums",
     src: forumImage,
-    text: "FIND A FORUM"
+    text: "READ THE FORUM"
   },
   {
     route: "/find-gym",
