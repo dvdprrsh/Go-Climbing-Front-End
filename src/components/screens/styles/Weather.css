@@ -1,7 +1,20 @@
-#maincard {
+#maincardOverview {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  overflow-y: auto;
+  overflow-x: scroll;
   padding-top: 20px;
   padding-bottom: 20px;
+  align-items: stretch;
+}
+
+#maincard7Day {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: flex-start;
 }
