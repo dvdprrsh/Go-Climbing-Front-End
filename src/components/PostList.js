@@ -16,7 +16,6 @@ class PostList extends React.Component {
       <div className="postListMain">
         <div className="ui relaxed divided items" id={post.id}>
           <div className="item">
-            <div className="ui small image"></div>
             <div className="content">
               <h2 className="header">{post.title}</h2>
               <div className="meta">
