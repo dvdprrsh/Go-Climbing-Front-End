@@ -1,29 +1,21 @@
-# README #
+# Foobar
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Go Climbing is a React app which allows users to find and interact with climbing gyms around the world, ask questions and share tips through the forums and also hire coaches to help them improve.
 
-### What is this repository for? ###
+## Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+[NodeJS and npm](https://www.npmjs.com/get-npm) are required to run the app.
 
-### How do I get set up? ###
+cd to the directory go-climbing and run
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```
+HTTPS=true npm start
+```
 
-### Contribution guidelines ###
+## Usage
 
-* Writing tests
-* Code review
-* Other guidelines
+You can access the local version of the running App at https://localhost:3000
 
-### Who do I talk to? ###
+Or
 
-* Repo owner or admin
-* Other community or team contact
+You can visit the online version [Here](https://goclimbing.herokuapp.com)

@@ -44,7 +44,7 @@ class PostList extends React.Component {
     return (
       <div className="ui container">
         <CreatePostForm />
-        {this.renderList()}
+        <div id="postList">{this.renderList()}</div>
       </div>
     );
   }
