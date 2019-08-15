@@ -35,7 +35,6 @@ const FindGym = ({ map }) => {
   useEffect(() => {
     const fetchGyms = async () => {
       let tempList = await getGymList(map);
-      console.log(tempList);
       if (tempList.length > 0 && tempList[0].distance !== undefined) {
         tempList = _.sortBy(tempList, ["distance"]);
       }
