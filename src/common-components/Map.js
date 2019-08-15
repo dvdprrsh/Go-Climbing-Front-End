@@ -4,7 +4,7 @@ import { Map as GoogleMap, GoogleApiWrapper } from "google-maps-react";
 import { setMap, getMap } from "../actions";
 import { GYMS, CRAGS } from "../types";
 import { makeMarker } from "./";
-import { locations as gymLocations } from "../apis/gymLocations";
+import { locations as gymLocations } from "../apis/eSWGymLocations";
 import cragLocations from "../apis/cragLocations";
 
 const initLocation = { lat: 37.774929, lng: -122.419416 };

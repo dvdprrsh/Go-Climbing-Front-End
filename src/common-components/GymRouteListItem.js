@@ -1,38 +1,32 @@
 import React from "react";
 
-const getDistance = async (loc, { position }) => {
+const getDistance = async (loc, position) => {
   if (position.lat !== undefined) {
-    let distance = null;
     const locations = {
       destination: new window.google.maps.LatLng(loc.lat, loc.lng),
       origin: new window.google.maps.LatLng(position.lat, position.lng)
     };
 
     const service = new window.google.maps.DistanceMatrixService();
-    await service.getDistanceMatrix(
-      {
-        origins: [locations.origin],
-        destinations: [locations.destination],
-        travelMode: "DRIVING",
-        unitSystem: window.google.maps.UnitSystem.METRIC,
-        avoidHighways: false,
-        avoidTolls: false
-      },
-      await function callback(response, status) {
-        if (status === "OK") {
-          var origins = response.originAddresses;
-
-          for (var i = 0; i < origins.length; i++) {
-            var results = response.rows[i].elements;
-            for (var j = 0; j < results.length; j++) {
-              var element = results[j];
-              distance = element.distance.text;
-            }
+    return new Promise(resolve => {
+      service.getDistanceMatrix(
+        {
+          origins: [locations.origin],
+          destinations: [locations.destination],
+          travelMode: "DRIVING",
+          unitSystem: window.google.maps.UnitSystem.METRIC,
+          avoidHighways: false,
+          avoidTolls: false
+        },
+        response => {
+          let distance = -1;
+          if (response) {
+            distance = response.rows[0].elements[0].distance.value;
           }
+          resolve(distance);
         }
-        return distance;
-      }
-    );
+      );
+    });
   }
 };
 
@@ -46,8 +40,14 @@ const onClicked = (markerLocation, map) => {
   }
 };
 
-export const GymRouteListItem = ({ detail, key, loc, map, usersLoc }) => ({
-  distance: getDistance(loc, usersLoc),
+export const GymRouteListItem = async ({
+  detail,
+  key,
+  loc,
+  map,
+  usersLoc
+}) => ({
+  distance: await getDistance(loc, usersLoc),
   item: (
     <div
       onClick={() => onClicked(loc, map)}
