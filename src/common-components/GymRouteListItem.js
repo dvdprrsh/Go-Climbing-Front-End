@@ -1,4 +1,5 @@
 import React from "react";
+import "./common-styles/GymRouteListItem.css";
 
 const getDistance = async (loc, position) => {
   if (position.lat !== undefined) {
@@ -19,7 +20,7 @@ const getDistance = async (loc, position) => {
           avoidTolls: false
         },
         response => {
-          let distance = -1;
+          let distance = 1000000;
           if (response) {
             distance = response.rows[0].elements[0].distance.value;
           }
@@ -40,23 +41,28 @@ const onClicked = (markerLocation, map) => {
   }
 };
 
-export const GymRouteListItem = async ({
-  detail,
-  key,
-  loc,
-  map,
-  usersLoc
-}) => ({
-  distance: await getDistance(loc, usersLoc),
-  item: (
-    <div
-      onClick={() => onClicked(loc, map)}
-      style={{ cursor: "pointer" }}
-      className="item"
-      key={key}
-    >
-      <i className="red map marker icon middle aligned" />
-      <div className="content" dangerouslySetInnerHTML={{ __html: detail }} />
-    </div>
-  )
-});
+export const GymRouteListItem = async ({ detail, key, loc, map, usersLoc }) => {
+  const distance = await getDistance(loc, usersLoc);
+
+  return {
+    distance: distance,
+    item: (
+      <div
+        onClick={() => onClicked(loc, map)}
+        style={{ cursor: "pointer" }}
+        className="item"
+        key={key}
+      >
+        <i className="red map marker icon middle aligned" />
+        <div
+          className="content"
+          dangerouslySetInnerHTML={{
+            __html:
+              detail +
+              `<br/>Est. Distance: ${Math.round(distance / 10) / 100}km`
+          }}
+        />
+      </div>
+    )
+  };
+};

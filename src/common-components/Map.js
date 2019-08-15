@@ -9,7 +9,7 @@ import cragLocations from "../apis/cragLocations";
 
 const initLocation = { lat: 37.774929, lng: -122.419416 };
 
-const Map = ({ setMap, google, toFind }) => {
+const Map = ({ setMap, google, location, toFind }) => {
   const EMPTY_DETAIL = new google.maps.InfoWindow();
   const [markerDetail, setMarkerDetail] = useState(EMPTY_DETAIL);
 
@@ -37,6 +37,19 @@ const Map = ({ setMap, google, toFind }) => {
 
   const fetchPlaces = (mapProps, map) => {
     setMap({ map });
+    new window.google.maps.Marker({
+      position: location,
+      icon: {
+        path: window.google.maps.SymbolPath.CIRCLE,
+        scale: 6,
+        strokeColor: "#4285F4",
+        strokeOpacity: 0.4,
+        fillColor: "#4285F4",
+        fillOpacity: 1.0
+      },
+      draggable: false,
+      map: map
+    });
     if (toFind.toFind === GYMS) {
       renderGyms(map);
     } else if (toFind.toFind === CRAGS) {

@@ -49,7 +49,7 @@ const FindGym = ({ map }) => {
       <div id="gymRouteFlex">
         <MapView toFind={GYMS} />
         <div id="gymRouteList" className="ui divided list">
-          <h4>Locations (sorted by tavel distance) </h4>
+          <h4>Locations (sorted by travel distance) </h4>
           {list.map(listItem => listItem.item)}
         </div>
       </div>
