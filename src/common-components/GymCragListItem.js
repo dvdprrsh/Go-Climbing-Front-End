@@ -43,7 +43,7 @@ const onClicked = (markerLocation, map) => {
 
 export const GymCragListItem = async ({ detail, key, loc, map, usersLoc }) => {
   const distance = await getDistance(loc, usersLoc);
-
+  const mileDistance = distance / 1609.344;
   return {
     distance: distance,
     item: (
@@ -59,7 +59,7 @@ export const GymCragListItem = async ({ detail, key, loc, map, usersLoc }) => {
           dangerouslySetInnerHTML={{
             __html:
               detail +
-              `<br/>Est. Distance: ${Math.round(distance / 10) / 100}km`
+              `<br/>Est. Distance: ${Math.round(mileDistance * 100) / 100}miles`
           }}
         />
       </div>
