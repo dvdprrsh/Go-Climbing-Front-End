@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/Home.css";
 
 import coachImage from "../../images/coachImage.jpg";
 import cragImage from "../../images/cragImage.jpg";
 import forumImage from "../../images/forumImage.jpg";
 import gymImage from "../../images/gymImage.jpg";
+
+import "./styles/Home.css";
 
 const linkImages = [
   {
@@ -16,7 +17,7 @@ const linkImages = [
   {
     route: "/forums",
     src: forumImage,
-    text: "READ THE FORUM"
+    text: "BROWSE FORUM"
   },
   {
     route: "/find-gym",
