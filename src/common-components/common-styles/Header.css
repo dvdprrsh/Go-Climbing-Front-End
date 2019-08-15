@@ -19,6 +19,7 @@
 
   #itemText {
     font-size: 0;
+    display: block;
   }
 
   #listItem {
@@ -38,7 +39,11 @@
     display: flex;
   }
 }
-
+@media screen and (max-width: 375px) {
+  #mobile-tabs {
+    bottom: 1%;
+  }
+}
 @media screen and (min-width: 426px) and (max-width: 768px) {
   #mobile-tabs {
     position: fixed;
@@ -77,4 +82,8 @@
 
 ul {
   list-style-type: none;
+}
+
+#itemText {
+  color: black;
 }

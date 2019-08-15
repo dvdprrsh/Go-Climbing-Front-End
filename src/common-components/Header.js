@@ -16,7 +16,7 @@ const headerTabs = [
   },
   {
     route: "/find-gym",
-    icon: "gym icon",
+    icon: "quidditch icon",
     text: "Find a Gym"
   },
   {
