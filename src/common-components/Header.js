@@ -16,7 +16,7 @@ const headerTabs = [
   },
   {
     route: "/find-gym",
-    icon: "search icon",
+    icon: "quidditch icon",
     text: "Find a Gym"
   },
   {
@@ -38,19 +38,19 @@ const headerTabs = [
 
 export const Header = () => {
   return (
-    <div className="ui attached stackable menu">
-      {headerTabs.map(link => (
-        <Link key={link.route} to={link.route} className="item">
-          <i className={link.icon} />
-          {link.text}
-        </Link>
-      ))}
-      <div className="right item">
-        <div className="ui icon input">
-          <input type="text" placeholder="Search...." />
-          <i className="search link icon" />
-        </div>
-      </div>
+    <div id="mobile-tabs">
+      <ul className="ui menu tabs-list">
+        {headerTabs.map(link => (
+          <li id="listItem" className="item">
+            <Link key={link.route} to={link.route}>
+              <span>
+                <i className={link.icon} style={{ color: "black" }} />
+              </span>
+              <span id="itemText">{link.text}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

@@ -6,3 +6,84 @@
 .postListMain {
   padding-top: 15px;
 }
+
+@media screen and (max-width: 728px) {
+  #mobile-tabs {
+    position: fixed;
+    bottom: 2%;
+    z-index: 2;
+    min-width: 100%;
+
+    height: 5vh;
+  }
+
+  #itemText {
+    font-size: 0;
+    display: block;
+  }
+
+  #listItem {
+    display: flex;
+    width: 16.6666667vw;
+    font-size: 4.5vw;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .ui.menu {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: fit-content;
+    display: flex;
+  }
+}
+@media screen and (max-width: 375px) {
+  #mobile-tabs {
+    bottom: 1%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #mobile-tabs {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    min-width: 100%;
+
+    height: 5vh;
+  }
+
+  #itemText {
+    color: black;
+  }
+
+  #listItem {
+    display: flex;
+    width: 16.6666667vw;
+    justify-content: center;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .ui.menu {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: fit-content;
+    display: flex;
+  }
+
+  .ui.menu .item {
+    padding: 0%;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+#itemText {
+  color: black;
+}
