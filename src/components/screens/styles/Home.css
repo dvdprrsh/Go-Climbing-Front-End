@@ -6,10 +6,23 @@
 }
 
 .ui.image.card {
-  max-height: 44vh;
+  max-height: 38vh;
   width: auto;
 
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .ui.image.card {
+    max-height: 36vh;
+    width: auto;
+
+    margin-bottom: 10px;
+  }
+}
+
+.ui.card {
+  padding-bottom: 0 !important;
 }
 
 .image {

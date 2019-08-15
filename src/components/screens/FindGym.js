@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import _ from "lodash";
 import { connect } from "react-redux";
-import { MapView, GymRouteListItem } from "../../common-components";
+import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { locations as gymLocations } from "../../apis/eSWGymLocations";
 import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
 import usersLocation from "../../services/usersLocation";
 
-import "./styles/FindGym.css";
+import "./styles/FindGymCrag.css";
 
 const getGymList = async map => {
   const usersLoc = await usersLocation();
@@ -16,7 +16,7 @@ const getGymList = async map => {
     gymLocations.map(async gymLocation => {
       const detail = gymLocation[DETAIL];
 
-      return await GymRouteListItem({
+      return await GymCragListItem({
         detail: detail,
         key: detail,
         loc: {
@@ -35,7 +35,6 @@ const FindGym = ({ map }) => {
   useEffect(() => {
     const fetchGyms = async () => {
       let tempList = await getGymList(map);
-      console.log(tempList);
       if (tempList.length > 0 && tempList[0].distance !== undefined) {
         tempList = _.sortBy(tempList, ["distance"]);
       }
@@ -49,7 +48,7 @@ const FindGym = ({ map }) => {
       <div id="gymRouteFlex">
         <MapView toFind={GYMS} />
         <div id="gymRouteList" className="ui divided list">
-          <h4>Locations (sorted by tavel distance) </h4>
+          <h4>Locations (sorted by travel distance) </h4>
           {list.map(listItem => listItem.item)}
         </div>
       </div>
