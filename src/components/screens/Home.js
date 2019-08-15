@@ -9,7 +9,7 @@ import gymImage from "../../images/gymImage.jpg";
 
 const linkImages = [
   {
-    route: "/coach",
+    route: "/find-coach",
     src: coachImage,
     text: "FIND A COACH"
   },
@@ -40,7 +40,14 @@ const card = (src, route, text) => (
 );
 
 export const Home = () => (
-  <div id="card-layout" className="ui centered grid container images">
-    {linkImages.map(link => card(link.src, link.route, link.text))}
+  <div>
+    <p id="titleText">Go-Climbing</p>
+    <p id="subText">
+      Welcome to Go-Climbing, the one stop site for any indoor or outdoor
+      climber.
+    </p>
+    <div id="card-layout" className="ui centered grid container images">
+      {linkImages.map(link => card(link.src, link.route, link.text))}
+    </div>
   </div>
 );

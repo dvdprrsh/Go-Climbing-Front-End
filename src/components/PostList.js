@@ -16,12 +16,7 @@ class PostList extends React.Component {
       <div className="postListMain">
         <div className="ui relaxed divided items" id={post.id}>
           <div className="item">
-            <div className="ui small image">
-              <img
-                alt="Forum Post"
-                src="https://pkf-francisclarkcareers.co.uk/wp-content/uploads/2017/10/placeholder.png"
-              />
-            </div>
+            <div className="ui small image"></div>
             <div className="content">
               <h2 className="header">{post.title}</h2>
               <div className="meta">
@@ -49,7 +44,7 @@ class PostList extends React.Component {
     return (
       <div className="ui container">
         <CreatePostForm />
-        {this.renderList()}
+        <div id="postList">{this.renderList()}</div>
       </div>
     );
   }
