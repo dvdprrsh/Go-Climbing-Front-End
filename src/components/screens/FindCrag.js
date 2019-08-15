@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import _ from "lodash";
 import { connect } from "react-redux";
-import { MapView, GymRouteListItem } from "../../common-components";
+import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import cragLocations from "../../apis/cragLocations";
 import { CRAGS } from "../../types";
 import usersLocation from "../../services/usersLocation";
 
-import "./styles/FindGym.css";
+import "./styles/FindGymCrag.css";
 
 const getCragList = async map => {
   const usersLoc = await usersLocation();
@@ -17,7 +17,7 @@ const getCragList = async map => {
       const cragDetail = `${cragLocation.name} When To Go: ${
         cragLocation.whenToGo
       }`;
-      return await GymRouteListItem({
+      return await GymCragListItem({
         detail: cragDetail,
         key: cragLocation.description,
         loc: {

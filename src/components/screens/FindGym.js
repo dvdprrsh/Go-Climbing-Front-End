@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import _ from "lodash";
 import { connect } from "react-redux";
-import { MapView, GymRouteListItem } from "../../common-components";
+import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { locations as gymLocations } from "../../apis/eSWGymLocations";
 import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
 import usersLocation from "../../services/usersLocation";
 
-import "./styles/FindGym.css";
+import "./styles/FindGymCrag.css";
 
 const getGymList = async map => {
   const usersLoc = await usersLocation();
@@ -16,7 +16,7 @@ const getGymList = async map => {
     gymLocations.map(async gymLocation => {
       const detail = gymLocation[DETAIL];
 
-      return await GymRouteListItem({
+      return await GymCragListItem({
         detail: detail,
         key: detail,
         loc: {
