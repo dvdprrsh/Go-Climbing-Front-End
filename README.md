@@ -3,6 +3,7 @@
 Go Climbing is a React app which allows users to find and interact with climbing gyms around the world, ask questions and share tips through the forums and also hire coaches to help them improve.
 
 ## Structure
+
 │
 │── README.MD             <-- This instructions file
 │── .git       		      <-- Git folder
