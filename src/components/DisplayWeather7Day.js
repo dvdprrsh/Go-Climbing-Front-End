@@ -6,12 +6,12 @@ import { connect } from "react-redux";
 import { fetchPosts } from "../actions/forum";
 import "./screens/styles/Weather.css";
 
-class WeatherOverview extends React.Component {
+class Weather7Day extends React.Component {
   state = {
     lat: null,
     long: null,
     errorMessage: "",
-    overviewArray: []
+    forecastArray: []
   };
 
   componentDidMount() {
@@ -21,15 +21,15 @@ class WeatherOverview extends React.Component {
         this.setState({ long: position.coords.longitude });
         axios
           .get(
-            "https://climbing-cors.herokuapp.com/https://weather.cit.api.here.com/weather/1.0/report.json?product=observation&latitude=" +
+            "https://climbing-cors.herokuapp.com/https://weather.cit.api.here.com/weather/1.0/report.json?product=forecast_7days_simple&latitude=" +
               this.state.lat +
               "&longitude=" +
               this.state.long +
-              "&oneobservation=true&app_id=YMzC0O27tIk0W1Q8NI6T&app_code=pgp95AhYZSRz9PgUFpfxUg"
+              "&app_id=YMzC0O27tIk0W1Q8NI6T&app_code=pgp95AhYZSRz9PgUFpfxUg"
           )
           .then(result => {
             this.setState({
-              overviewArray: result.data.observations.location[0].observation[0]
+              forecastArray: result.data
             });
           });
       },
@@ -42,40 +42,38 @@ class WeatherOverview extends React.Component {
       return <div>Error: {this.state.errorMessage}</div>;
     }
 
-    if (!this.state.errorMessage && this.state.lat) {
-      var mphwind = Math.round(this.state.overviewArray.windSpeed * 1.15078);
-      var roundTemp = Math.round(this.state.overviewArray.temperature);
-      return (
-        <div>
-          Weather Today
-          <div className="ui card">
+    if (this.state.forecastArray.dailyForecasts !== undefined) {
+      //var mphwind = Math.round(this.state.forecastArray.windSpeed * 1.15078);
+      //var roundTempHigh = Math.round(m.highTemperature);
+      //  var roundTempLow = Math.round(m.LowTemperature);
+      return this.state.forecastArray.dailyForecasts.forecastLocation.forecast.map(
+        m => (
+          <div id="cardo" className="ui card">
             <div className="ui slide masked reveal image">
-              <img alt="Weather" src={this.state.overviewArray.iconLink}></img>
+              <img alt="Weather" src={m.iconLink}></img>
             </div>
             <div className="content">
+              {m.weekday}
               <h2 className="header">
-                {this.state.overviewArray.city},{" "}
-                {this.state.overviewArray.state}
+                {this.state.forecastArray.dailyForecasts.forecastLocation.city},{" "}
+                {this.state.forecastArray.dailyForecasts.forecastLocation.state}
               </h2>
               <br />
-              <h2 className="header">{roundTemp}°C</h2>
+              <h2 className="header">
+                {Math.round(m.highTemperature)}-{Math.round(m.lowTemperature)}°C
+              </h2>
               <br />
-              <h2 className="header">{this.state.overviewArray.description}</h2>
+              <h2 className="header">{m.description}</h2>
               <div className="meta">
                 <span className="date">
-                  Wind Direction:{this.state.overviewArray.windDesc}, {mphwind}{" "}
+                  Wind Direction: {m.windDesc}{" "}
+                  {Math.round(m.windSpeed * 1.15078)}
                   MPH
                 </span>
               </div>
             </div>
-            <div className="extra content">
-              <h4>
-                <i className="clock"></i>Last updated:{" "}
-                {this.state.overviewArray.ageMinutes}m ago
-              </h4>
-            </div>
           </div>
-        </div>
+        )
       );
     }
     return (
@@ -84,7 +82,12 @@ class WeatherOverview extends React.Component {
   }
 
   render() {
-    return <div id="maincardOverview">{this.renderContent()}</div>;
+    return (
+      <div>
+        <h4>7 Day Forecast</h4>
+        <div id="maincard7Day">{this.renderContent()}</div>
+      </div>
+    );
   }
 }
 const mapStateToProps = state => {
@@ -94,4 +97,4 @@ const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   { fetchPosts }
-)(WeatherOverview);
+)(Weather7Day);
