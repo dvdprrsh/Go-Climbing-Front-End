@@ -6,39 +6,53 @@ import { getMap } from "../../actions";
 import { locations as gymLocations } from "../../apis/eSWGymLocations";
 import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
 import usersLocation from "../../services/usersLocation";
-
+import { getDistance } from "../../services/getDistances";
 import "./styles/FindGymCrag.css";
 
 const getGymList = async map => {
   const usersLoc = await usersLocation();
   if (!usersLoc) return;
-  return await Promise.all(
-    gymLocations.map(async gymLocation => {
-      const detail = gymLocation[DETAIL];
-
-      return await GymCragListItem({
-        detail: detail,
-        key: detail,
-        loc: {
-          lat: gymLocation[LATITUDE],
-          lng: gymLocation[LONGITUDE]
-        },
-        map: map,
-        usersLoc: usersLoc
-      });
-    })
-  );
+  let gymLocs = [];
+  let gymItems = gymLocations.map(gymLocation => {
+    const detail = gymLocation[DETAIL];
+    gymLocs = [
+      ...gymLocs,
+      new window.google.maps.LatLng(
+        gymLocation[LATITUDE],
+        gymLocation[LONGITUDE]
+      )
+    ];
+    return GymCragListItem({
+      detail: detail,
+      key: detail,
+      loc: {
+        lat: gymLocation[LATITUDE],
+        lng: gymLocation[LONGITUDE]
+      },
+      map: map,
+      usersLoc: usersLoc
+    });
+  });
+  return { gymLocs, gymItems };
 };
 
 const FindGym = ({ map }) => {
   const [list, setList] = useState([]);
   useEffect(() => {
     const fetchGyms = async () => {
-      let tempList = await getGymList(map);
-      if (tempList.length > 0 && tempList[0].distance !== undefined) {
-        tempList = _.sortBy(tempList, ["distance"]);
+      let { gymLocs, gymItems } = await getGymList(map);
+      const distances = await getDistance(gymLocations, await usersLocation());
+      let i = 0;
+
+      gymItems.map(gymItem => {
+        gymItem.distance = distances.rows[0].elements[i].distance.value;
+        i++;
+      });
+
+      if (gymLocs.length > 0 && gymLocs[0].distance !== undefined) {
+        gymLocs = _.sortBy(gymLocs, ["distance"]);
       }
-      setList(tempList);
+      setList(gymItems);
     };
     fetchGyms();
   }, [map]);

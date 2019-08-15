@@ -1,36 +1,6 @@
 import React from "react";
 import "./common-styles/GymCragListItem.css";
 
-const getDistance = async (loc, position) => {
-  if (position.lat !== undefined) {
-    const locations = {
-      destination: new window.google.maps.LatLng(loc.lat, loc.lng),
-      origin: new window.google.maps.LatLng(position.lat, position.lng)
-    };
-
-    const service = new window.google.maps.DistanceMatrixService();
-    return new Promise(resolve => {
-      service.getDistanceMatrix(
-        {
-          origins: [locations.origin],
-          destinations: [locations.destination],
-          travelMode: "DRIVING",
-          unitSystem: window.google.maps.UnitSystem.METRIC,
-          avoidHighways: false,
-          avoidTolls: false
-        },
-        response => {
-          let distance = 1000000;
-          if (response) {
-            distance = response.rows[0].elements[0].distance.value;
-          }
-          resolve(distance);
-        }
-      );
-    });
-  }
-};
-
 const onClicked = (markerLocation, map) => {
   if (map) {
     let latLng = new window.google.maps.LatLng(
@@ -41,12 +11,10 @@ const onClicked = (markerLocation, map) => {
   }
 };
 
-export const GymCragListItem = async ({ detail, key, loc, map, usersLoc }) => {
-  const distance = await getDistance(loc, usersLoc);
-  const mileDistance = distance / 1609.344;
+export const GymCragListItem = ({ detail, key, loc, map, usersLoc }) => {
   return {
-    distance: distance,
-    item: (
+    distance: 1000000,
+    item: distance => (
       <div
         onClick={() => onClicked(loc, map)}
         style={{ cursor: "pointer" }}
@@ -59,7 +27,8 @@ export const GymCragListItem = async ({ detail, key, loc, map, usersLoc }) => {
           dangerouslySetInnerHTML={{
             __html:
               detail +
-              `<br/>Est. Distance: ${Math.round(mileDistance * 100) / 100}miles`
+              `<br/>Est. Distance: ${Math.round((distance / 1609.344) * 100) /
+                100}miles`
           }}
         />
       </div>
