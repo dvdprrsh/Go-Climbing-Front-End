@@ -9,7 +9,7 @@ import gymImage from "../../images/gymImage.jpg";
 
 const linkImages = [
   {
-    route: "/coach",
+    route: "/find-coach",
     src: coachImage,
     text: "FIND A COACH"
   },
