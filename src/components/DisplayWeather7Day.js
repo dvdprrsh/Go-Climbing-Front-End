@@ -84,7 +84,7 @@ class Weather7Day extends React.Component {
   render() {
     return (
       <div>
-        <h4>7 Day Forecast</h4>
+        <p id="titleText">7 Day Forecast</p>
         <div id="maincard7Day">{this.renderContent()}</div>
       </div>
     );

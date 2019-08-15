@@ -47,7 +47,7 @@ class WeatherOverview extends React.Component {
       var roundTemp = Math.round(this.state.overviewArray.temperature);
       return (
         <div>
-          Weather Today
+          <p id="titleText">Weather Today</p>
           <div className="ui card">
             <div className="ui slide masked reveal image">
               <img alt="Weather" src={this.state.overviewArray.iconLink}></img>
