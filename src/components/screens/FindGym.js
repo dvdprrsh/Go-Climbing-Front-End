@@ -50,16 +50,17 @@ const FindGym = ({ map }) => {
       let { gymLocs, gymItems } = getGymList(map, usersLoc);
       const distances = await getDistance(gymLocs, usersLoc);
       let i = 0;
-      gymItems.map(gymItem => {
+      let distGymItems = gymItems.map(gymItem => {
         gymItem.distance = distances.rows[0].elements[i].distance.value;
         i++;
+        return gymItem;
       });
 
-      if (gymItems.length > 0 && gymItems[0].distance !== undefined) {
-        gymItems = _.sortBy(gymItems, ["distance"]);
+      if (distGymItems.length > 0 && distGymItems[0].distance !== undefined) {
+        distGymItems = _.sortBy(distGymItems, ["distance"]);
       }
 
-      setList(gymItems);
+      setList(distGymItems);
     };
     fetchGyms();
   }, [map]);

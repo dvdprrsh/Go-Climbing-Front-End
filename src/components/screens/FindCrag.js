@@ -46,15 +46,15 @@ const FindCrag = ({ map }) => {
       let { cragLocs, cragItems } = getCragList(map, usersLoc);
       const distances = await getDistance(cragLocs, usersLoc);
       let i = 0;
-      const distCragItems = cragItems.map(cragItem => {
+      let distCragItems = cragItems.map(cragItem => {
         cragItem.distance = distances.rows[0].elements[i].distance.value;
         i++;
         return cragItem;
       });
       if (distCragItems.length > 0 && distCragItems[0].distance !== undefined) {
-        cragItems = _.sortBy(cragItems, ["distance"]);
+        distCragItems = _.sortBy(distCragItems, ["distance"]);
       }
-      setList(cragItems);
+      setList(distCragItems);
     };
     fetchCrags();
 
