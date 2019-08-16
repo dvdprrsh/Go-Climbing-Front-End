@@ -10,9 +10,7 @@ import usersLocation from "../../services/usersLocation";
 import "./styles/FindGymCrag.css";
 import { getDistance } from "../../services/getDistances";
 
-const getCragList = async map => {
-  const usersLoc = await usersLocation();
-  if (!usersLoc) return;
+const getCragList = (map, usersLoc) => {
   let cragLocs = [];
   let cragItems = cragLocations.map(cragLocation => {
     const cragDetail = `${cragLocation.name} When To Go: ${
@@ -44,19 +42,23 @@ const FindCrag = ({ map }) => {
   const [list, setList] = useState(cragLocations);
   useEffect(() => {
     const fetchCrags = async () => {
-      let { cragLocs, cragItems } = await getCragList(map);
-      const distances = await getDistance(cragLocs, await usersLocation());
+      let usersLoc = await usersLocation();
+      let { cragLocs, cragItems } = getCragList(map, usersLoc);
+      const distances = await getDistance(cragLocs, usersLoc);
       let i = 0;
-      cragItems.map(cragItem => {
+      const distCragItems = cragItems.map(cragItem => {
         cragItem.distance = distances.rows[0].elements[i].distance.value;
         i++;
+        return cragItem;
       });
-      if (cragItems.length > 0 && cragItems[0].distance !== undefined) {
+      if (distCragItems.length > 0 && distCragItems[0].distance !== undefined) {
         cragItems = _.sortBy(cragItems, ["distance"]);
       }
       setList(cragItems);
     };
     fetchCrags();
+
+    return function cleanup() {};
   }, [map]);
 
   const displayList = () => {
@@ -81,7 +83,7 @@ const FindCrag = ({ map }) => {
     <div id="gymRouteFlex">
       <MapView toFind={CRAGS} />
       <div id="gymRouteList" className="ui divided list">
-        <h4>Crags</h4>
+        <h4>Crags (Distance Increasing)</h4>
         {displayList()}
         <div className="ui pointing label" style={{ flex: 1, width: "98%" }}>
           More to be added....

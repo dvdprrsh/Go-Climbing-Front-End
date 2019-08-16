@@ -1,14 +1,8 @@
 export const getDistance = async (locs, position) => {
-  let origin;
-  if (position.lat !== undefined) {
-    origin = new window.google.maps.LatLng(position.lat, position.lng);
-  }
-
-  const service = new window.google.maps.DistanceMatrixService();
   return new Promise(resolve => {
-    service.getDistanceMatrix(
+    new window.google.maps.DistanceMatrixService().getDistanceMatrix(
       {
-        origins: [origin],
+        origins: [new window.google.maps.LatLng(position.lat, position.lng)],
         destinations: locs,
         travelMode: "DRIVING",
         unitSystem: window.google.maps.UnitSystem.IMPERIAL,

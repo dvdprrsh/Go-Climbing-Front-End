@@ -15,9 +15,7 @@ import usersLocation from "../../services/usersLocation";
 import { getDistance } from "../../services/getDistances";
 import "./styles/FindGymCrag.css";
 
-const getGymList = async map => {
-  const usersLoc = await usersLocation();
-  if (!usersLoc) return;
+const getGymList = (map, usersLoc) => {
   let gymLocs = [];
   let gymItems = gymLocations.map(gymLocation => {
     const detail = gymLocation[DETAIL];
@@ -48,8 +46,9 @@ const FindGym = ({ map }) => {
   const [list, setList] = useState(gymLocations);
   useEffect(() => {
     const fetchGyms = async () => {
-      let { gymLocs, gymItems } = await getGymList(map);
-      const distances = await getDistance(gymLocs, await usersLocation());
+      const usersLoc = await usersLocation();
+      let { gymLocs, gymItems } = getGymList(map, usersLoc);
+      const distances = await getDistance(gymLocs, usersLoc);
       let i = 0;
       gymItems.map(gymItem => {
         gymItem.distance = distances.rows[0].elements[i].distance.value;
@@ -87,7 +86,7 @@ const FindGym = ({ map }) => {
     <div id="gymRouteFlex">
       <MapView toFind={GYMS} />
       <div id="gymRouteList" className="ui divided list">
-        <h4> Locations (sorted by travel distance) </h4>
+        <h4> Locations (Distance Increasing) </h4>
         {displayList()}
       </div>
     </div>
