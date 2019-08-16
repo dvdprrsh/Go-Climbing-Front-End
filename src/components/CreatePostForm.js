@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./screens/styles/CreatePostForm.css";
+import { Formik } from "formik";
+
+import * as Yup from "yup";
 
 class CreatePostForm extends Component {
   constructor() {
@@ -16,9 +19,9 @@ class CreatePostForm extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  onSubmit = e => {
+  onSubmit = (e, values) => {
     e.preventDefault();
-    const { title, body, username } = this.state;
+    const { title, body, username } = this.values;
 
     axios
       .post(
@@ -38,40 +41,80 @@ class CreatePostForm extends Component {
   render() {
     const { title, body, username } = this.state;
     return (
-      <div id="testing" className="ui form">
-        <form onSubmit={this.onSubmit}>
-          <div id="inputs" className="ui input">
-            <input
-              type="text"
-              name="title"
-              placeholder="Post Title"
-              value={title}
-              onChange={this.onChange}
-            />
-          </div>
-          <div id="inputs" className="ui input">
-            <input
-              type="text"
-              name="body"
-              placeholder="Body Text"
-              value={body}
-              onChange={this.onChange}
-            />
-          </div>
-          <div id="inputs" className="ui input">
-            <input
-              type="text"
-              name="username"
-              placeholder="Username"
-              value={username}
-              onChange={this.onChange}
-            />
-          </div>
-          <button id="submitbtn" className="fluid ui button" type="submit">
-            Submit
-          </button>
-        </form>
-      </div>
+      <Formik
+        initialValues={{ title: "", body: "", username: "" }}
+        onSubmit={values => this.onSubmit(values)}
+        validationSchema={Yup.object().shape({
+          title: Yup.string().required("Required"),
+          body: Yup.string().required("Required"),
+          username: Yup.string().required("Required")
+        })}
+      >
+        {props => {
+          const {
+            values,
+            touched,
+            errors,
+            dirty,
+            isSubmitting,
+            handleChange,
+            handleBlur,
+            handleSubmit,
+            handleReset
+          } = props;
+          console.log(props);
+          return (
+            <div id="testing" className="ui form">
+              <form onSubmit={handleSubmit}>
+                <div id="inputs" className="ui input">
+                  <input
+                    id="title"
+                    type="text"
+                    name="title"
+                    placeholder="Post Title"
+                    value={values.title}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    className={
+                      errors.title && touched.title
+                        ? "text-input error"
+                        : "text-input"
+                    }
+                  />
+                </div>
+                {errors.title && touched.title && (
+                  <div className="input-feedback">{errors.title}</div>
+                )}
+                <div id="inputs" className="ui input">
+                  <input
+                    type="text"
+                    name="body"
+                    placeholder="Body Text"
+                    value={body}
+                    onChange={this.onChange}
+                  />
+                </div>
+                <div id="inputs" className="ui input">
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="Username"
+                    value={username}
+                    onChange={this.onChange}
+                  />
+                </div>
+                <button
+                  id="submitbtn"
+                  className="fluid ui button"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          );
+        }}
+      </Formik>
     );
   }
 }
