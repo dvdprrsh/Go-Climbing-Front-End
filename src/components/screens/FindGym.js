@@ -49,10 +49,13 @@ const FindGym = ({ map }) => {
       const usersLoc = await usersLocation();
       let { gymLocs, gymItems } = getGymList(map, usersLoc);
       const distances = await getDistance(gymLocs, usersLoc);
+
       let i = 0;
       let distGymItems = gymItems.map(gymItem => {
-        gymItem.distance = distances.rows[0].elements[i].distance.value;
-        i++;
+        if (distances !== null) {
+          gymItem.distance = distances.rows[0].elements[i].distance.value;
+          i++;
+        }
         return gymItem;
       });
 

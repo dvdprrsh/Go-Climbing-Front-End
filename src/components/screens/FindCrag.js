@@ -47,8 +47,10 @@ const FindCrag = ({ map }) => {
       const distances = await getDistance(cragLocs, usersLoc);
       let i = 0;
       let distCragItems = cragItems.map(cragItem => {
-        cragItem.distance = distances.rows[0].elements[i].distance.value;
-        i++;
+        if (distances !== null) {
+          cragItem.distance = distances.rows[0].elements[i].distance.value;
+          i++;
+        }
         return cragItem;
       });
       if (distCragItems.length > 0 && distCragItems[0].distance !== undefined) {
