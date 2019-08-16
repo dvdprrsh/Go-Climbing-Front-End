@@ -1,6 +1,8 @@
 import React from "react";
 import "./common-styles/GymCragListItem.css";
 
+import { USER_LOCATION_UNAVAILABLE } from "../types";
+
 const onClicked = (markerLocation, map) => {
   if (map) {
     let latLng = new window.google.maps.LatLng(
@@ -11,27 +13,34 @@ const onClicked = (markerLocation, map) => {
   }
 };
 
-export const GymCragListItem = ({ detail, key, loc, map, usersLoc }) => {
+export const GymCragListItem = ({ detail, key, loc, map }) => {
   return {
     distance: 1000000,
-    item: distance => (
-      <div
-        onClick={() => onClicked(loc, map)}
-        style={{ cursor: "pointer" }}
-        className="item"
-        key={key}
-      >
-        <i className="red map marker icon middle aligned" />
+    item: distance => {
+      const renderDistance = () => {
+        if (distance !== USER_LOCATION_UNAVAILABLE) {
+          return `${Math.round((distance / 1609.344) * 100) / 100}miles`;
+        } else {
+          return distance;
+        }
+      };
+
+      return (
         <div
-          className="content"
-          dangerouslySetInnerHTML={{
-            __html:
-              detail +
-              `<br/>Est. Distance: ${Math.round((distance / 1609.344) * 100) /
-                100}miles`
-          }}
-        />
-      </div>
-    )
+          onClick={() => onClicked(loc, map)}
+          style={{ cursor: "pointer" }}
+          className="item"
+          key={key}
+        >
+          <i className="red map marker icon middle aligned" />
+          <div
+            className="content"
+            dangerouslySetInnerHTML={{
+              __html: detail + `<br/>Est. Distance: ${renderDistance()}`
+            }}
+          />
+        </div>
+      );
+    }
   };
 };

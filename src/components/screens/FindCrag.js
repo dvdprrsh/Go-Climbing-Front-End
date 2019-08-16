@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import cragLocations from "../../apis/cragLocations";
-import { CRAGS } from "../../types";
+import { CRAGS, USER_LOCATION_UNAVAILABLE } from "../../types";
 import usersLocation from "../../services/usersLocation";
 
 import "./styles/FindGymCrag.css";
@@ -41,7 +41,7 @@ const getCragList = async map => {
 };
 
 const FindCrag = ({ map }) => {
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(cragLocations);
   useEffect(() => {
     const fetchCrags = async () => {
       let { cragLocs, cragItems } = await getCragList(map);
@@ -54,26 +54,41 @@ const FindCrag = ({ map }) => {
       if (cragItems.length > 0 && cragItems[0].distance !== undefined) {
         cragItems = _.sortBy(cragItems, ["distance"]);
       }
-      console.log(cragItems);
       setList(cragItems);
     };
     fetchCrags();
   }, [map]);
 
-  if (list !== [null]) {
-    return (
-      <div id="gymRouteFlex">
-        <MapView toFind={CRAGS} />
-        <div id="gymRouteList" className="ui divided list">
-          <h4>Crags</h4>
-          {list.map(listItem => listItem.item(listItem.distance))}
-          <div className="ui pointing label" style={{ flex: 1, width: "98%" }}>
-            More to be added....
-          </div>
+  const displayList = () => {
+    if (list !== cragLocations) {
+      return list.map(listItem => listItem.item(listItem.distance));
+    } else {
+      return list.map(listItem =>
+        GymCragListItem({
+          detail: `${listItem.name} When To Go: ${listItem.whenToGo}`,
+          key: listItem.description,
+          loc: {
+            lat: listItem.location.lat,
+            lng: listItem.location.lng
+          },
+          map: map
+        }).item(USER_LOCATION_UNAVAILABLE)
+      );
+    }
+  };
+
+  return (
+    <div id="gymRouteFlex">
+      <MapView toFind={CRAGS} />
+      <div id="gymRouteList" className="ui divided list">
+        <h4>Crags</h4>
+        {displayList()}
+        <div className="ui pointing label" style={{ flex: 1, width: "98%" }}>
+          More to be added....
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 };
 
 const mapStateToProps = state => {
