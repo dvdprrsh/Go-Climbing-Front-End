@@ -7,7 +7,6 @@ import * as Yup from "yup";
 
 class CreatePostForm extends Component {
   onSubmit = values => {
-    console.log(values);
     const { title, body, username } = values;
 
     axios
