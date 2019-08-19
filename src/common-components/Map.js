@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import { Map as GoogleMap, GoogleApiWrapper } from "google-maps-react";
 import { setMap, getMap } from "../actions";
-import { GYMS, CRAGS } from "../types";
+import { GYMS, CRAGS, INITIAL_LOCATION } from "../types";
 import { makeMarker } from "./";
 import { locations as gymLocations } from "../apis/eSWGymLocations";
 import cragLocations from "../apis/cragLocations";
-
-const initLocation = { lat: 37.774929, lng: -122.419416 };
 
 const Map = ({ setMap, google, location, toFind }) => {
   const EMPTY_DETAIL = new google.maps.InfoWindow();
@@ -37,6 +35,7 @@ const Map = ({ setMap, google, location, toFind }) => {
 
   const fetchPlaces = (mapProps, map) => {
     setMap({ map });
+    location = new window.google.maps.LatLng(location);
     new window.google.maps.Marker({
       position: location,
       icon: {
@@ -70,7 +69,7 @@ const Map = ({ setMap, google, location, toFind }) => {
       zoom={14}
       onReady={fetchPlaces}
       onClick={onClick}
-      initialCenter={initLocation}
+      initialCenter={INITIAL_LOCATION}
       centerAroundCurrentLocation={true}
       containerStyle={{ height: "93.5%", width: "70%" }}
     />

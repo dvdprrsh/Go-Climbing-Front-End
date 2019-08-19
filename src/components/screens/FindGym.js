@@ -4,56 +4,94 @@ import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { locations as gymLocations } from "../../apis/eSWGymLocations";
-import { GYMS, DETAIL, LATITUDE, LONGITUDE } from "../../types";
+import {
+  GYMS,
+  DETAIL,
+  LATITUDE,
+  LONGITUDE,
+  USER_LOCATION_UNAVAILABLE
+} from "../../types";
 import usersLocation from "../../services/usersLocation";
-
+import { getDistance } from "../../services/getDistances";
 import "./styles/FindGymCrag.css";
 
-const getGymList = async map => {
-  const usersLoc = await usersLocation();
-  if (!usersLoc) return;
-  return await Promise.all(
-    gymLocations.map(async gymLocation => {
-      const detail = gymLocation[DETAIL];
+const getGymList = (map, usersLoc) => {
+  let gymLocs = [];
+  let gymItems = gymLocations.map(gymLocation => {
+    const detail = gymLocation[DETAIL];
+    gymLocs = [
+      ...gymLocs,
+      new window.google.maps.LatLng(
+        gymLocation[LATITUDE],
+        gymLocation[LONGITUDE]
+      )
+    ];
 
-      return await GymCragListItem({
-        detail: detail,
-        key: detail,
-        loc: {
-          lat: gymLocation[LATITUDE],
-          lng: gymLocation[LONGITUDE]
-        },
-        map: map,
-        usersLoc: usersLoc
-      });
-    })
-  );
+    return GymCragListItem({
+      detail: detail,
+      key: detail,
+      loc: {
+        lat: gymLocation[LATITUDE],
+        lng: gymLocation[LONGITUDE]
+      },
+      map: map,
+      usersLoc: usersLoc
+    });
+  });
+
+  return { gymLocs, gymItems };
 };
 
 const FindGym = ({ map }) => {
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(gymLocations);
   useEffect(() => {
     const fetchGyms = async () => {
-      let tempList = await getGymList(map);
-      if (tempList.length > 0 && tempList[0].distance !== undefined) {
-        tempList = _.sortBy(tempList, ["distance"]);
+      const usersLoc = await usersLocation();
+      let { gymLocs, gymItems } = getGymList(map, usersLoc);
+      const distances = await getDistance(gymLocs, usersLoc);
+      let i = 0;
+      let distGymItems = gymItems.map(gymItem => {
+        gymItem.distance = distances.rows[0].elements[i].distance.value;
+        i++;
+        return gymItem;
+      });
+
+      if (distGymItems.length > 0 && distGymItems[0].distance !== undefined) {
+        distGymItems = _.sortBy(distGymItems, ["distance"]);
       }
-      setList(tempList);
+
+      setList(distGymItems);
     };
     fetchGyms();
   }, [map]);
 
-  if (list !== [null]) {
-    return (
-      <div id="gymRouteFlex">
-        <MapView toFind={GYMS} />
-        <div id="gymRouteList" className="ui divided list">
-          <h4>Locations (sorted by travel distance) </h4>
-          {list.map(listItem => listItem.item)}
-        </div>
+  const displayList = () => {
+    if (list !== gymLocations) {
+      return list.map(listItem => listItem.item(listItem.distance));
+    } else {
+      return list.map(listItem =>
+        GymCragListItem({
+          detail: listItem[DETAIL],
+          key: listItem[DETAIL],
+          loc: {
+            lat: listItem[LATITUDE],
+            lng: listItem[LONGITUDE]
+          },
+          map: map
+        }).item(USER_LOCATION_UNAVAILABLE)
+      );
+    }
+  };
+
+  return (
+    <div id="gymRouteFlex">
+      <MapView toFind={GYMS} />
+      <div id="gymRouteList" className="ui divided list">
+        <h4> Locations (Distance Increasing) </h4>
+        {displayList()}
       </div>
-    );
-  }
+    </div>
+  );
 };
 
 const mapStateToProps = state => {
