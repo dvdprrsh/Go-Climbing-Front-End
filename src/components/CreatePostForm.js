@@ -48,7 +48,6 @@ class CreatePostForm extends Component {
             handleSubmit,
             handleReset
           } = props;
-          console.log(props);
           return (
             <div id="testing" className="ui form">
               <form onSubmit={handleSubmit}>
