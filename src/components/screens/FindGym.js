@@ -9,7 +9,8 @@ import {
   DETAIL,
   LATITUDE,
   LONGITUDE,
-  USER_LOCATION_UNAVAILABLE
+  USER_LOCATION_UNAVAILABLE,
+  MAX_DISTANCE
 } from "../../types";
 import usersLocation from "../../services/usersLocation";
 import { getDistance } from "../../services/getDistances";
@@ -49,10 +50,14 @@ const FindGym = ({ map }) => {
       const usersLoc = await usersLocation();
       let { gymLocs, gymItems } = getGymList(map, usersLoc);
       const distances = await getDistance(gymLocs, usersLoc);
+
       let i = 0;
       let distGymItems = gymItems.map(gymItem => {
-        gymItem.distance = distances.rows[0].elements[i].distance.value;
-        i++;
+        if (distances !== null) {
+          gymItem.distance = distances.rows[0].elements[i].distance.value;
+          i++;
+        } else {
+        }
         return gymItem;
       });
 
@@ -67,6 +72,9 @@ const FindGym = ({ map }) => {
 
   const displayList = () => {
     if (list !== gymLocations) {
+      if (list[0].distance === MAX_DISTANCE) {
+        return list.map(listItem => listItem.item(USER_LOCATION_UNAVAILABLE));
+      }
       return list.map(listItem => listItem.item(listItem.distance));
     } else {
       return list.map(listItem =>
@@ -87,7 +95,7 @@ const FindGym = ({ map }) => {
     <div id="gymRouteFlex">
       <MapView toFind={GYMS} />
       <div id="gymRouteList" className="ui divided list">
-        <h4> Locations (Distance Increasing) </h4>
+        <h4> Climbing Gyms (Distance Increasing) </h4>
         {displayList()}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./common-styles/GymCragListItem.css";
 
-import { USER_LOCATION_UNAVAILABLE } from "../types";
+import { USER_LOCATION_UNAVAILABLE, MAX_DISTANCE } from "../types";
 
 const onClicked = (markerLocation, map) => {
   if (map) {
@@ -15,7 +15,7 @@ const onClicked = (markerLocation, map) => {
 
 export const GymCragListItem = ({ detail, key, loc, map }) => {
   return {
-    distance: 1000000,
+    distance: MAX_DISTANCE,
     item: distance => {
       const renderDistance = () => {
         if (distance !== USER_LOCATION_UNAVAILABLE) {

@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import cragLocations from "../../apis/cragLocations";
-import { CRAGS, USER_LOCATION_UNAVAILABLE } from "../../types";
+import { CRAGS, USER_LOCATION_UNAVAILABLE, MAX_DISTANCE } from "../../types";
 import usersLocation from "../../services/usersLocation";
 
 import "./styles/FindGymCrag.css";
@@ -47,8 +47,10 @@ const FindCrag = ({ map }) => {
       const distances = await getDistance(cragLocs, usersLoc);
       let i = 0;
       let distCragItems = cragItems.map(cragItem => {
-        cragItem.distance = distances.rows[0].elements[i].distance.value;
-        i++;
+        if (distances !== null) {
+          cragItem.distance = distances.rows[0].elements[i].distance.value;
+          i++;
+        }
         return cragItem;
       });
       if (distCragItems.length > 0 && distCragItems[0].distance !== undefined) {
@@ -57,12 +59,13 @@ const FindCrag = ({ map }) => {
       setList(distCragItems);
     };
     fetchCrags();
-
-    return function cleanup() {};
   }, [map]);
 
   const displayList = () => {
     if (list !== cragLocations) {
+      if (list[0].distance === MAX_DISTANCE) {
+        return list.map(listItem => listItem.item(USER_LOCATION_UNAVAILABLE));
+      }
       return list.map(listItem => listItem.item(listItem.distance));
     } else {
       return list.map(listItem =>
