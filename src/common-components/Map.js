@@ -72,7 +72,7 @@ const Map = ({ setMap, google, location, toFind }) => {
       id="map"
       google={google}
       zoom={14}
-      onReady={fetchPlaces}
+      onReady={(mapProps, map) => fetchPlaces(mapProps, map)}
       onClick={onClick}
       initialCenter={INITIAL_LOCATION}
       centerAroundCurrentLocation={true}

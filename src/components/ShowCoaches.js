@@ -17,7 +17,7 @@ const ShowCoaches = props => {
         <div className="extra content">
           <span className="right floated">Member Since {props.joined}</span>
           <span>
-            <i className="user icon"></i>
+            <i className="user icon" />
             {props.sessions} Customers
           </span>
         </div>

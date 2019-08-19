@@ -64,7 +64,7 @@ const FindCoach = () => {
       </p>
       <div id="container">
         {coaches.map(coach => (
-          <ShowCoaches {...coach} />
+          <ShowCoaches key={coach.description} {...coach} />
         ))}
       </div>
     </div>
