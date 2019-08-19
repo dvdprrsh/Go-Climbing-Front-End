@@ -37,19 +37,25 @@ const Map = ({ setMap, google, location, toFind }) => {
 
   const fetchPlaces = (mapProps, map) => {
     setMap({ map });
-    new window.google.maps.Marker({
-      position: location,
-      icon: {
-        path: window.google.maps.SymbolPath.CIRCLE,
-        scale: 6,
-        strokeColor: "#4285F4",
-        strokeOpacity: 0.4,
-        fillColor: "#4285F4",
-        fillOpacity: 1.0
-      },
-      draggable: false,
-      map: map
-    });
+    if (
+      location !== undefined &&
+      (location.lat !== undefined || location.lng !== undefined)
+    ) {
+      new window.google.maps.Marker({
+        position: location,
+        icon: {
+          path: window.google.maps.SymbolPath.CIRCLE,
+          scale: 6,
+          strokeColor: "#4285F4",
+          strokeOpacity: 0.4,
+          fillColor: "#4285F4",
+          fillOpacity: 1.0
+        },
+        draggable: false,
+        map: map
+      });
+    }
+
     if (toFind.toFind === GYMS) {
       renderGyms(map);
     } else if (toFind.toFind === CRAGS) {
