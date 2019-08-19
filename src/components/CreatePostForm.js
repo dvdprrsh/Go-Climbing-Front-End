@@ -41,12 +41,12 @@ class CreatePostForm extends Component {
             values,
             touched,
             errors,
-            dirty,
-            isSubmitting,
+            //dirty,
+            //isSubmitting,
             handleChange,
             handleBlur,
-            handleSubmit,
-            handleReset
+            handleSubmit
+            //handleReset
           } = props;
           return (
             <div id="testing" className="ui form">
