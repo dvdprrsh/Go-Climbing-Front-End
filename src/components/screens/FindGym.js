@@ -3,6 +3,7 @@ import _ from "lodash";
 import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
+import { getGyms } from "../../actions/gymCrag";
 import { locations as gymLocations } from "../../apis/eSWGymLocations";
 import {
   GYMS,
@@ -14,6 +15,7 @@ import {
 } from "../../types";
 import usersLocation from "../../services/usersLocation";
 import { getDistance } from "../../services/getDistances";
+
 import "./styles/FindGymCrag.css";
 
 const getGymList = (map, usersLoc) => {
@@ -43,7 +45,7 @@ const getGymList = (map, usersLoc) => {
   return { gymLocs, gymItems };
 };
 
-const FindGym = ({ map }) => {
+const FindGym = ({ map, gyms, getGyms }) => {
   const [list, setList] = useState(gymLocations);
   useEffect(() => {
     const fetchGyms = async () => {
@@ -103,10 +105,10 @@ const FindGym = ({ map }) => {
 };
 
 const mapStateToProps = state => {
-  return { map: state.map };
+  return { map: state.map, gyms: state.gyms };
 };
 
 export default connect(
   mapStateToProps,
-  { getMap }
+  { getMap, getGyms }
 )(FindGym);
