@@ -6,22 +6,9 @@ import { Formik } from "formik";
 import * as Yup from "yup";
 
 class CreatePostForm extends Component {
-  constructor() {
-    super();
-    this.state = {
-      title: "",
-      body: "",
-      username: ""
-    };
-  }
-
-  onChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  onSubmit = (e, values) => {
-    e.preventDefault();
-    const { title, body, username } = this.values;
+  onSubmit = values => {
+    console.log(values);
+    const { title, body, username } = values;
 
     axios
       .post(
@@ -39,7 +26,6 @@ class CreatePostForm extends Component {
   };
 
   render() {
-    const { title, body, username } = this.state;
     return (
       <Formik
         initialValues={{ title: "", body: "", username: "" }}
@@ -90,19 +76,37 @@ class CreatePostForm extends Component {
                     type="text"
                     name="body"
                     placeholder="Body Text"
-                    value={body}
-                    onChange={this.onChange}
+                    value={values.body}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    className={
+                      errors.body && touched.body
+                        ? "text-input error"
+                        : "text-input"
+                    }
                   />
                 </div>
+                {errors.title && touched.title && (
+                  <div className="input-feedback">{errors.title}</div>
+                )}
                 <div id="inputs" className="ui input">
                   <input
                     type="text"
                     name="username"
                     placeholder="Username"
-                    value={username}
-                    onChange={this.onChange}
+                    value={values.username}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    className={
+                      errors.username && touched.username
+                        ? "text-input error"
+                        : "text-input"
+                    }
                   />
                 </div>
+                {errors.title && touched.title && (
+                  <div className="input-feedback">{errors.title}</div>
+                )}
                 <button
                   id="submitbtn"
                   className="fluid ui button"
