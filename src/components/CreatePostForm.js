@@ -22,6 +22,8 @@ class CreatePostForm extends Component {
             title +
             "&postbody=" +
             body +
+            "&profileimg=" +
+            window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.Paa +
             "&username=" +
             window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.U3
         )
