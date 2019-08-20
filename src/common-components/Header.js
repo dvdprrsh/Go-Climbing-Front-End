@@ -41,8 +41,8 @@ export const Header = () => {
     <div id="mobile-tabs">
       <ul className="ui menu tabs-list">
         {headerTabs.map(link => (
-          <li id="listItem" className="item">
-            <Link key={link.route} to={link.route}>
+          <li key={link.route} id="listItem" className="item">
+            <Link to={link.route}>
               <span>
                 <i className={link.icon} style={{ color: "black" }} />
               </span>

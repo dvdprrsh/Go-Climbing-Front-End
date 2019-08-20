@@ -58,7 +58,9 @@ const FindCrag = ({ map }) => {
       }
       setList(distCragItems);
     };
-    fetchCrags();
+    if (map) {
+      fetchCrags();
+    }
   }, [map]);
 
   const displayList = () => {
