@@ -12,10 +12,8 @@ const forum = () => {
         <GoogleAuth />
         <PostList />
       </div>
-      {renderUsername()}
     </div>
   );
 };
-const renderUsername = () => {};
 
 export default forum;
