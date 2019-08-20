@@ -16,8 +16,6 @@ const forum = () => {
     </div>
   );
 };
-const renderUsername = () => {
-  console.log(window.gapi.auth2);
-};
+const renderUsername = () => {};
 
 export default forum;

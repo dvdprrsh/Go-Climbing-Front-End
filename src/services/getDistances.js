@@ -1,4 +1,4 @@
-export const getDistance = async (locs, position) => {
+export const getDistances = async (locs, position) => {
   return new Promise(resolve => {
     new window.google.maps.DistanceMatrixService().getDistanceMatrix(
       {

@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { getGyms } from "../../actions/gymCrag";
-import { locations as gymLocations } from "../../apis/eSWGymLocations";
 import {
   GYMS,
   DETAIL,
@@ -14,13 +13,12 @@ import {
   MAX_DISTANCE
 } from "../../types";
 import usersLocation from "../../services/usersLocation";
-import { getDistance } from "../../services/getDistances";
-
+import { getDistances } from "../../services/getDistances";
 import "./styles/FindGymCrag.css";
 
-const getGymList = (map, usersLoc) => {
+const getGymList = (map, usersLoc, locations) => {
   let gymLocs = [];
-  let gymItems = gymLocations.map(gymLocation => {
+  let gymItems = locations.map(gymLocation => {
     const detail = gymLocation[DETAIL];
     gymLocs = [
       ...gymLocs,
@@ -46,19 +44,28 @@ const getGymList = (map, usersLoc) => {
 };
 
 const FindGym = ({ map, gyms, getGyms }) => {
-  const [list, setList] = useState(gymLocations);
+  const [list, setList] = useState(null);
+  const [usersLoc, setUsersLoc] = useState(USER_LOCATION_UNAVAILABLE);
+  if (gyms === null) getGyms();
+
   useEffect(() => {
-    const fetchGyms = async () => {
-      const usersLoc = await usersLocation();
-      let { gymLocs, gymItems } = getGymList(map, usersLoc);
-      const distances = await getDistance(gymLocs, usersLoc);
+    (async () => {
+      try {
+        setUsersLoc(await usersLocation());
+      } catch (error) {}
+    })();
+  }, []);
+
+  useEffect(() => {
+    const fetchGyms = async locations => {
+      let { gymLocs, gymItems } = getGymList(map, usersLoc, locations);
+      const distances = await getDistances(gymLocs, usersLoc);
 
       let i = 0;
       let distGymItems = gymItems.map(gymItem => {
-        if (distances !== null) {
+        if (distances !== null && distances.originAddresses[0] !== "nan,nan") {
           gymItem.distance = distances.rows[0].elements[i].distance.value;
           i++;
-        } else {
         }
         return gymItem;
       });
@@ -69,29 +76,18 @@ const FindGym = ({ map, gyms, getGyms }) => {
 
       setList(distGymItems);
     };
-    if (map) {
-      fetchGyms();
+
+    if (map && gyms !== null && usersLoc !== undefined) {
+      fetchGyms(gyms.data.locations);
     }
-  }, [map]);
+  }, [map, usersLoc, gyms]);
 
   const displayList = () => {
-    if (list !== gymLocations) {
+    if (list !== null) {
       if (list[0].distance === MAX_DISTANCE) {
         return list.map(listItem => listItem.item(USER_LOCATION_UNAVAILABLE));
       }
       return list.map(listItem => listItem.item(listItem.distance));
-    } else {
-      return list.map(listItem =>
-        GymCragListItem({
-          detail: listItem[DETAIL],
-          key: listItem[DETAIL],
-          loc: {
-            lat: listItem[LATITUDE],
-            lng: listItem[LONGITUDE]
-          },
-          map: map
-        }).item(USER_LOCATION_UNAVAILABLE)
-      );
     }
   };
 
