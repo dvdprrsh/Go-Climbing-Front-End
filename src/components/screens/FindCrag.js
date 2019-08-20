@@ -3,16 +3,20 @@ import _ from "lodash";
 import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
-import cragLocations from "../../apis/cragLocations";
-import { CRAGS, USER_LOCATION_UNAVAILABLE, MAX_DISTANCE } from "../../types";
+import { getCrags } from "../../actions/gymCrag";
+import {
+  CRAGS,
+  USER_LOCATION_UNAVAILABLE,
+  MAX_DISTANCE,
+  NO_DISTANCES
+} from "../../types";
 import usersLocation from "../../services/usersLocation";
-
+import { getDistances } from "../../services/getDistances";
 import "./styles/FindGymCrag.css";
-import { getDistance } from "../../services/getDistances";
 
-const getCragList = (map, usersLoc) => {
+const getCragList = (map, usersLoc, locations) => {
   let cragLocs = [];
-  let cragItems = cragLocations.map(cragLocation => {
+  let cragItems = locations.map(cragLocation => {
     const cragDetail = `${cragLocation.name} When To Go: ${
       cragLocation.whenToGo
     }`;
@@ -38,49 +42,55 @@ const getCragList = (map, usersLoc) => {
   return { cragLocs, cragItems };
 };
 
-const FindCrag = ({ map }) => {
-  const [list, setList] = useState(cragLocations);
+const FindCrag = ({ map, crags, getCrags }) => {
+  const [list, setList] = useState(null);
+  const [usersLoc, setUsersLoc] = useState(USER_LOCATION_UNAVAILABLE);
+
+  if (crags === null) getCrags();
+
   useEffect(() => {
-    const fetchCrags = async () => {
-      let usersLoc = await usersLocation();
-      let { cragLocs, cragItems } = getCragList(map, usersLoc);
-      const distances = await getDistance(cragLocs, usersLoc);
+    (async () => {
+      try {
+        setUsersLoc(await usersLocation());
+      } catch (error) {}
+    })();
+  }, []);
+
+  useEffect(() => {
+    const fetchCrags = async locations => {
+      let { cragLocs, cragItems } = getCragList(map, usersLoc, locations);
+      const distances = await getDistances(cragLocs, usersLoc);
+
       let i = 0;
       let distCragItems = cragItems.map(cragItem => {
-        if (distances !== null) {
+        if (
+          distances !== null &&
+          distances.originAddresses[0] !== NO_DISTANCES
+        ) {
           cragItem.distance = distances.rows[0].elements[i].distance.value;
           i++;
         }
         return cragItem;
       });
+
       if (distCragItems.length > 0 && distCragItems[0].distance !== undefined) {
         distCragItems = _.sortBy(distCragItems, ["distance"]);
       }
+
       setList(distCragItems);
     };
-    if (map) {
-      fetchCrags();
+
+    if (map !== null && crags !== null) {
+      fetchCrags(crags.data);
     }
-  }, [map]);
+  }, [map, usersLoc, crags]);
 
   const displayList = () => {
-    if (list !== cragLocations) {
+    if (list !== null) {
       if (list[0].distance === MAX_DISTANCE) {
         return list.map(listItem => listItem.item(USER_LOCATION_UNAVAILABLE));
       }
       return list.map(listItem => listItem.item(listItem.distance));
-    } else {
-      return list.map(listItem =>
-        GymCragListItem({
-          detail: `${listItem.name} When To Go: ${listItem.whenToGo}`,
-          key: listItem.description,
-          loc: {
-            lat: listItem.location.lat,
-            lng: listItem.location.lng
-          },
-          map: map
-        }).item(USER_LOCATION_UNAVAILABLE)
-      );
     }
   };
 
@@ -99,10 +109,10 @@ const FindCrag = ({ map }) => {
 };
 
 const mapStateToProps = state => {
-  return { map: state.map };
+  return { map: state.map, crags: state.crags };
 };
 
 export default connect(
   mapStateToProps,
-  { getMap }
+  { getMap, getCrags }
 )(FindCrag);

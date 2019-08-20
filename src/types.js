@@ -4,6 +4,8 @@ export const DETAIL = 0;
 export const LATITUDE = 1;
 export const LONGITUDE = 2;
 export const USER_LOCATION_UNAVAILABLE =
-  "Distance Unavailable (try refreshing)";
+  "Distance Unavailable (try refreshing or enable location services)";
 export const MAX_DISTANCE = 1040000;
 export const INITIAL_LOCATION = { lat: 51.50853, lng: -0.12574 };
+
+export const NO_DISTANCES = "nan,nan";

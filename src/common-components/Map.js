@@ -1,20 +1,44 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { Map as GoogleMap, GoogleApiWrapper } from "google-maps-react";
 import { setMap, getMap } from "../actions";
-import { GYMS, CRAGS, INITIAL_LOCATION } from "../types";
+import { getCrags, getGyms } from "../actions/gymCrag";
 import { makeMarker } from "./";
-import { locations as gymLocations } from "../apis/eSWGymLocations";
-import cragLocations from "../apis/cragLocations";
 
-const Map = ({ setMap, google, location, toFind }) => {
+import { GYMS, CRAGS, INITIAL_LOCATION } from "../types";
+
+const Map = ({
+  setMap,
+  google,
+  location,
+  toFind,
+  crags,
+  getCrags,
+  gyms,
+  getGyms
+}) => {
   const EMPTY_DETAIL = new google.maps.InfoWindow();
   const [markerDetail, setMarkerDetail] = useState(EMPTY_DETAIL);
 
-  const renderGyms = map =>
-    gymLocations.map(gym => makeMarker(map, google, gym, setMarkerDetail));
+  useEffect(() => {
+    switch (toFind) {
+      case CRAGS:
+        if (crags === null) getCrags();
+        break;
+      case GYMS:
+        if (gyms === null) getGyms();
+        break;
+      default:
+        break;
+    }
+  });
 
-  const renderCrags = map => cragLocations.map(crag => cragMarker(map, crag));
+  const renderCrags = map => crags.data.map(crag => cragMarker(map, crag));
+
+  const renderGyms = map =>
+    gyms.data.locations.map(gym =>
+      makeMarker(map, google, gym, setMarkerDetail)
+    );
 
   const cragMarker = (map, crag) => {
     const marker = new google.maps.Marker({
@@ -54,10 +78,15 @@ const Map = ({ setMap, google, location, toFind }) => {
       });
     }
 
-    if (toFind.toFind === GYMS) {
-      renderGyms(map);
-    } else if (toFind.toFind === CRAGS) {
-      renderCrags(map);
+    switch (toFind.toFind) {
+      case CRAGS:
+        if (crags !== null) renderCrags(map);
+        break;
+      case GYMS:
+        if (gyms !== null) renderGyms(map);
+        break;
+      default:
+        break;
     }
   };
 
@@ -82,12 +111,17 @@ const Map = ({ setMap, google, location, toFind }) => {
 };
 
 const mapStateToProps = state => {
-  return { map: state.map, panToPoint: state.panToPoint };
+  return {
+    map: state.map,
+    panToPoint: state.panToPoint,
+    crags: state.crags,
+    gyms: state.gyms
+  };
 };
 
 export default connect(
   mapStateToProps,
-  { setMap, getMap }
+  { setMap, getMap, getCrags, getGyms }
 )(
   GoogleApiWrapper({
     apiKey: "AIzaSyAg3FF6ZCSmStzyLe9viIyoOC0M-3TdR20"
