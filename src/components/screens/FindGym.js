@@ -10,7 +10,8 @@ import {
   LATITUDE,
   LONGITUDE,
   USER_LOCATION_UNAVAILABLE,
-  MAX_DISTANCE
+  MAX_DISTANCE,
+  NO_DISTANCES
 } from "../../types";
 import usersLocation from "../../services/usersLocation";
 import { getDistances } from "../../services/getDistances";
@@ -63,7 +64,10 @@ const FindGym = ({ map, gyms, getGyms }) => {
 
       let i = 0;
       let distGymItems = gymItems.map(gymItem => {
-        if (distances !== null && distances.originAddresses[0] !== "nan,nan") {
+        if (
+          distances !== null &&
+          distances.originAddresses[0] !== NO_DISTANCES
+        ) {
           gymItem.distance = distances.rows[0].elements[i].distance.value;
           i++;
         }

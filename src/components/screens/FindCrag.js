@@ -4,10 +4,14 @@ import { connect } from "react-redux";
 import { MapView, GymCragListItem } from "../../common-components";
 import { getMap } from "../../actions";
 import { getCrags } from "../../actions/gymCrag";
-import { CRAGS, USER_LOCATION_UNAVAILABLE, MAX_DISTANCE } from "../../types";
+import {
+  CRAGS,
+  USER_LOCATION_UNAVAILABLE,
+  MAX_DISTANCE,
+  NO_DISTANCES
+} from "../../types";
 import usersLocation from "../../services/usersLocation";
 import { getDistances } from "../../services/getDistances";
-
 import "./styles/FindGymCrag.css";
 
 const getCragList = (map, usersLoc, locations) => {
@@ -59,7 +63,10 @@ const FindCrag = ({ map, crags, getCrags }) => {
 
       let i = 0;
       let distCragItems = cragItems.map(cragItem => {
-        if (distances !== null && distances.originAddresses[0] !== "nan,nan") {
+        if (
+          distances !== null &&
+          distances.originAddresses[0] !== NO_DISTANCES
+        ) {
           cragItem.distance = distances.rows[0].elements[i].distance.value;
           i++;
         }
