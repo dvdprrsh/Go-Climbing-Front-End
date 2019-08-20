@@ -12,12 +12,8 @@ const forum = () => {
         <GoogleAuth />
         <PostList />
       </div>
-      {renderUsername()}
     </div>
   );
-};
-const renderUsername = () => {
-  console.log(window.gapi.auth2);
 };
 
 export default forum;
