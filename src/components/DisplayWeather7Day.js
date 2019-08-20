@@ -48,9 +48,9 @@ class Weather7Day extends React.Component {
       //  var roundTempLow = Math.round(m.LowTemperature);
       return this.state.forecastArray.dailyForecasts.forecastLocation.forecast.map(
         m => (
-          <div id="cardo" className="ui card">
+          <div key={m.weekday} id="cardo" className="ui card">
             <div className="ui slide masked reveal image">
-              <img alt="Weather" src={m.iconLink}></img>
+              <img alt="Weather" src={m.iconLink} />
             </div>
             <div className="content">
               {m.weekday}

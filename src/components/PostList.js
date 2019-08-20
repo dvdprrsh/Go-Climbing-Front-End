@@ -13,7 +13,7 @@ class PostList extends React.Component {
 
   renderList() {
     return this.props.posts.map(post => (
-      <div className="postListMain">
+      <div key={post.postDateTime} className="postListMain">
         <div className="ui relaxed divided items" id={post.id}>
           <div className="item">
             <div className="content">
