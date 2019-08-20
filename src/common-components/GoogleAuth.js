@@ -43,7 +43,8 @@ class GoogleAuth extends React.Component {
       return (
         <button onClick={this.onSignOutClick} className="ui red google button">
           <i className="google icon" />
-          Sign Out
+          Sign Out User{" "}
+          {window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.U3}
         </button>
       );
     } else {
