@@ -69,7 +69,9 @@ const FindGym = ({ map, gyms, getGyms }) => {
 
       setList(distGymItems);
     };
-    fetchGyms();
+    if (map) {
+      fetchGyms();
+    }
   }, [map]);
 
   const displayList = () => {
