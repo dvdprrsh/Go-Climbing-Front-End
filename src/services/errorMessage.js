@@ -1,7 +1,7 @@
 import swal from "sweetalert";
 import { NETWORK_ERROR } from "./errorTypes";
 
-export const errorMessage = error => {
+export const renderError = error => {
   switch (error.message) {
     case NETWORK_ERROR:
       return connectionError(error);
@@ -20,7 +20,7 @@ const genericError = error => {
 
 const connectionError = error => {
   swal({
-    title: error,
+    title: error.message,
     text: "Please check your connection and refresh if needs be",
     icon: "error",
     button: false,

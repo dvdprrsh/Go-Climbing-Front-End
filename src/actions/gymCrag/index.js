@@ -1,7 +1,7 @@
 import gymCragAPI from "../../apis/gymCragAPI";
 import { GET_CRAGS, GET_GYMS } from "../types";
 
-import { errorMessage } from "../../services/errorMessage";
+import { renderError } from "../../services/errorMessage";
 
 export const getCrags = () => async dispatch => {
   try {
@@ -11,7 +11,7 @@ export const getCrags = () => async dispatch => {
       payload: response
     });
   } catch (error) {
-    errorMessage(error);
+    renderError(error);
   }
 };
 
@@ -23,6 +23,6 @@ export const getGyms = () => async dispatch => {
       payload: response
     });
   } catch (error) {
-    errorMessage(error);
+    renderError(error);
   }
 };
