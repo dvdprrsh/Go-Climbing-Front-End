@@ -18,8 +18,9 @@ class PostList extends React.Component {
             <div className="content">
               <h2 className="header">{post.title}</h2>
               <div className="meta">
-                <span>{post.postDateTime}</span>
-                <span>Category</span>
+                <span>
+                  {new Date(post.postDateTime).toLocaleString("en-gb")}
+                </span>
               </div>
               <div className="description">{post.body}</div>
               <div className="extra" id={post.id}>
