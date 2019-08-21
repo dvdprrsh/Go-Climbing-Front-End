@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import coachImage from "../../images/coachImage.jpg";
 import cragImage from "../../images/cragImage.jpg";
 import forumImage from "../../images/forumImage.jpg";
 import gymImage from "../../images/gymImage.jpg";
-
 import "./styles/Home.css";
+import "./styles/Home.scss";
 
 const linkImages = [
   {
