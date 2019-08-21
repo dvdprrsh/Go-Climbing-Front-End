@@ -2,20 +2,17 @@ import React from "react";
 import axios from "axios";
 import "./screens/styles/CreatePostForm.css";
 
-const deletepost = async id => {
-  console.log("deleting");
-
+const deletepost = async (id, callback) => {
   await axios.delete(
     "https://climbing-cors.herokuapp.com/http://51.255.163.79:3001/posts/" + id
   );
-  console.log("got here");
-  window.location.reload(true);
+  callback();
 };
 
-export const DeleteButton = ({ postId }) => (
+export const DeleteButton = ({ postId, postDeleted }) => (
   <button
     id="deletebutton"
-    onClick={() => deletepost(postId)}
+    onClick={() => deletepost(postId, postDeleted)}
     className="circular ui icon button"
   >
     <i className="trash alternate outline icon" />

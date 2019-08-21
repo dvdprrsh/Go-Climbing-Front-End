@@ -11,7 +11,7 @@ class CreatePostForm extends Component {
     this.state = { comment: "" };
   }
 
-  onSubmit = async values => {
+  onSubmit = async (values, resetForm) => {
     const { title, body } = values;
     if (window.gapi.auth2.getAuthInstance().isSignedIn.Ab === true) {
       this.setState({ comment: "" });
@@ -24,6 +24,7 @@ class CreatePostForm extends Component {
           username: window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.U3
         }
       );
+      resetForm();
       this.props.postAdded();
     } else {
       this.setState({
@@ -36,7 +37,7 @@ class CreatePostForm extends Component {
     return (
       <Formik
         initialValues={{ title: "", body: "" }}
-        onSubmit={values => this.onSubmit(values)}
+        onSubmit={(values, { resetForm }) => this.onSubmit(values, resetForm)}
         validationSchema={Yup.object().shape({
           title: Yup.string().required("Required"),
           body: Yup.string().required("Required")

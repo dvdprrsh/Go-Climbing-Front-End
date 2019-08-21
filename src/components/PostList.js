@@ -24,7 +24,10 @@ class PostList extends React.Component {
               </div>
               <div className="description">{post.body}</div>
               <div className="extra" id={post.id}>
-                <DeleteButton postId={post.id} />
+                <DeleteButton
+                  postId={post.id}
+                  postDeleted={() => this.props.fetchPosts()}
+                />
                 <img
                   alt="Avatar"
                   src={post.profileimg}
