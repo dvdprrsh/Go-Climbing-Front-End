@@ -11,25 +11,20 @@ class CreatePostForm extends Component {
     this.state = { comment: "" };
   }
 
-  onSubmit = values => {
+  onSubmit = async values => {
     const { title, body } = values;
     if (window.gapi.auth2.getAuthInstance().isSignedIn.Ab === true) {
       this.setState({ comment: "" });
-      axios
-        .post(
-          "https://climbing-cors.herokuapp.com/https://empiredigital.eu/goclimbing/create.php" +
-            "?posttitle=" +
-            title +
-            "&postbody=" +
-            body +
-            "&profileimg=" +
-            window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.Paa +
-            "&username=" +
-            window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.U3
-        )
-        .then(result => {
-          window.location.reload(true);
-        });
+      await axios.post(
+        "https://climbing-cors.herokuapp.com/http://51.255.163.79:3001/posts",
+        {
+          title,
+          body,
+          profileimg: window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.Paa,
+          username: window.gapi.auth2.getAuthInstance().currentUser.Ab.w3.U3
+        }
+      );
+      this.props.postAdded();
     } else {
       this.setState({
         comment: "You must be signed in to post on the forums."

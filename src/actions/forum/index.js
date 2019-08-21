@@ -1,13 +1,13 @@
-import forumJsonAPI from "../../apis/forumJsonAPI";
+import GoClimbingAPI from "../../apis/GoClimbingAPI";
 import WeatherAPI from "../../apis/WeatherAPI";
 
 export const fetchPosts = () => async dispatch => {
-  const response = await forumJsonAPI.get("");
+  const response = await GoClimbingAPI.get("posts");
   dispatch({ type: "FETCH_POSTS", payload: response.data });
 };
 
 export const fetchUser = id => async dispatch => {
-  const response = await forumJsonAPI.get(`/users/${id}`);
+  const response = await GoClimbingAPI.get(`users/${id}`);
 
   dispatch({ type: "FETCH_USER", payload: response.data });
 };

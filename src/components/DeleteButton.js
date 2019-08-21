@@ -2,15 +2,14 @@ import React from "react";
 import axios from "axios";
 import "./screens/styles/CreatePostForm.css";
 
-const deletepost = a => {
-  axios
-    .post(
-      "https://climbing-cors.herokuapp.com/https://empiredigital.eu/goclimbing/delete.php?postid=" +
-        a
-    )
-    .then(result => {
-      window.location.reload(true);
-    });
+const deletepost = async id => {
+  console.log("deleting");
+
+  await axios.delete(
+    "https://climbing-cors.herokuapp.com/http://51.255.163.79:3001/posts/" + id
+  );
+  console.log("got here");
+  window.location.reload(true);
 };
 
 export const DeleteButton = ({ postId }) => (

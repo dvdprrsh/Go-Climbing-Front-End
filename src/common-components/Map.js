@@ -35,10 +35,9 @@ const Map = ({
 
   const renderCrags = map => crags.data.map(crag => cragMarker(map, crag));
 
-  const renderGyms = map =>
-    gyms.data.locations.map(gym =>
-      makeMarker(map, google, gym, setMarkerDetail)
-    );
+  const renderGyms = map => {
+    gyms.data.map(gym => makeMarker(map, google, gym, setMarkerDetail));
+  };
 
   const cragMarker = (map, crag) => {
     const marker = new google.maps.Marker({
@@ -48,9 +47,7 @@ const Map = ({
 
     marker.addListener("click", () => {
       const detail = new google.maps.InfoWindow({
-        content: `${crag.name} ${crag.description} <br> <b> When To Go: ${
-          crag.whenToGo
-        } </b></br>`
+        content: `${crag.name} ${crag.description} <br> <b> When To Go: ${crag.whenToGo} </b></br>`
       });
       detail.open(map, marker);
       setMarkerDetail(detail);

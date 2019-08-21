@@ -82,7 +82,7 @@ const FindGym = ({ map, gyms, getGyms }) => {
     };
 
     if (map && gyms !== null && usersLoc !== undefined) {
-      fetchGyms(gyms.data.locations);
+      fetchGyms(gyms.data);
     }
   }, [map, usersLoc, gyms]);
 
