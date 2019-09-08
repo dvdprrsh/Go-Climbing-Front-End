@@ -7,7 +7,7 @@ Go Climbing is a React app which allows users to find and interact with climbing
 ```
 │
 │── README.MD             <-- This instructions file
-│── .git       		      <-- Git folder
+│── .git       		        <-- Git folder
 │── package.json          <-- NodeJS dependencies and scripts
 │── node_modules          <-- Installed packages
 │── src                   <-- Source directory
